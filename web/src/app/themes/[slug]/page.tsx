@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { Globe } from "@/components/icons/geist";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Flag } from "@/components/icons/geist";
+import { getTranslations } from "@/lib/i18n";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -15,14 +15,12 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { getPathname } from "@/i18n/navigation";
-import { routing } from "@/i18n/routing";
 import { stats } from "@/lib/ps";
 import {
-  orgBySlug,
-  orgPs,
-  orgs,
-  orgSlugs,
+  themeBySlug,
+  themePs,
+  themes,
+  themeSlugs,
 } from "@/lib/routes";
 
 const SITE_URL =
@@ -31,54 +29,48 @@ const SITE_URL =
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return routing.locales.flatMap((locale) =>
-    Object.keys(orgBySlug).map((slug) => ({ locale, slug })),
-  );
+  return Object.keys(themeBySlug).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: string; slug: string }>;
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
-  const { locale, slug } = await params;
-  const name = orgBySlug[slug];
+  const { slug } = await params;
+  const name = themeBySlug[slug];
   if (!name) return {};
-  const ps = orgPs(name);
-  const t = await getTranslations({ locale, namespace: "landing" });
-  const path = (loc: string) =>
-    `${SITE_URL}${getPathname({ href: `/orgs/${slug}`, locale: loc })}`;
+  const ps = themePs(name);
+  const t = await getTranslations("landing");
 
   return {
     title: `${name} - SIH 2026 Problem Statements (${ps.length})`,
-    description: t("orgDesc", {
+    description: t("themeDesc", {
       count: ps.length,
-      org: name,
+      theme: name,
       software: ps.filter((p) => p.category === "Software").length,
       hardware: ps.filter((p) => p.category === "Hardware").length,
     }),
     alternates: {
-      canonical: path(locale),
-      languages: Object.fromEntries(routing.locales.map((loc) => [loc, path(loc)])),
+      canonical: `${SITE_URL}/themes/${slug}`,
     },
   };
 }
 
-export default async function OrgPage({
+export default async function ThemePage({
   params,
 }: {
-  params: Promise<{ locale: string; slug: string }>;
+  params: Promise<{ slug: string }>;
 }) {
-  const { locale, slug } = await params;
-  setRequestLocale(locale);
+  const { slug } = await params;
   const t = await getTranslations("landing");
-  const name = orgBySlug[slug];
+  const name = themeBySlug[slug];
   if (!name) notFound();
 
-  const ps = orgPs(name);
+  const ps = themePs(name);
   const software = ps.filter((p) => p.category === "Software").length;
   const hardware = ps.filter((p) => p.category === "Hardware").length;
-  const related = orgs.filter((n) => n !== name).slice(0, 8);
+  const related = themes.filter((n) => n !== name).slice(0, 8);
 
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6">
@@ -87,13 +79,13 @@ export default async function OrgPage({
           "@context": "https://schema.org",
           "@type": "CollectionPage",
           name: `${name} - SIH 2026 Problem Statements`,
-          description: t("orgDesc", {
+          description: t("themeDesc", {
             count: ps.length,
-            org: name,
+            theme: name,
             software,
             hardware,
           }),
-          url: `${SITE_URL}/${locale}/orgs/${slug}`,
+          url: `${SITE_URL}/themes/${slug}`,
           isPartOf: {
             "@type": "WebSite",
             name: "SIH 2026 Problem Statements",
@@ -104,7 +96,7 @@ export default async function OrgPage({
       <Breadcrumb className="py-2 text-label-12">
         <BreadcrumbList>
           <BreadcrumbItem>
-            <BreadcrumbLink href={getPathname({ href: "/", locale })}>
+            <BreadcrumbLink href="/">
               {t("breadcrumbAll")}
             </BreadcrumbLink>
           </BreadcrumbItem>
@@ -118,9 +110,9 @@ export default async function OrgPage({
       <div className="space-y-6 border-b border-border/60 py-6">
         <div className="flex flex-wrap items-center gap-3">
           <Badge variant="secondary" className="gap-1.5 px-2.5 py-1">
-            <Globe className="size-3.5" />
+            <Flag className="size-3.5" />
             <span className="font-mono text-[11px] uppercase tracking-wider">
-              {t("breadcrumbOrgs")}
+              {t("breadcrumbThemes")}
             </span>
           </Badge>
         </div>
@@ -128,7 +120,7 @@ export default async function OrgPage({
           {name}
         </h1>
         <p className="max-w-2xl text-copy-16 text-muted-foreground">
-          {t("orgDesc", { count: ps.length, org: name, software, hardware })}
+          {t("themeDesc", { count: ps.length, theme: name, software, hardware })}
         </p>
         <div className="flex flex-wrap items-center gap-2.5 text-label-12 font-medium">
           <span className="inline-flex items-center gap-1.5 rounded-lg border border-border/80 bg-background/80 px-3 py-1.5 font-mono text-muted-foreground">
@@ -151,12 +143,12 @@ export default async function OrgPage({
       </div>
 
       <div className="space-y-3 border-t border-border/60 py-6">
-        <h2 className="text-heading-16">{t("relatedOrgs")}</h2>
+        <h2 className="text-heading-16">{t("relatedThemes")}</h2>
         <div className="flex flex-wrap gap-2">
           {related.map((n) => (
             <Link
               key={n}
-              href={getPathname({ href: `/orgs/${orgSlugs[n]}`, locale })}
+              href={`/themes/${themeSlugs[n]}`}
             >
               <Badge
                 variant="outline"
@@ -164,14 +156,14 @@ export default async function OrgPage({
               >
                 {n}
                 <span className="ml-1.5 font-mono text-[10px] text-muted-foreground">
-                  {orgPs(n).length}
+                  {themePs(n).length}
                 </span>
               </Badge>
             </Link>
           ))}
         </div>
         <Link
-          href={getPathname({ href: "/", locale })}
+          href="/"
           className="inline-block text-label-13 font-medium text-blue-700 underline-offset-4 hover:underline dark:text-blue-600"
         >
           {t("viewAll")} ({stats.total})

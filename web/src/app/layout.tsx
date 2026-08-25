@@ -1,15 +1,11 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
 import type { Metadata, Viewport } from "next";
-import { notFound } from "next/navigation";
 
 import { CommandPaletteProvider } from "@/components/command-palette-provider";
 import { GoogleAnalytics } from "@/components/google-analytics";
 import { Providers } from "@/components/providers";
 import { SiteFooter } from "@/components/site-footer";
-import { routing } from "@/i18n/routing";
-import "../globals.css";
+import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -63,27 +59,14 @@ export const metadata: Metadata = {
   },
 };
 
-export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
-}
-
-export default async function LocaleLayout({
+export default function RootLayout({
   children,
-  params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;
-  if (!hasLocale(routing.locales, locale)) {
-    notFound();
-  }
-  setRequestLocale(locale);
-  const messages = await getMessages();
-
   return (
     <html
-      lang={locale}
+      lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
@@ -91,14 +74,12 @@ export default async function LocaleLayout({
         <GoogleAnalytics />
       </head>
       <body className="flex min-h-full flex-col">
-        <NextIntlClientProvider messages={messages}>
-          <Providers>
-            <CommandPaletteProvider>
-              <main className="flex-1">{children}</main>
-              <SiteFooter />
-            </CommandPaletteProvider>
-          </Providers>
-        </NextIntlClientProvider>
+        <Providers>
+          <CommandPaletteProvider>
+            <main className="flex-1">{children}</main>
+            <SiteFooter />
+          </CommandPaletteProvider>
+        </Providers>
       </body>
     </html>
   );

@@ -6,16 +6,19 @@ export const alt = "SIH 2026 problem statement details";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-export function generateImageMetadata() {
-  return problemStatements.map((ps) => ({
-    id: ps.ps_number,
-    alt: `${ps.ps_number} - ${ps.title}`,
-    size,
-  }));
+export const dynamic = "force-static";
+
+export function generateStaticParams() {
+  return problemStatements.map((ps) => ({ id: ps.ps_number }));
 }
 
-export default function OpengraphImage({ id }: { id: string | number }) {
-  const ps = PS_BY_NUMBER.get(String(id));
+export default async function OpengraphImage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
+  const ps = PS_BY_NUMBER.get(id);
   const isSoftware = ps?.category === "Software";
 
   const bg = "#0a0a0a";

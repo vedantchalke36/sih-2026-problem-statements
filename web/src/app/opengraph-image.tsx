@@ -7,6 +7,8 @@ export const contentType = "image/png";
 export const alt =
   "SIH 2026 Problem Statements - all 226 Smart India Hackathon problem statements in one searchable place";
 
+export const dynamic = "force-static";
+
 export default function OpengraphImage() {
   return new ImageResponse(
     (

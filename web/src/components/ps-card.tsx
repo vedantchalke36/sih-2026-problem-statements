@@ -1,10 +1,10 @@
 "use client";
 
 import { Database, External, Flag, Globe } from "@/components/icons/geist";
-import { useTranslations } from "next-intl";
+import { useTranslations } from "@/lib/i18n";
 import { useMemo } from "react";
 
-import { Link } from "@/i18n/navigation";
+import { Link } from "@/lib/i18n";
 
 import { DeadlineCountdown } from "@/components/deadline-countdown";
 import { Highlight, markQuery } from "@/components/highlight";

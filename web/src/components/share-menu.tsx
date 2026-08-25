@@ -1,7 +1,7 @@
 "use client";
 
 import { Check, Copy, External, FileText, Link } from "@/components/icons/geist";
-import { useTranslations } from "next-intl";
+import { useTranslations } from "@/lib/i18n";
 import { useCallback, useState } from "react";
 import { toast } from "sonner";
 

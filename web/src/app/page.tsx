@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Box, CodeBracket, Globe, Router } from "@/components/icons/geist";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getTranslations } from "@/lib/i18n";
 import { Suspense } from "react";
 
 import { Explorer } from "@/components/explorer";
@@ -10,40 +10,21 @@ import { SearchBar } from "@/components/search-bar";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Spinner } from "@/components/ui/spinner";
 import { StatsSection } from "@/components/stats-section";
-import { routing } from "@/i18n/routing";
 import { stats } from "@/lib/ps";
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://sih2026.vuce.in";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "meta" });
-  const path = (loc: string) => `${SITE_URL}/${loc}`;
+export const metadata: Metadata = {
+  title: "SIH 2026 Problem Statements - Browse All 226",
+  description:
+    "Search, filter and shortlist all 226 Smart India Hackathon 2026 problem statements.",
+  alternates: {
+    canonical: `${SITE_URL}/`,
+  },
+};
 
-  return {
-    title: t("title"),
-    description: t("description"),
-    alternates: {
-      canonical: path(locale),
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [loc, path(loc)]),
-      ),
-    },
-  };
-}
-
-export default async function HomePage({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
-  setRequestLocale(locale);
+export default async function HomePage() {
   const t = await getTranslations();
 
   return (

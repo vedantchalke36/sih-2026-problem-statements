@@ -1,7 +1,7 @@
 "use client";
 
 import { Clock } from "@/components/icons/geist";
-import { useTranslations } from "next-intl";
+import { useTranslations } from "@/lib/i18n";
 
 import { Skeleton } from "@/components/ui/skeleton";
 import { useMounted } from "@/hooks/use-local-storage";

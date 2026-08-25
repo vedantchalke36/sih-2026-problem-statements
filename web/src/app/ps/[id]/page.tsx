@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Calendar, ChevronLeft, ChevronRight, Database, External, Flag, Globe } from "@/components/icons/geist";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getTranslations } from "@/lib/i18n";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -26,8 +26,6 @@ import {
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { getPathname } from "@/i18n/navigation";
-import { routing } from "@/i18n/routing";
 import { themeSlugs, orgSlugs } from "@/lib/routes";
 import {
   PS_BY_NUMBER,
@@ -37,7 +35,7 @@ import {
 } from "@/lib/ps";
 
 interface Props {
-  params: Promise<{ locale: string; id: string }>;
+  params: Promise<{ id: string }>;
 }
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://sih2026.vuce.in";
@@ -45,30 +43,26 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://sih2026.vuce.in";
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return routing.locales.flatMap((locale) =>
-    problemStatements.map((ps) => ({ locale, id: ps.ps_number })),
-  );
+  return problemStatements.map((ps) => ({ id: ps.ps_number }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale, id } = await params;
+  const { id } = await params;
   const ps = PS_BY_NUMBER.get(id);
   if (!ps) return {};
   const title = `${ps.ps_number} · ${ps.title}`;
-  const url = (loc: string) =>
-    `${SITE_URL}${getPathname({ href: `/ps/${ps.ps_number}`, locale: loc })}`;
+  const url = `${SITE_URL}/ps/${ps.ps_number}`;
 
   return {
     title,
     description: descriptionExcerpt(ps, 160),
     alternates: {
-      canonical: url(locale),
-      languages: Object.fromEntries(routing.locales.map((loc) => [loc, url(loc)])),
+      canonical: url,
     },
     openGraph: {
       title,
       description: descriptionExcerpt(ps, 200),
-      url: url(locale),
+      url,
       type: "article",
     },
   };
@@ -93,8 +87,7 @@ function similarStatements(ps: ProblemStatement): ProblemStatement[] {
 }
 
 export default async function PsPage({ params }: Props) {
-  const { locale, id } = await params;
-  setRequestLocale(locale);
+  const { id } = await params;
   const t = await getTranslations();
   const ps = PS_BY_NUMBER.get(id);
   if (!ps) notFound();
@@ -141,7 +134,7 @@ export default async function PsPage({ params }: Props) {
       <Breadcrumb className="py-2 text-label-12">
         <BreadcrumbList>
           <BreadcrumbItem>
-            <BreadcrumbLink href={getPathname({ href: "/", locale })}>
+            <BreadcrumbLink href="/">
               {t("detail.breadcrumbAll")}
             </BreadcrumbLink>
           </BreadcrumbItem>
@@ -175,10 +168,7 @@ export default async function PsPage({ params }: Props) {
               {ps.category}
             </span>
             <Link
-              href={getPathname({
-                href: `/themes/${themeSlugs[ps.theme]}`,
-                locale,
-              })}
+              href={`/themes/${themeSlugs[ps.theme]}`}
             >
               <Badge
                 variant="secondary"
@@ -195,7 +185,7 @@ export default async function PsPage({ params }: Props) {
           <ShortlistButton psNumber={ps.ps_number} variant="outline" size="sm" />
           <CopyPsButton ps={ps} />
           <ShareWhatsAppButton
-            text={`${ps.ps_number} · ${ps.title}\n\n${descriptionExcerpt(ps, 500)}\n\n${getPathname({ href: `/ps/${ps.ps_number}`, locale })}`}
+            text={`${ps.ps_number} · ${ps.title}\n\n${descriptionExcerpt(ps, 500)}\n\n${SITE_URL}/ps/${ps.ps_number}`}
           />
           <PsOpenInChat ps={ps} />
           <ShareMenu ps={ps} />
@@ -217,10 +207,7 @@ export default async function PsPage({ params }: Props) {
                   </p>
                   {m.key === "labelOrg" ? (
                     <Link
-                      href={getPathname({
-                        href: `/orgs/${orgSlugs[ps.org]}`,
-                        locale,
-                      })}
+                      href={`/orgs/${orgSlugs[ps.org]}`}
                       className="text-label-14 font-semibold text-foreground leading-snug transition-colors hover:text-blue-700 dark:hover:text-blue-600"
                     >
                       {m.value}
@@ -285,7 +272,7 @@ export default async function PsPage({ params }: Props) {
                 </h2>
                 <div className="grid grid-cols-2 gap-2">
                   {prev ? (
-                    <Link href={getPathname({ href: `/ps/${prev.ps_number}`, locale })}>
+                    <Link href={`/ps/${prev.ps_number}`}>
                       <Button variant="ghost" size="sm" className="h-auto w-full flex-col items-start gap-0.5 rounded-lg px-2.5 py-2">
                         <span className="flex items-center gap-1 font-mono text-[10px] text-muted-foreground">
                           <ChevronLeft className="size-3" /> {t("detail.prev")}
@@ -297,7 +284,7 @@ export default async function PsPage({ params }: Props) {
                     <span />
                   )}
                   {next ? (
-                    <Link href={getPathname({ href: `/ps/${next.ps_number}`, locale })}>
+                    <Link href={`/ps/${next.ps_number}`}>
                       <Button variant="ghost" size="sm" className="h-auto w-full flex-col items-end gap-0.5 rounded-lg px-2.5 py-2">
                         <span className="flex items-center gap-1 font-mono text-[10px] text-muted-foreground">
                           {t("detail.next")} <ChevronRight className="size-3" />

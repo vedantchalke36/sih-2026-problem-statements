@@ -1,5 +1,5 @@
 import { Box, ChartBarPeak, CodeBracket, Globe, Router } from "@/components/icons/geist";
-import { getTranslations } from "next-intl/server";
+import { getTranslations } from "@/lib/i18n";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { stats } from "@/lib/ps";

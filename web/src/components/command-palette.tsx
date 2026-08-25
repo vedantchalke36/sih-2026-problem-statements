@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowRight, Box, Clock, Star } from "@/components/icons/geist";
-import { useTranslations } from "next-intl";
+import { useTranslations } from "@/lib/i18n";
 import { useMemo, useState } from "react";
 
 import {
@@ -13,7 +13,7 @@ import {
   CommandList,
   CommandSeparator,
 } from "@/components/ui/command";
-import { useRouter } from "@/i18n/navigation";
+import { useRouter } from "@/lib/i18n-client";
 import { useRecentSearches } from "@/hooks/use-recent-searches";
 import { fuzzySearch } from "@/lib/search";
 import { stats } from "@/lib/ps";

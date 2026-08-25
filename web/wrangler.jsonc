@@ -1,0 +1,12 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "sih2026",
+	"main": "static-worker.js",
+	"compatibility_date": "2024-12-30",
+	"assets": {
+		"directory": "./out",
+		"binding": "ASSETS",
+		"html_handling": "none",
+		"not_found_handling": "none"
+	}
+}

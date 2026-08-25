@@ -1,7 +1,7 @@
 import { Box, ChevronRight, CodeBracket, Router } from "@/components/icons/geist";
-import { getTranslations } from "next-intl/server";
+import { getTranslations } from "@/lib/i18n";
 
-import { Link } from "@/i18n/navigation";
+import { Link } from "@/lib/i18n";
 import { stats } from "@/lib/ps";
 import { orgSlugs, orgPs, themeSlugs, themePs } from "@/lib/routes";
 

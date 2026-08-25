@@ -1,7 +1,7 @@
 "use client";
 
 import { ChevronLeft, ChevronRight, Cross, GridSquare, Inbox, SettingsSliders, Tabs as ListViewIcon } from "@/components/icons/geist";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "@/lib/i18n";
 import { useSearchParams } from "next/navigation";
 import { useMemo, useRef, useState } from "react";
 
@@ -308,7 +308,6 @@ function FilterControls({
 
 export function Explorer() {
   const t = useTranslations("explorer");
-  const locale = useLocale();
   const searchParams = useSearchParams();
   const {
     filters,
@@ -468,7 +467,7 @@ export function Explorer() {
                 {filters.page > 1 && (
                   <PaginationItem>
                     <PaginationLink
-                      href={`/${locale}${urlFor({ page: filters.page - 1 })}`}
+                      href={urlFor({ page: filters.page - 1 })}
                       aria-label={t("prevPage")}
                       className="rounded-lg border border-border/80"
                       onClick={(e) => {
@@ -502,7 +501,7 @@ export function Explorer() {
                     ) : (
                       <PaginationItem key={p}>
                         <PaginationLink
-                          href={`/${locale}${urlFor({ page: p })}`}
+                          href={urlFor({ page: p })}
                           isActive={p === filters.page}
                           className="rounded-lg font-mono text-xs"
                           onClick={(e) => {
@@ -518,7 +517,7 @@ export function Explorer() {
                 {filters.page < pageCount && (
                   <PaginationItem>
                     <PaginationLink
-                      href={`/${locale}${urlFor({ page: filters.page + 1 })}`}
+                      href={urlFor({ page: filters.page + 1 })}
                       aria-label={t("nextPage")}
                       className="rounded-lg border border-border/80"
                       onClick={(e) => {

@@ -1,47 +1,23 @@
 import type { Metadata } from "next";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getTranslations } from "@/lib/i18n";
 import Link from "next/link";
 
 import { Badge } from "@/components/ui/badge";
-import { getPathname } from "@/i18n/navigation";
-import { routing } from "@/i18n/routing";
 import { stats } from "@/lib/ps";
 import { orgPs, orgs, orgSlugs } from "@/lib/routes";
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://sih2026.vuce.in";
 
-export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
-}
+export const metadata: Metadata = {
+  title: "Organizations - SIH 2026 Problem Statements",
+  description: `Browse all ${orgs.length} ministries and organizations submitting problem statements for SIH 2026.`,
+  alternates: {
+    canonical: `${SITE_URL}/orgs`,
+  },
+};
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "landing" });
-  const path = (loc: string) =>
-    `${SITE_URL}${getPathname({ href: "/orgs", locale: loc })}`;
-
-  return {
-    title: `${t("breadcrumbOrgs")} - SIH 2026 Problem Statements`,
-    description: t("orgsIndexDesc", { count: orgs.length }),
-    alternates: {
-      canonical: path(locale),
-      languages: Object.fromEntries(routing.locales.map((loc) => [loc, path(loc)])),
-    },
-  };
-}
-
-export default async function OrgsIndexPage({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
-  setRequestLocale(locale);
+export default async function OrgsIndexPage() {
   const t = await getTranslations("landing");
 
   return (
@@ -64,7 +40,7 @@ export default async function OrgsIndexPage({
           return (
             <Link
               key={name}
-              href={getPathname({ href: `/orgs/${orgSlugs[name]}`, locale })}
+              href={`/orgs/${orgSlugs[name]}`}
               className="group flex items-center justify-between gap-3 rounded-xl border border-border/80 bg-card/80 px-4 py-3 transition-all hover:border-gray-500 dark:hover:border-gray-500 hover:shadow-md"
             >
               <span className="text-label-14 font-medium text-foreground group-hover:text-primary">

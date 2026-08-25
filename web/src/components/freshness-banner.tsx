@@ -1,5 +1,5 @@
 import { Information } from "@/components/icons/geist";
-import { getTranslations } from "next-intl/server";
+import { getTranslations } from "@/lib/i18n";
 
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { problemStatements } from "@/lib/ps";
