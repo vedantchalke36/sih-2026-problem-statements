@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import { Flag } from "@/components/icons/geist";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Globe } from "@/components/icons/geist";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -15,14 +14,13 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { getPathname } from "@/i18n/navigation";
-import { routing } from "@/i18n/routing";
+import messages from "../../../../messages/en.json";
 import { stats } from "@/lib/ps";
 import {
-  themeBySlug,
-  themePs,
-  themes,
-  themeSlugs,
+  orgBySlug,
+  orgPs,
+  orgs,
+  orgSlugs,
 } from "@/lib/routes";
 
 const SITE_URL =
@@ -30,55 +28,66 @@ const SITE_URL =
 
 export const dynamicParams = false;
 
+function getNestedValue(obj: Record<string, unknown>, path: string): string {
+  const keys = path.split(".");
+  let current: unknown = obj;
+  for (const key of keys) {
+    if (current === null || current === undefined) return path;
+    current = (current as Record<string, unknown>)[key];
+  }
+  return typeof current === "string" ? current : path;
+}
+
+function interpolate(template: string, params: Record<string, string | number>): string {
+  return template.replace(/\{(\w+)\}/g, (_, key) => key in params ? String(params[key]) : `{${key}}`);
+}
+
+function t(key: string, params?: Record<string, string | number>): string {
+  const raw = getNestedValue(messages as Record<string, unknown>, key);
+  return params ? interpolate(raw, params) : raw;
+}
+
 export function generateStaticParams() {
-  return routing.locales.flatMap((locale) =>
-    Object.keys(themeBySlug).map((slug) => ({ locale, slug })),
-  );
+  return Object.keys(orgBySlug).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: string; slug: string }>;
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
-  const { locale, slug } = await params;
-  const name = themeBySlug[slug];
+  const { slug } = await params;
+  const name = orgBySlug[slug];
   if (!name) return {};
-  const ps = themePs(name);
-  const t = await getTranslations({ locale, namespace: "landing" });
-  const path = (loc: string) =>
-    `${SITE_URL}${getPathname({ href: `/themes/${slug}`, locale: loc })}`;
+  const ps = orgPs(name);
 
   return {
     title: `${name} - SIH 2026 Problem Statements (${ps.length})`,
-    description: t("themeDesc", {
-      count: ps.length,
-      theme: name,
-      software: ps.filter((p) => p.category === "Software").length,
-      hardware: ps.filter((p) => p.category === "Hardware").length,
+    description: t("orgDesc", {
+      count: String(ps.length),
+      org: name,
+      software: String(ps.filter((p) => p.category === "Software").length),
+      hardware: String(ps.filter((p) => p.category === "Hardware").length),
     }),
     alternates: {
-      canonical: path(locale),
-      languages: Object.fromEntries(routing.locales.map((loc) => [loc, path(loc)])),
+      canonical: `${SITE_URL}/orgs/${slug}`,
     },
   };
 }
 
-export default async function ThemePage({
+export default async function OrgPage({
   params,
 }: {
-  params: Promise<{ locale: string; slug: string }>;
+  params: Promise<{ slug: string }>;
 }) {
-  const { locale, slug } = await params;
-  setRequestLocale(locale);
-  const t = await getTranslations("landing");
-  const name = themeBySlug[slug];
+  const { slug } = await params;
+  const name = orgBySlug[slug];
   if (!name) notFound();
 
-  const ps = themePs(name);
+  const ps = orgPs(name);
   const software = ps.filter((p) => p.category === "Software").length;
   const hardware = ps.filter((p) => p.category === "Hardware").length;
-  const related = themes.filter((n) => n !== name).slice(0, 8);
+  const related = orgs.filter((n) => n !== name).slice(0, 8);
 
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6">
@@ -87,13 +96,13 @@ export default async function ThemePage({
           "@context": "https://schema.org",
           "@type": "CollectionPage",
           name: `${name} - SIH 2026 Problem Statements`,
-          description: t("themeDesc", {
+          description: t("orgDesc", {
             count: ps.length,
-            theme: name,
+            org: name,
             software,
             hardware,
           }),
-          url: `${SITE_URL}/${locale}/themes/${slug}`,
+          url: `${SITE_URL}/orgs/${slug}`,
           isPartOf: {
             "@type": "WebSite",
             name: "SIH 2026 Problem Statements",
@@ -104,7 +113,7 @@ export default async function ThemePage({
       <Breadcrumb className="py-2 text-label-12">
         <BreadcrumbList>
           <BreadcrumbItem>
-            <BreadcrumbLink href={getPathname({ href: "/", locale })}>
+            <BreadcrumbLink href="/">
               {t("breadcrumbAll")}
             </BreadcrumbLink>
           </BreadcrumbItem>
@@ -118,9 +127,9 @@ export default async function ThemePage({
       <div className="space-y-6 border-b border-border/60 py-6">
         <div className="flex flex-wrap items-center gap-3">
           <Badge variant="secondary" className="gap-1.5 px-2.5 py-1">
-            <Flag className="size-3.5" />
+            <Globe className="size-3.5" />
             <span className="font-mono text-[11px] uppercase tracking-wider">
-              {t("breadcrumbThemes")}
+              {t("breadcrumbOrgs")}
             </span>
           </Badge>
         </div>
@@ -128,7 +137,7 @@ export default async function ThemePage({
           {name}
         </h1>
         <p className="max-w-2xl text-copy-16 text-muted-foreground">
-          {t("themeDesc", { count: ps.length, theme: name, software, hardware })}
+          {t("orgDesc", { count: String(ps.length), org: name, software: String(software), hardware: String(hardware) })}
         </p>
         <div className="flex flex-wrap items-center gap-2.5 text-label-12 font-medium">
           <span className="inline-flex items-center gap-1.5 rounded-lg border border-border/80 bg-background/80 px-3 py-1.5 font-mono text-muted-foreground">
@@ -151,12 +160,12 @@ export default async function ThemePage({
       </div>
 
       <div className="space-y-3 border-t border-border/60 py-6">
-        <h2 className="text-heading-16">{t("relatedThemes")}</h2>
+        <h2 className="text-heading-16">{t("relatedOrgs")}</h2>
         <div className="flex flex-wrap gap-2">
           {related.map((n) => (
             <Link
               key={n}
-              href={getPathname({ href: `/themes/${themeSlugs[n]}`, locale })}
+              href={`/orgs/${orgSlugs[n]}`}
             >
               <Badge
                 variant="outline"
@@ -164,14 +173,14 @@ export default async function ThemePage({
               >
                 {n}
                 <span className="ml-1.5 font-mono text-[10px] text-muted-foreground">
-                  {themePs(n).length}
+                  {orgPs(n).length}
                 </span>
               </Badge>
             </Link>
           ))}
         </div>
         <Link
-          href={getPathname({ href: "/", locale })}
+          href="/"
           className="inline-block text-label-13 font-medium text-blue-700 underline-offset-4 hover:underline dark:text-blue-600"
         >
           {t("viewAll")} ({stats.total})

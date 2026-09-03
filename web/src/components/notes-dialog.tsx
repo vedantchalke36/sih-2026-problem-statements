@@ -1,7 +1,7 @@
 "use client";
 
 import { PencilEdit } from "@/components/icons/geist";
-import { useTranslations } from "next-intl";
+import { useTranslations } from "@/components/messages-provider";
 import { useState } from "react";
 import { toast } from "sonner";
 

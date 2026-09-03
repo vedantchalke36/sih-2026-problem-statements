@@ -1,0 +1,75 @@
+# SIH 2026 Problem Statements Archive
+
+> Community-maintained archive of all Smart India Hackathon 2026 problem statements.
+> Source: https://sih.gov.in/sih2026PS | License: CC-BY-4.0 | Code: MIT
+
+## About
+
+This site archives all 229 problem statements from Smart India Hackathon 2026,
+published by the Innovation Cell, Government of India. Each problem statement
+includes title, description, organization, theme, category, deadline, and dataset links.
+
+## Quick Links
+
+- All problem statements: https://sih2026.vuce.in/
+- Full dataset (JSON): https://sih2026.vuce.in/api/ps.json
+- Themes index: https://sih2026.vuce.in/themes
+- Organizations index: https://sih2026.vuce.in/orgs
+- GitHub repo: https://github.com/vedantchalke36/sih-2026-problem-statements
+
+## Data Access
+
+### For AI Agents and Researchers
+
+- **JSON API**: GET https://sih2026.vuce.in/api/ps.json — Full dataset with all fields
+- **Themes API**: GET https://sih2026.vuce.in/api/themes.json — Theme list with counts
+- **Organizations API**: GET https://sih2026.vuce.in/api/orgs.json — Organization list with counts
+- **Individual PS**: GET https://sih2026.vuce.in/api/ps/SIH26001.json — Single problem statement
+
+All API responses are cached for 24 hours and include CORS headers.
+
+### Data Fields
+
+Each problem statement contains:
+- `sno` — Serial number
+- `ps_number` — Unique PS identifier (e.g., SIH26001)
+- `title` — Problem statement title
+- `org` — Submitting organization
+- `department` — Department within the organization
+- `category` — "Software" or "Hardware"
+- `theme` — Problem theme (e.g., "Disaster Management", "Agriculture")
+- `deadline` — Idea submission deadline
+- `deadline_date` — ISO date format
+- `ideas` — Submitted ideas count
+- `dataset_link` — Associated dataset URL (if any)
+- `contact` — Contact information
+- `youtube` — YouTube link (if any)
+- `description` — Full problem description
+- `scraped_at` — Last scrape date
+
+## Dataset Statistics
+
+- **Total statements**: 229
+- **Software**: 175
+- **Hardware**: 54
+- **Themes**: 17
+- **Organizations**: 30
+- **Last updated**: Daily at 04:00 IST via automated scraper
+
+## Browsable Pages
+
+- `/` — Homepage with search, filters, and statistics
+- `/ps/SIH26001` — Individual problem statement detail page
+- `/themes` — Browse all themes
+- `/themes/disaster-management` — Statements in a specific theme
+- `/orgs` — Browse all organizations
+- `/orgs/drdo` — Statements from a specific organization
+- `/shortlist` — Saved statements (browser-local)
+
+## Technical Notes
+
+- This is a fully static site (SSG). All pages are pre-rendered at build time.
+- Data is refreshed daily via GitHub Actions from sih.gov.in.
+- Search uses client-side fuzzy matching (Fuse.js).
+- Shortlists are stored in browser localStorage (no server).
+- The site is deployed on Cloudflare Pages.

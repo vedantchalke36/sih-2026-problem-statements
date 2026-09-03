@@ -1,7 +1,7 @@
 "use client";
 
 import { Check, Copy, External, FileText, Link } from "@/components/icons/geist";
-import { useTranslations } from "next-intl";
+import { useTranslations } from "@/components/messages-provider";
 import { useCallback, useState } from "react";
 import { toast } from "sonner";
 
@@ -16,7 +16,9 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { psMarkdown, type ProblemStatement } from "@/lib/ps";
 
-function useClipboard(t: ReturnType<typeof useTranslations<"share">>) {
+type TranslateFn = (key: string, params?: Record<string, string | number>) => string;
+
+function useClipboard(t: TranslateFn) {
   const [copied, setCopied] = useState(false);
   const copy = useCallback(
     async (text: string, message: string) => {

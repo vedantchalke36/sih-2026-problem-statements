@@ -12,6 +12,9 @@ dist/
 *.tsbuildinfo
 next-env.d.ts
 
+# Cloudflare local state
+.wrangler/
+
 # Misc
 .DS_Store
 *.log

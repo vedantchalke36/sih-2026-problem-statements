@@ -1,16 +1,15 @@
 "use client";
 
 import { MagnifyingGlass, Star } from "@/components/icons/geist";
-import { useTranslations } from "next-intl";
+import { useTranslations } from "@/components/messages-provider";
 
-import { LocaleSwitcher } from "@/components/locale-switcher";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Kbd } from "@/components/ui/kbd";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { useShortlist } from "@/hooks/use-shortlist";
 import { useMounted } from "@/hooks/use-local-storage";
-import { Link } from "@/i18n/navigation";
+import Link from "next/link";
 
 export function SiteHeader({ onOpenCommand }: { onOpenCommand: () => void }) {
   const { shortlisted } = useShortlist();
@@ -82,7 +81,6 @@ export function SiteHeader({ onOpenCommand }: { onOpenCommand: () => void }) {
             </Button>
           </Link>
 
-          <LocaleSwitcher />
           <ThemeToggle />
         </div>
       </div>

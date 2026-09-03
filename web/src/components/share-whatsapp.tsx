@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslations } from "@/components/messages-provider";
 
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";

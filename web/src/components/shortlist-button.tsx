@@ -1,7 +1,7 @@
 "use client";
 
 import { Star } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useTranslations } from "@/components/messages-provider";
 
 import { Button } from "@/components/ui/button";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";

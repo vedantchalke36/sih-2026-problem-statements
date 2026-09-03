@@ -1,0 +1,12 @@
+# Legacy /en/ prefix → drop prefix
+/en/ps/:id  /ps/:id  301
+/en/themes/:slug  /themes/:slug  301
+/en/orgs/:slug  /orgs/:slug  301
+/en/shortlist  /shortlist  301
+/en  /  301
+
+# Legacy non-prefixed paths → current paths
+/ps/:id  /ps/:id  200
+/themes/:slug  /themes/:slug  200
+/orgs/:slug  /orgs/:slug  200
+/shortlist  /shortlist  200

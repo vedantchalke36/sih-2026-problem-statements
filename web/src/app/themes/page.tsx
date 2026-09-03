@@ -1,49 +1,44 @@
 import type { Metadata } from "next";
-import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 
 import { Badge } from "@/components/ui/badge";
-import { getPathname } from "@/i18n/navigation";
-import { routing } from "@/i18n/routing";
+import messages from "../../../messages/en.json";
 import { stats } from "@/lib/ps";
 import { themePs, themes, themeSlugs } from "@/lib/routes";
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://sih2026.vuce.in";
 
-export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
+function getNestedValue(obj: Record<string, unknown>, path: string): string {
+  const keys = path.split(".");
+  let current: unknown = obj;
+  for (const key of keys) {
+    if (current === null || current === undefined) return path;
+    current = (current as Record<string, unknown>)[key];
+  }
+  return typeof current === "string" ? current : path;
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "landing" });
-  const path = (loc: string) =>
-    `${SITE_URL}${getPathname({ href: "/themes", locale: loc })}`;
+function interpolate(template: string, params: Record<string, string | number>): string {
+  return template.replace(/\{(\w+)\}/g, (_, key) => key in params ? String(params[key]) : `{${key}}`);
+}
 
+function t(key: string, params?: Record<string, string | number>): string {
+  const raw = getNestedValue(messages as Record<string, unknown>, key);
+  return params ? interpolate(raw, params) : raw;
+}
+
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: `${t("breadcrumbThemes")} - SIH 2026 Problem Statements`,
-    description: t("themesIndexDesc", { count: themes.length }),
+    description: t("themesIndexDesc", { count: String(themes.length) }),
     alternates: {
-      canonical: path(locale),
-      languages: Object.fromEntries(routing.locales.map((loc) => [loc, path(loc)])),
+      canonical: `${SITE_URL}/themes`,
     },
   };
 }
 
-export default async function ThemesIndexPage({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
-  setRequestLocale(locale);
-  const t = await getTranslations("landing");
-
+export default async function ThemesIndexPage() {
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6">
       <div className="space-y-3 border-b border-border/60 pb-6">
@@ -64,7 +59,7 @@ export default async function ThemesIndexPage({
           return (
             <Link
               key={name}
-              href={getPathname({ href: `/themes/${themeSlugs[name]}`, locale })}
+              href={`/themes/${themeSlugs[name]}`}
               className="group flex items-center justify-between gap-3 rounded-xl border border-border/80 bg-card/80 px-4 py-3 transition-all hover:border-gray-500 dark:hover:border-gray-500 hover:shadow-md"
             >
               <span className="text-label-14 font-medium text-foreground group-hover:text-primary">

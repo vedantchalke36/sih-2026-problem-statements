@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sih2026.vuce.in/sitemap.xml

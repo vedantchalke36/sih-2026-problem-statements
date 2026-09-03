@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Calendar, ChevronLeft, ChevronRight, Database, External, Flag, Globe } from "@/components/icons/geist";
-import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -26,8 +25,6 @@ import {
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { getPathname } from "@/i18n/navigation";
-import { routing } from "@/i18n/routing";
 import { themeSlugs, orgSlugs } from "@/lib/routes";
 import {
   PS_BY_NUMBER,
@@ -35,40 +32,60 @@ import {
   descriptionExcerpt,
   type ProblemStatement,
 } from "@/lib/ps";
+import messages from "../../../../messages/en.json";
 
 interface Props {
-  params: Promise<{ locale: string; id: string }>;
+  params: Promise<{ id: string }>;
 }
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://sih2026.vuce.in";
 
-export const dynamicParams = false;
+function getNestedValue(obj: Record<string, unknown>, path: string): string {
+  const keys = path.split(".");
+  let current: unknown = obj;
+  for (const key of keys) {
+    if (current === null || current === undefined) return path;
+    current = (current as Record<string, unknown>)[key];
+  }
+  return typeof current === "string" ? current : path;
+}
 
-export function generateStaticParams() {
-  return routing.locales.flatMap((locale) =>
-    problemStatements.map((ps) => ({ locale, id: ps.ps_number })),
+function interpolate(
+  template: string,
+  params: Record<string, string | number>,
+): string {
+  return template.replace(/\{(\w+)\}/g, (_, key) =>
+    key in params ? String(params[key]) : `{${key}}`,
   );
 }
 
+function t(key: string, params?: Record<string, string | number>): string {
+  const raw = getNestedValue(messages as Record<string, unknown>, key);
+  return params ? interpolate(raw, params) : raw;
+}
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return problemStatements.map((ps) => ({ id: ps.ps_number }));
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale, id } = await params;
+  const { id } = await params;
   const ps = PS_BY_NUMBER.get(id);
   if (!ps) return {};
   const title = `${ps.ps_number} · ${ps.title}`;
-  const url = (loc: string) =>
-    `${SITE_URL}${getPathname({ href: `/ps/${ps.ps_number}`, locale: loc })}`;
 
   return {
     title,
     description: descriptionExcerpt(ps, 160),
     alternates: {
-      canonical: url(locale),
-      languages: Object.fromEntries(routing.locales.map((loc) => [loc, url(loc)])),
+      canonical: `${SITE_URL}/ps/${ps.ps_number}`,
     },
     openGraph: {
       title,
       description: descriptionExcerpt(ps, 200),
-      url: url(locale),
+      url: `${SITE_URL}/ps/${ps.ps_number}`,
       type: "article",
     },
   };
@@ -93,9 +110,7 @@ function similarStatements(ps: ProblemStatement): ProblemStatement[] {
 }
 
 export default async function PsPage({ params }: Props) {
-  const { locale, id } = await params;
-  setRequestLocale(locale);
-  const t = await getTranslations();
+  const { id } = await params;
   const ps = PS_BY_NUMBER.get(id);
   if (!ps) notFound();
 
@@ -137,11 +152,10 @@ export default async function PsPage({ params }: Props) {
         }}
       />
 
-      {/* Breadcrumb Navigation */}
       <Breadcrumb className="py-2 text-label-12">
         <BreadcrumbList>
           <BreadcrumbItem>
-            <BreadcrumbLink href={getPathname({ href: "/", locale })}>
+            <BreadcrumbLink href="/">
               {t("detail.breadcrumbAll")}
             </BreadcrumbLink>
           </BreadcrumbItem>
@@ -152,7 +166,6 @@ export default async function PsPage({ params }: Props) {
         </BreadcrumbList>
       </Breadcrumb>
 
-      {/* Title & Header Section */}
       <div className="flex flex-wrap items-start justify-between gap-4 py-6 border-b border-border/60">
         <div className="max-w-3xl space-y-3">
           <div className="flex items-center gap-2">
@@ -174,12 +187,7 @@ export default async function PsPage({ params }: Props) {
             >
               {ps.category}
             </span>
-            <Link
-              href={getPathname({
-                href: `/themes/${themeSlugs[ps.theme]}`,
-                locale,
-              })}
-            >
+            <Link href={`/themes/${themeSlugs[ps.theme]}`}>
               <Badge
                 variant="secondary"
                 className="gap-1 font-normal text-xs transition-colors hover:bg-accent hover:text-accent-foreground"
@@ -195,7 +203,7 @@ export default async function PsPage({ params }: Props) {
           <ShortlistButton psNumber={ps.ps_number} variant="outline" size="sm" />
           <CopyPsButton ps={ps} />
           <ShareWhatsAppButton
-            text={`${ps.ps_number} · ${ps.title}\n\n${descriptionExcerpt(ps, 500)}\n\n${getPathname({ href: `/ps/${ps.ps_number}`, locale })}`}
+            text={`${ps.ps_number} · ${ps.title}\n\n${descriptionExcerpt(ps, 500)}\n\n${SITE_URL}/ps/${ps.ps_number}`}
           />
           <PsOpenInChat ps={ps} />
           <ShareMenu ps={ps} />
@@ -217,10 +225,7 @@ export default async function PsPage({ params }: Props) {
                   </p>
                   {m.key === "labelOrg" ? (
                     <Link
-                      href={getPathname({
-                        href: `/orgs/${orgSlugs[ps.org]}`,
-                        locale,
-                      })}
+                      href={`/orgs/${orgSlugs[ps.org]}`}
                       className="text-label-14 font-semibold text-foreground leading-snug transition-colors hover:text-blue-700 dark:hover:text-blue-600"
                     >
                       {m.value}
@@ -285,7 +290,7 @@ export default async function PsPage({ params }: Props) {
                 </h2>
                 <div className="grid grid-cols-2 gap-2">
                   {prev ? (
-                    <Link href={getPathname({ href: `/ps/${prev.ps_number}`, locale })}>
+                    <Link href={`/ps/${prev.ps_number}`}>
                       <Button variant="ghost" size="sm" className="h-auto w-full flex-col items-start gap-0.5 rounded-lg px-2.5 py-2">
                         <span className="flex items-center gap-1 font-mono text-[10px] text-muted-foreground">
                           <ChevronLeft className="size-3" /> {t("detail.prev")}
@@ -297,7 +302,7 @@ export default async function PsPage({ params }: Props) {
                     <span />
                   )}
                   {next ? (
-                    <Link href={getPathname({ href: `/ps/${next.ps_number}`, locale })}>
+                    <Link href={`/ps/${next.ps_number}`}>
                       <Button variant="ghost" size="sm" className="h-auto w-full flex-col items-end gap-0.5 rounded-lg px-2.5 py-2">
                         <span className="flex items-center gap-1 font-mono text-[10px] text-muted-foreground">
                           {t("detail.next")} <ChevronRight className="size-3" />

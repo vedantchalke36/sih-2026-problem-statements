@@ -2,10 +2,10 @@
 
 import { ArrowRight, Clock, Cross, MagnifyingGlass } from "@/components/icons/geist";
 import { useSearchParams } from "next/navigation";
-import { useTranslations } from "next-intl";
+import { useTranslations } from "@/components/messages-provider";
 import { useMemo, useState } from "react";
 
-import { useRouter } from "@/i18n/navigation";
+import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Kbd } from "@/components/ui/kbd";

@@ -1,7 +1,7 @@
 "use client";
 
 import { ThemeSwitchDark, ThemeSwitchLight } from "@/components/icons/geist";
-import { useTranslations } from "next-intl";
+import { useTranslations } from "@/components/messages-provider";
 import { useTheme } from "next-themes";
 
 import { Button } from "@/components/ui/button";

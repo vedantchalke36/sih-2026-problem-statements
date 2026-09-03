@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Box, CodeBracket, Globe, Router } from "@/components/icons/geist";
-import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Suspense } from "react";
 
 import { Explorer } from "@/components/explorer";
@@ -10,42 +9,47 @@ import { SearchBar } from "@/components/search-bar";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Spinner } from "@/components/ui/spinner";
 import { StatsSection } from "@/components/stats-section";
-import { routing } from "@/i18n/routing";
 import { stats } from "@/lib/ps";
+import messages from "../../messages/en.json";
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://sih2026.vuce.in";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "meta" });
-  const path = (loc: string) => `${SITE_URL}/${loc}`;
+function getNestedValue(obj: Record<string, unknown>, path: string): string {
+  const keys = path.split(".");
+  let current: unknown = obj;
+  for (const key of keys) {
+    if (current === null || current === undefined) return path;
+    current = (current as Record<string, unknown>)[key];
+  }
+  return typeof current === "string" ? current : path;
+}
 
+function interpolate(
+  template: string,
+  params: Record<string, string | number>,
+): string {
+  return template.replace(/\{(\w+)\}/g, (_, key) =>
+    key in params ? String(params[key]) : `{${key}}`,
+  );
+}
+
+function t(key: string, params?: Record<string, string | number>): string {
+  const raw = getNestedValue(messages as Record<string, unknown>, key);
+  return params ? interpolate(raw, params) : raw;
+}
+
+export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: t("title"),
-    description: t("description"),
+    title: t("meta.title"),
+    description: t("meta.description"),
     alternates: {
-      canonical: path(locale),
-      languages: Object.fromEntries(
-        routing.locales.map((loc) => [loc, path(loc)]),
-      ),
+      canonical: SITE_URL,
     },
   };
 }
 
-export default async function HomePage({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
-  setRequestLocale(locale);
-  const t = await getTranslations();
-
+export default function HomePage() {
   return (
     <>
       <JsonLd
@@ -54,7 +58,7 @@ export default async function HomePage({
           "@type": "Dataset",
           name: "SIH 2026 Problem Statements",
           description:
-            "All 226 Smart India Hackathon 2026 problem statements with titles, descriptions, organizations, themes and deadlines.",
+            `All ${stats.total} Smart India Hackathon 2026 problem statements with titles, descriptions, organizations, themes and deadlines.`,
           url: "https://sih2026.vuce.in",
           creator: {
             "@type": "Organization",
@@ -89,14 +93,12 @@ export default async function HomePage({
       />
 
       <section className="relative overflow-hidden border-b border-border/60 bg-radial-glow py-16 sm:py-24">
-        {/* Background Grid Pattern */}
         <div className="absolute inset-0 bg-grid-pattern opacity-60 pointer-events-none" />
 
         <div className="relative mx-auto flex max-w-5xl flex-col items-center gap-8 px-4 text-center sm:px-6">
-          {/* Release Badge */}
           <div className="inline-flex items-center gap-2 rounded-full border border-border/80 bg-background/90 px-3.5 py-1 text-label-12 font-medium text-muted-foreground shadow-2xs backdrop-blur-md">
             <span className="relative flex size-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-600 opacity-75" />
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-600 opacity-75 motion-safe:animate-ping" />
               <span className="relative inline-flex size-2 rounded-full bg-green-600" />
             </span>
             <span className="font-mono text-[11px] uppercase tracking-wider text-foreground">
@@ -106,7 +108,6 @@ export default async function HomePage({
             <span className="text-muted-foreground">{t("hero.badgeAll")}</span>
           </div>
 
-          {/* Heading */}
           <div className="space-y-4 max-w-3xl">
             <h1 className="text-heading-32 sm:text-heading-56 text-balance bg-gradient-to-b from-foreground via-foreground/90 to-foreground/60 bg-clip-text text-transparent">
               {t("hero.title")}
@@ -120,7 +121,6 @@ export default async function HomePage({
             </p>
           </div>
 
-          {/* SearchBar */}
           <Suspense
             fallback={
               <div className="flex h-12 w-full max-w-2xl items-center justify-center rounded-xl border border-border/80 bg-muted/40">
@@ -131,7 +131,6 @@ export default async function HomePage({
             <SearchBar />
           </Suspense>
 
-          {/* Stat Pills */}
           <div className="flex flex-wrap items-center justify-center gap-2.5 text-label-12 font-medium">
             <span className="inline-flex items-center gap-1.5 rounded-lg border border-border/80 bg-background/80 px-3 py-1.5 font-mono text-muted-foreground backdrop-blur-xs shadow-2xs">
               <Box className="size-3.5 text-gray-700 dark:text-gray-500" />

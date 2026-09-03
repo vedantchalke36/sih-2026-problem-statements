@@ -1,7 +1,7 @@
 "use client";
 
 import { ChevronDown, CursorClick } from "@/components/icons/geist";
-import { useTranslations } from "next-intl";
+import { useTranslations } from "@/components/messages-provider";
 
 import {
   OpenIn,

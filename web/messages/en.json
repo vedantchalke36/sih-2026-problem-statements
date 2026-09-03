@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "SIH 2026 Problem Statements - Browse All 226",
+    "title": "SIH 2026 Problem Statements - Browse All 229",
     "titleTemplate": "%s | SIH 2026 Problem Statements",
-    "description": "Search, filter and shortlist all 226 Smart India Hackathon 2026 problem statements. Filter by theme, category, organization and dataset availability."
+    "description": "Search, filter and shortlist all 229 Smart India Hackathon 2026 problem statements. Filter by theme, category, organization and dataset availability."
   },
   "header": {
     "brand": "Smart India Hackathon",
@@ -17,7 +17,7 @@
   },
   "hero": {
     "badgeLive": "SIH 2026 Official Database",
-    "badgeAll": "All 226 Statements",
+    "badgeAll": "All 229 Statements",
     "title": "Smart India Hackathon 2026 Problem Statements",
     "subtitle": "Explore, filter, search and shortlist all {total} problem statements - {software} software and {hardware} hardware challenges - with fast keyboard search and instant insights.",
     "pillTotal": "total",
@@ -152,7 +152,7 @@
     "back": "Browse all statements"
   },
   "palette": {
-    "placeholder": "Search 226 problem statements, themes, organizations…",
+    "placeholder": "Search 229 problem statements, themes, organizations…",
     "noResults": "No problem statement found.",
     "resultsFor": "Results for “{query}”",
     "searchAll": "Search all {total} statements for “{query}”",
