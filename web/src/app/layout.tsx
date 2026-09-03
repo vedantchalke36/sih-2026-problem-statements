@@ -33,11 +33,11 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://sih2026.vuce.in",
   ),
   title: {
-    default: "SIH 2026 Problem Statements - Browse All 229",
+    default: "SIH 2026 Problem Statements - Browse All 233",
     template: "%s | SIH 2026 Problem Statements",
   },
   description:
-    "Search, filter and shortlist all 229 Smart India Hackathon 2026 problem statements. Filter by theme, category, organization and dataset availability.",
+    "Search, filter and shortlist all 233 Smart India Hackathon 2026 problem statements. Filter by theme, category, organization and dataset availability.",
   keywords: [
     "SIH 2026",
     "Smart India Hackathon",

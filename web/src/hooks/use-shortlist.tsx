@@ -5,7 +5,6 @@ import {
   useCallback,
   useContext,
   useMemo,
-  useState,
   type ReactNode,
 } from "react";
 
@@ -24,23 +23,20 @@ const KEY = "sih2026:shortlist";
 
 export function ShortlistProvider({ children }: { children: ReactNode }) {
   const [raw, setRaw] = useLocalStorage<string[]>(KEY, []);
-  const [shortlisted, setShortlisted] = useState<Set<string>>(() => new Set(raw));
+  const shortlisted = useMemo(() => new Set(raw), [raw]);
 
   const toggle = useCallback(
     (psNumber: string) => {
-      setShortlisted((prev) => {
-        const next = new Set(prev);
-        if (next.has(psNumber)) next.delete(psNumber);
-        else next.add(psNumber);
-        setRaw([...next]);
-        return next;
-      });
+      setRaw((prev) =>
+        prev.includes(psNumber)
+          ? prev.filter((id) => id !== psNumber)
+          : [...prev, psNumber],
+      );
     },
     [setRaw],
   );
 
   const clear = useCallback(() => {
-    setShortlisted(new Set());
     setRaw([]);
   }, [setRaw]);
 
