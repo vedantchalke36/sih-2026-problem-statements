@@ -1,0 +1,17 @@
+{
+  "sno": 3,
+  "ps_number": "SIH26003",
+  "title": "AI-Based Cognitive Gaming and Memory Assistance Platform for Elderly Dementia Patients in North Eastern Region (NER)",
+  "org": "Ministry of Development of North Eastern Region (MDoNER)",
+  "department": "Ministry of Development of North Eastern Region (MDoNER)",
+  "category": "Software",
+  "theme": "MedTech / BioTech / HealthTech",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background:\nThe North Eastern Region (NER) is witnessing a gradual rise in age-related cognitive disorders such as dementia and memory loss among the elderly population. Many families in remote and rural areas face challenges in accessing specialized neurological care, cognitive therapy, and long-term elderly support services due to limited healthcare infrastructure and geographical barriers.\nElderly patients suffering from dementia often experience memory decline, confusion, anxiety, and social isolation, while caregivers face difficulties in continuous monitoring and engagement. There is limited availability of affordable and culturally inclusive digital therapeutic solutions tailored for elderly individuals in the North-Eastern Region.\nTo strengthen elderly healthcare and improve cognitive well-being, there is a need for an accessible, engaging, and Al-enabled cognitive gaming solution designed specifically for dementia patients in NER.\nDescription:\nThis problem statement seeks the development of an AI-powered cognitive gaming and memory assistance platform for elderly dementia patients in the North Eastern Region.\nThe solution should:\na. Include interactive cognitive games and activities focused on:\n• Memory improvement\n• Attention and concentration 0 Daily routine recall\n• Pattern and object recognition of emotional and mental engagement b. Use AI/ML algorithms to adapt difficulty levels based on patient performance and cognitive condition c. Support multilingual and voice-assisted interaction suitable for elderly users in NER Include culturally familiar themes, visuals, sounds, and regional language support for d. better engagement e. Provide reminders for:\n• Medicines\n• Hydration\n• Daily activities\n• Medical appointments.\nf. Enable caregivers and healthcare workers to monitor patient progress through dashboards and activity levels g. Work in low-connectivity environments with offline functionality support h. Be accessible through mobile/tablet devices with a simple and elderly-friendly interface The platform should encourage long-term cognitive engagement, emotional well-being, and social interaction among elderly users.\nExpected Solution: A user-friendly Al-enabled cognitive assistance platform with:\n• Adaptive gaming and memory training modules\n• Voice-enabled multilingual interface\n• Cognitive performance tracking and analytics dashboard\n• Caregiver monitoring and alert system\n• Offline synchronization support for remote areas\n• Secure patient data management system\n• Simple and accessible UI/UX designed for elderly users The solution should support early cognitive intervention, improve quality of life for elderly dementia patients, and strengthen digital healthcare accessibility across the North Eastern Region.",
+  "scraped_at": "2026-09-03"
+}

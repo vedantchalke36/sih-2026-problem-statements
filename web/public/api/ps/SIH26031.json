@@ -1,0 +1,17 @@
+{
+  "sno": 31,
+  "ps_number": "SIH26031",
+  "title": "Quality assessment and grading of onions are often subjective and vary across procurement centers, resulting in disputes and inconsistencies.",
+  "org": "Ministry of Consumer Affairs, Food & Public Distribution",
+  "department": "Department of Consumer Affairs (DoCA)",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Expected Solution: Develop an AI-based mobile application that:\n• Uses image processing to assess onion quality.\n• Identifies damaged, rotten, sprouted, or undersized onions.\n• Estimates Grade A and URS percentages.\n• Generates a digital quality report instantly.\n• Reduces human bias and improves transparency.",
+  "scraped_at": "2026-09-03"
+}

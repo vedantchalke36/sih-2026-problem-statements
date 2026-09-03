@@ -1,0 +1,337 @@
+[
+  {
+    "theme": "Smart Automation",
+    "count": 55,
+    "ps_numbers": [
+      "SIH26007",
+      "SIH26008",
+      "SIH26011",
+      "SIH26012",
+      "SIH26013",
+      "SIH26016",
+      "SIH26017",
+      "SIH26018",
+      "SIH26019",
+      "SIH26023",
+      "SIH26024",
+      "SIH26025",
+      "SIH26028",
+      "SIH26029",
+      "SIH26030",
+      "SIH26031",
+      "SIH26032",
+      "SIH26039",
+      "SIH26044",
+      "SIH26049",
+      "SIH26056",
+      "SIH26060",
+      "SIH26062",
+      "SIH26076",
+      "SIH26078",
+      "SIH26079",
+      "SIH26080",
+      "SIH26092",
+      "SIH26095",
+      "SIH26099",
+      "SIH26100",
+      "SIH26102",
+      "SIH26103",
+      "SIH26107",
+      "SIH26108",
+      "SIH26117",
+      "SIH26118",
+      "SIH26119",
+      "SIH26120",
+      "SIH26121",
+      "SIH26122",
+      "SIH26123",
+      "SIH26124",
+      "SIH26126",
+      "SIH26127",
+      "SIH26144",
+      "SIH26163",
+      "SIH26165",
+      "SIH26169",
+      "SIH26170",
+      "SIH26171",
+      "SIH26172",
+      "SIH26173",
+      "SIH26202",
+      "SIH26219"
+    ]
+  },
+  {
+    "theme": "Blockchain & Cybersecurity",
+    "count": 31,
+    "ps_numbers": [
+      "SIH26026",
+      "SIH26104",
+      "SIH26105",
+      "SIH26106",
+      "SIH26125",
+      "SIH26141",
+      "SIH26145",
+      "SIH26146",
+      "SIH26148",
+      "SIH26149",
+      "SIH26150",
+      "SIH26151",
+      "SIH26152",
+      "SIH26153",
+      "SIH26154",
+      "SIH26155",
+      "SIH26156",
+      "SIH26157",
+      "SIH26159",
+      "SIH26160",
+      "SIH26164",
+      "SIH26182",
+      "SIH26183",
+      "SIH26184",
+      "SIH26187",
+      "SIH26188",
+      "SIH26189",
+      "SIH26190",
+      "SIH26194",
+      "SIH26211",
+      "SIH26228"
+    ]
+  },
+  {
+    "theme": "Disaster Management",
+    "count": 25,
+    "ps_numbers": [
+      "SIH26001",
+      "SIH26057",
+      "SIH26066",
+      "SIH26067",
+      "SIH26068",
+      "SIH26069",
+      "SIH26070",
+      "SIH26071",
+      "SIH26072",
+      "SIH26073",
+      "SIH26077",
+      "SIH26081",
+      "SIH26083",
+      "SIH26084",
+      "SIH26085",
+      "SIH26143",
+      "SIH26161",
+      "SIH26162",
+      "SIH26175",
+      "SIH26176",
+      "SIH26178",
+      "SIH26191",
+      "SIH26192",
+      "SIH26206",
+      "SIH26223"
+    ]
+  },
+  {
+    "theme": "Agriculture, FoodTech & Rural Development",
+    "count": 24,
+    "ps_numbers": [
+      "SIH26005",
+      "SIH26010",
+      "SIH26014",
+      "SIH26015",
+      "SIH26020",
+      "SIH26021",
+      "SIH26022",
+      "SIH26033",
+      "SIH26074",
+      "SIH26086",
+      "SIH26088",
+      "SIH26089",
+      "SIH26091",
+      "SIH26097",
+      "SIH26109",
+      "SIH26110",
+      "SIH26111",
+      "SIH26131",
+      "SIH26132",
+      "SIH26180",
+      "SIH26193",
+      "SIH26210",
+      "SIH26232",
+      "SIH26233"
+    ]
+  },
+  {
+    "theme": "MedTech / BioTech / HealthTech",
+    "count": 20,
+    "ps_numbers": [
+      "SIH26003",
+      "SIH26004",
+      "SIH26038",
+      "SIH26045",
+      "SIH26046",
+      "SIH26047",
+      "SIH26048",
+      "SIH26093",
+      "SIH26094",
+      "SIH26113",
+      "SIH26115",
+      "SIH26128",
+      "SIH26133",
+      "SIH26139",
+      "SIH26181",
+      "SIH26186",
+      "SIH26198",
+      "SIH26215",
+      "SIH26230",
+      "SIH26231"
+    ]
+  },
+  {
+    "theme": "Miscellaneous",
+    "count": 15,
+    "ps_numbers": [
+      "SIH26034",
+      "SIH26035",
+      "SIH26036",
+      "SIH26051",
+      "SIH26052",
+      "SIH26114",
+      "SIH26116",
+      "SIH26129",
+      "SIH26130",
+      "SIH26134",
+      "SIH26135",
+      "SIH26136",
+      "SIH26179",
+      "SIH26199",
+      "SIH26216"
+    ]
+  },
+  {
+    "theme": "Robotics and Drones",
+    "count": 12,
+    "ps_numbers": [
+      "SIH26050",
+      "SIH26054",
+      "SIH26055",
+      "SIH26058",
+      "SIH26064",
+      "SIH26065",
+      "SIH26112",
+      "SIH26158",
+      "SIH26177",
+      "SIH26185",
+      "SIH26201",
+      "SIH26218"
+    ]
+  },
+  {
+    "theme": "Smart Education",
+    "count": 11,
+    "ps_numbers": [
+      "SIH26041",
+      "SIH26042",
+      "SIH26043",
+      "SIH26063",
+      "SIH26075",
+      "SIH26087",
+      "SIH26096",
+      "SIH26101",
+      "SIH26140",
+      "SIH26207",
+      "SIH26224"
+    ]
+  },
+  {
+    "theme": "Space Technology",
+    "count": 9,
+    "ps_numbers": [
+      "SIH26009",
+      "SIH26142",
+      "SIH26147",
+      "SIH26166",
+      "SIH26167",
+      "SIH26174",
+      "SIH26209",
+      "SIH26226",
+      "SIH26227"
+    ]
+  },
+  {
+    "theme": "Transportation & Logistics",
+    "count": 7,
+    "ps_numbers": [
+      "SIH26002",
+      "SIH26006",
+      "SIH26027",
+      "SIH26059",
+      "SIH26137",
+      "SIH26205",
+      "SIH26222"
+    ]
+  },
+  {
+    "theme": "Clean & Green Technology",
+    "count": 7,
+    "ps_numbers": [
+      "SIH26040",
+      "SIH26061",
+      "SIH26082",
+      "SIH26138",
+      "SIH26195",
+      "SIH26212",
+      "SIH26229"
+    ]
+  },
+  {
+    "theme": "Smart Vehicles",
+    "count": 6,
+    "ps_numbers": [
+      "SIH26037",
+      "SIH26053",
+      "SIH26098",
+      "SIH26168",
+      "SIH26203",
+      "SIH26220"
+    ]
+  },
+  {
+    "theme": "Heritage & Culture",
+    "count": 3,
+    "ps_numbers": [
+      "SIH26090",
+      "SIH26197",
+      "SIH26214"
+    ]
+  },
+  {
+    "theme": "Fitness & Sports",
+    "count": 2,
+    "ps_numbers": [
+      "SIH26196",
+      "SIH26213"
+    ]
+  },
+  {
+    "theme": "Renewable / Sustainable Energy",
+    "count": 2,
+    "ps_numbers": [
+      "SIH26200",
+      "SIH26217"
+    ]
+  },
+  {
+    "theme": "Travel & Tourism",
+    "count": 2,
+    "ps_numbers": [
+      "SIH26204",
+      "SIH26221"
+    ]
+  },
+  {
+    "theme": "Toys & Games",
+    "count": 2,
+    "ps_numbers": [
+      "SIH26208",
+      "SIH26225"
+    ]
+  }
+]

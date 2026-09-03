@@ -1,0 +1,17 @@
+{
+  "sno": 38,
+  "ps_number": "SIH26038",
+  "title": "Explainable AI for Diabetic Retinopathy Screening in Rural India",
+  "org": "MathWorks",
+  "department": "MathWorks",
+  "category": "Software",
+  "theme": "MedTech / BioTech / HealthTech",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "1/500",
+  "dataset_link": "APTOS 2019 Blindness Detection: https://www.kaggle.com/c/aptos2019-\nblindness-detection\nIDRiD (Indian Diabetic Retinopathy Image Dataset): https://ieeedataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid\nDRIVE (Vessel Extraction): https://drive.grand-challenge.org/\nMessidor-2: https://www.adcis.net/en/third-party/messidor2/",
+  "contact": "",
+  "youtube": "",
+  "description": "Background:\nIndia has over 77 million diabetic adults - the second highest globally. Diabetic Retinopathy (DR) affects ~18% of this population and is a leading cause of preventable blindness. Early screening can prevent90% of vision loss, but India has only ~1 ophthalmologist per 100,000 rural population, making mass manual screening infeasible. Existing AI solutions function as black boxes, lack clinical validation rigor, and fail with variable image quality from portable fundus cameras in field conditions. A robust, explainable, and validated screening system is essential for deployment in primary healthcare centres across rural India.\nDescription:\nDesign a MATLAB-based retinal image analysis pipeline for automated DR screening addressing real-world deployment challenges:\n1. Image Quality Assessment and Enhancement: Automatically evaluate fundus images for adequacy (focus, illumination, field of view). Apply adaptive enhancement (CLAHE, illumination normalization, denoising) for borderline images; reject ungradeable ones with recapture feedback.\n2. Retinal Structure Segmentation: Extract clinically relevant structures - optic disc/fovea localization, vessel segmentation, microaneurysm detection, exudate segmentation, hemorrhage classification, and neovascularization detection.\n3. DR Severity Grading: Classify using the International Clinical DR severity scale (Levels 0-4, from no DR to proliferative DR) with clinically acceptable sensitivity (>90%) and specificity (>85%) for referable DR (Level 2+).\n4. Explainability Module: Implement Grad-CAM attention maps, lesion-level evidence correlated with clinical criteria, calibrated confidence scores, and automated annotated reports - enabling ophthalmologist validation in under 30 seconds for a human-in-theloop workflow.\n5. Simulink Workflow Simulation: Model the telemedicine screening pipeline in Simulink - image acquisition rates, bandwidth constraints, processing throughput, and review capacity - to optimize resource allocation for district-level programs serving 100,000+ patients annually.\nThis problem demands clinical validation rigor, sub-pixel microaneurysm detection, and clinically meaningful explainability\n• Tools: Image Processing Toolbox, Computer Vision Toolbox, Deep Learning Toolbox, Medical Imaging Toolbox, Simulink, Statistics and Machine Learning Toolbox Expected Solution: A working prototype demonstrating: DR classification with >90% sensitivity and >85% specificity for referable DR;\nexplainable Grad-CAM outputs rated as clinically useful; a Simulink model optimizing screening resource allocation; and validation against published benchmarks showing the integrated pipeline outperforms any single technique approach.",
+  "scraped_at": "2026-09-03"
+}

@@ -1,0 +1,17 @@
+{
+  "sno": 107,
+  "ps_number": "SIH26107",
+  "title": "Al-powered Intelligent Assistant for Indian Standards and BIS Services for Industries and Consumers",
+  "org": "Ministry of Consumer Affairs, Food & Public Distribution",
+  "department": "Department of Consumer Affairs (DoCA)",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background The Bureau of Indian Standards publishes thousands of Indian Standards and provides various services such as product certification, hallmarking, laboratory recognition, Standards Clubs, training, consumer affairs, and conformity assessment.\n• At present, users often struggle to identify:\n• Applicable Indian Standards for their products,\n• Certification requirements,\n• Relevant BIS schemes,\n• Licensing procedures,\n• Testing requirements,\n• Related standards, and\n• Answers to technical queries.\nSearching through multiple documents, portals, and PDFs is time-consuming, particularly MSMEs, startups, students, and consumers.\n• Description Develop an Al-powered conversational assistant that enables users to obtain accurate, context-aware, and source-backed information related to Indian Standards and BIS services through natural language interactions.\nThe assistant should understand user queries in plain language, retrieve relevant information from authorized BIS knowledge sources, and provide responses with references to the documents or clauses which ever are applicable.\n• Expected Solution The software solution consists of a Intelligent Assistant or Agent which can\n• Answer questions related to Indian Standards.\n• Recommend applicable standards based on product descriptions.\n• Provide guidance on BIS certification schemes.\n• Explain certification processes.\n• Answer consumer-related queries.\n• Guide users regarding hallmarking.\n• Suggest relevant testing laboratories.\n• Support multilingual interaction.",
+  "scraped_at": "2026-09-03"
+}

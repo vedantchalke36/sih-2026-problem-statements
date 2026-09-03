@@ -1,0 +1,17 @@
+{
+  "sno": 82,
+  "ps_number": "SIH26082",
+  "title": "Air Pollution–Weather Coupled Forecasting System (Delhi NCR Focus)",
+  "org": "Ministry of Earth Sciences (MoES)",
+  "department": "National Centre for Medium Range Weather Forecasting (NCMRWF)",
+  "category": "Software",
+  "theme": "Clean & Green Technology",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Traditional Air Quality Index (AQI) forecasting models typically treat meteorology and pollution dispersion as separate entities. However, in highly polluted urban landscapes like Delhi NCR, there is a critical, dynamic feedback loop between the weather and pollutants. During peak pollution seasons (such as the winter stubble-burning period), atmospheric inversion layers trap particulate matter close to the ground. Conversely, dense concentrations of aerosols (PM2.5) block sunlight,altering local temperatures, wind patterns, and planetary boundary layer (PBL) heights. Ignoring these coupled meteorological-chemical feedback loops leads to significant inaccuracies in standard AQI predictions. To achieve high-accuracy, actionable insights, there is an urgent need for an integrated system that simulates real-time interactions between atmospheric physics and chemical transport.\nThe challenge is to build a high-resolution, coupled forecasting system specifically tailored for Delhi NCR that predicts AQI for the next 72 hours.\nThe solution must leverage advanced weather-chemistry models (such as WRF-Chem or similar open-source coupled frameworks) to dynamically interlink meteorology with pollution dispersion(specifically PM2.5 and Ground-level Ozone). A core focus should be accurately modeling the impact of atmospheric inversion on external pollution spikes, such as regional stubble burning,and how those trapped pollutants subsequently alter local weather conditions.Implement a workflow that handles two-way feedback between meteorology (temperature, wind,PBL height) and chemistry (PM2.5, PM10, O3,NOx). A user-friendly, real-time dashboard displaying high-resolution AQI forecasts for Delhi NCR with a 72-hour outlook. Features that explicitly track atmospheric inversion strength and predict how stubble-burning plumes will disperse under prevailing weather conditions.",
+  "scraped_at": "2026-09-03"
+}

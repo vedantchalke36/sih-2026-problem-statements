@@ -1,0 +1,17 @@
+{
+  "sno": 41,
+  "ps_number": "SIH26041",
+  "title": "AR-Based Vocational Training Simulator for Industrial Safety in Jharkhand's Mining & Manufacturing Sector",
+  "org": "Government of Jharkhand",
+  "department": "Department of Higher & Technical Education",
+  "category": "Software",
+  "theme": "Smart Education",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background:\nJharkhand is lndia's leading mineral-producing state, with coal mines, steel plants, and mica processing units employing hundreds of thousands of workers many of them young tribal recruits with no prior industrial exposure. Classroom-based safety training using static manuals has documented retention rates below 20% after one week. Live drills are operationally disruptive, and VR headset simulators are inaccessible to small-scale mines and contract workers.. The DGMS, Dhanbad, recorded 48 fatal mine accidents in Jharkhand in 2022-23, a large share involving workers with under 30 days of orientation. The Factories Act, 1948 and Mines Act, 1952 mandate periodic safety certification, yet no standardised digital training platform exists in regional languages, and physical certificates have no mechanism to verify comprehension.\nDescription:\nDesign and develop a mobile AR-based vocational training and safety certification platform running on mid-range Android smartphones (Android 10+, no external headset required), accessible to workers across Jharkhand's mining, steel, and mica sectors. The platform must deliver interactive AR training modules covering five industrial safety domains: (l) Fire & Explosion Response-exit identification, extinguisher use, and evacuation sequencing overlaid on real surroundings via phone camera; (2) Gas Leak & Confined Space Protocol-hazard zone recognition, PPE selection, and buddy-system procedures simulated in AR; (3) Machinery.\nExpected Solution:\nA working Android APK demonstrating at least two complete AR training modules, an assessment engine, QR-based certificate generation and verification, Hindi and Santali localisation, offline functionality, and a web admin compliance dashboard- submitted with a demo video and public GitHub repository.",
+  "scraped_at": "2026-09-03"
+}

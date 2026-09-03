@@ -1,0 +1,17 @@
+{
+  "sno": 129,
+  "ps_number": "SIH26129",
+  "title": "System integration and interoperability among government digital platforms,resulting in fragmented service delivery",
+  "org": "Government Of Maharashtra",
+  "department": "Maharashtra State Innovation Society, Department of Skills, Employment, Entrepreneurship and Innovation",
+  "category": "Software",
+  "theme": "Miscellaneous",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "1/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Problem Description Government departments operate multiple portals, mobile applications,registries, workflow systems and databases that have often been developed independently. Differences in data formats, identifiers, authentication methods, APIs, process definitions and ownership structures can prevent seamless information exchange.Citizens and businesses may be required to submit the same information repeatedly, track applications across different portals, or visit multiple offices.Officials may lack a consolidated view of beneficiaries, applications, approvals,grievances and service outcomes. The challenge is to enable secure,standards-based interoperability without requiring complete replacement of existing systems.\n• Expected Solution / Outcome An interoperability framework,middleware layer or federated service delivery architecture that supports API based exchange, common data standards, master-data management, consent-based data sharing, single sign on or federated identity, event-driven notifications, unified application tracking and configurable workflow orchestration.The solution should provide reusable connectors for legacy and modern systems, audit logs, role-based access, data-quality checks, exception handling and monitoring dashboards. Expected outcomes include fewer duplicate submissions, reduced processing time,consistent records, improved citizen experience, better cross-department coordination, and measurable improvement in service-level compliance.",
+  "scraped_at": "2026-09-03"
+}

@@ -1,0 +1,17 @@
+{
+  "sno": 13,
+  "ps_number": "SIH26013",
+  "title": "Automated lntegration and lntelligent Harmonization of Multi-source Geospatial Data for urban Land Record Management.",
+  "org": "Ministry of Rural Development",
+  "department": "Dept of land resources (DoLR)",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background: Urban land administration and cadastral management involve integration of multiple spatial and non-spatial datasets generated from various departments,agencies,and survey mechanisms. Under modern land governance programmes such as the NAKSHA Programme, large volumes of geospatial data are being generated through drone surveys, Orthorectified lmagery (ORl), DSM/DTM datasets, Ground Truthing (GT),GNSS surveys,municipal records,utility databases, and revenue land records.\nAt present,harmonization and integration of these datasets largely depend on manual GIS workflows,which are time-consuming and prone to errors.With increasing availability of Al, GeoAl, and automated spatial processing technologies, there is significant scope for development of an intelligent system capable of automatically integrating and synchronizing multi-source geospatial datasets with feature-extracted cadastral data. Description:\nThe proposed solution should develop an Al-enabled geospatial integration platform capable of automatically integrating, harmonizing, validating, and synchronizing multiple land-related datasets with Al-generated feature extraction outputs.\nThe system should support integration of:\n. Drone imagery . Orthorectified lmagery (ORl)\n. DSM/DTM datasets . Existing cadastral maps . Revenue records . Municipal GIS layers . Utility network data . Ground Truthing (GT) datasets . GNSS/CORS survey data . Building footPrint datasets The solution should incorPorate:\n. Al/ML-based spatial matching algorithms . Automated topology correction . lntelligent attribute mapping . Geo-referencing and coordinate transformation engine . Change detection mechanisms . Spatial conflict resolution framework . Confidence scoring for integrated outputs Expected Solution:\n. The expected outcome is development of an intelligent geospatial integration framework capable of automatically harmonizing multi-source land-related datasets with Al-generated feature extraction outputs. .The final solution should:\n. Reduce manual GIS integration efforts . lmprove accuracy and consistency of urban land records . Enable seamless inter-departmental spatial data exchange . Accelerate cadastral finalization processes . lmprove interoperability of urban land information systems . Support standardized digital land governance Suggested Technologies:\n. Artificial lntelligence (Al)\n. Machine Learning (ML)\n. GeoAl . GIS & Web-GlS . Spatial Databases . ETL Automation . Computer Vision . Cloud Computing . Spatial Analytics . API lntegration Frameworks",
+  "scraped_at": "2026-09-03"
+}

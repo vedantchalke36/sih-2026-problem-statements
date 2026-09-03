@@ -1,0 +1,17 @@
+{
+  "sno": 118,
+  "ps_number": "SIH26118",
+  "title": "Passive Colorimetric H2S Exposure-Dosimeter Wristband with AI-Based Quantitative Reading",
+  "org": "Mangalore Refinery and Petrochemicals Limited (MRPL)",
+  "department": "Mangalore Refinery and Petrochemicals Limited (MRPL)",
+  "category": "Hardware",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Workers in oil and gas operations face chronic low-level H2S exposure. Standard electronic gas detectors miss this risk because they only report instantaneous ppm, and they need batteries, calibration and upkeep. Passive colorimetric badges already exist, usually lead-acetate based, but they only give a rough visual read, exposed past threshold or not, judged by eye. There's no way to know the actual cumulative dose, concentration multiplied by time, and no way to confirm the badge itself hasn't already expired or degraded before it's worn. India has no low-cost, indigenous, digitally-read passive dosimeter for this. Peak-exposure alarms are not what protects long-term health. Cumulative dose is.\n• Description The idea is a disposable wristband with an indigenously formulated chemical strip that darkens progressively and permanently with cumulative H2S exposure, not just past one threshold. The strip sits next to a printed reference color scale, and separately, a second patch that shows the badge's own shelf life. Something a worker or safety officer can glance at before a shift to confirm the badge itself is still valid.\nA phone app does the reading. Photograph the strip next to the reference scale, and the app corrects for whatever lighting the photo was taken in by calibrating against that reference. It converts the color into an estimated cumulative exposure figure and logs it against worker ID and shift, for occupational health records and DGMS or OISD style reporting. The dose figure should be presented as an estimate, since colorimetric reactions don't scale perfectly linearly at very low concentrations or over long durations. Temperature and humidity affect reaction speed too, so the strip design needs to account for that, either through a sealed reference cell or a compensation method in the app.\n• Expected Solution A working wristband prototype, chemical strip plus a separate expiry indicator, along with a phone app that reads and quantifies exposure from a photograph. Tested against a controlled, lab-simulated H2S exposure at known concentration and duration, with a stated and validated shelf life, 30 or 90 days for example, and a dose estimate that tracks reasonably close to the known simulated exposure.",
+  "scraped_at": "2026-09-03"
+}

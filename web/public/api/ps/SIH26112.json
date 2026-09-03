@@ -1,0 +1,17 @@
+{
+  "sno": 112,
+  "ps_number": "SIH26112",
+  "title": "Design and Develop a Modular Autonomous Mobile Robot (AMR) Platform for Smart Warehouse Automation",
+  "org": "Autodesk",
+  "department": "Autodesk Education Experience",
+  "category": "Hardware",
+  "theme": "Robotics and Drones",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "Additional Information regarding PS\nhttps://drive.google.com/drive/folders/1KYkkQjRbpq--YRF5sgVndjLGgItqLr1b",
+  "contact": "",
+  "youtube": "",
+  "description": "• Description Research and develop a concept design of a warehouse automation robot platform and a modular attachment for it, using Autodesk Fusion. Re-imagine their design and optimize for additive manufacturing.\nThe idea submission consists of two mandatory concept development challenges:\nPart A – Universal Mobile Robot Platform (AGV/AMR Base)\nDevelop a concept design of a universal Autonomous Mobile Robot (AMR) / Automated Guided Vehicle (AGV) chassis that serves as a common mobile platform for warehouse automation. The platform should support multiple interchangeable attachments while considering structural integrity, payload capacity, weight reduction, modularity, manufacturability, and ease of maintenance.\nPart B – Modular Functional Attachments Develop a concept design for any one modular attachment that integrates with the universal platform to perform specific warehouse automation tasks. Example attachments include bin handling, pallet handling, conveyor transfer, robotic picking, inventory scanning, inspection, or any other innovative warehouse automation module.\nStudents should use Fusion features such as Generative Design, Topology Optimization, Additive Build, and Simulation. The redesigned components should demonstrate innovation, enhanced functionality, improved efficiency, and optimized material usage while being suitable for additive manufacturing.\n• Participation Guidelines For Idea Submission\n• Each student team should submit Fusion public link of the Conceptual Design as described in Part-A and Part-B of the above problem statement and a PowerPoint presentation (5-7 Slides).\n• Designs should be created using ONLY Autodesk Fusion and not copied or taken from any other source.\n• AI Generated content is NOT ALLOWED.\nFor Grand Finale*: Students must use Autodesk Fusion to design, and 3D print final design of specific components (scaled down to machine size) within the given time period and present the following to the jury members:\n• PPT explaining the final project\n• Final 3D prints\n• Public link of the design\n• Rendered images NOTE: *Grand Finale details to be revealed on competition day.\n• Attach Marking Criteria Table here*\n• Faculty (SIH SPOC) Form Teams choosing to submit idea for Autodesk’s problem statement are required to request their faculty (SIH SPOC) to fill this 'Mandatory Form'.\n• Autodesk Fusion\n• Autodesk Fusion combines Additive Manufacturing (3D printing) capabilities with Generative Design features. It allows users to optimize designs for 3D printing, generate support structures, and explore numerous design options using algorithms. This integration enables the creation of complex and optimized parts using 3D printing technologies.\n• Students and educators can click Here to get FREE access to Fusion.",
+  "scraped_at": "2026-09-03"
+}

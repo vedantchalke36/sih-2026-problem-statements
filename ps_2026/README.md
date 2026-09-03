@@ -1,6 +1,6 @@
 # SIH 2026 - Problem Statements
 
-Total: 229 problem statements, scraped from https://sih.gov.in/sih2026PS (last update: 2026-08-29).
+Total: 233 problem statements, scraped from https://sih.gov.in/sih2026PS (last update: 2026-09-03).
 
 Licensed under CC-BY-4.0. Source: Smart India Hackathon (sih.gov.in).
 
@@ -44,11 +44,11 @@ Licensed under CC-BY-4.0. Source: Smart India Hackathon (sih.gov.in).
 | 36 | SIH26036 | Software | Miscellaneous | Ministry of Consumer Affairs, Food & Public Distribution | [Development of an Online Verification System for Weighing and Measuring Instruments](SIH26036.md) |
 | 37 | SIH26037 | Software | Smart Vehicles | MathWorks | [Adaptive Path Planning and Collision Avoidance for Autonomous Vehicles on Unstructured Indian Roads](SIH26037.md) |
 | 38 | SIH26038 | Software | MedTech / BioTech / HealthTech | MathWorks | [Explainable AI for Diabetic Retinopathy Screening in Rural India](SIH26038.md) |
-| 39 | SIH26039 | Hardware | Smart Automation | Governmcnt of Jharkhand | [Al-Powered Underground Mine Safety, Monitoring and Rescue System.](SIH26039.md) |
-| 40 | SIH26040 | Hardware | Clean & Green Technology | Governmcnt of Jharkhand | [Smart Water Purification and Quality Monitoring System for Rural and Mining-Affected Areas.](SIH26040.md) |
-| 41 | SIH26041 | Software | Smart Education | Governmcnt of Jharkhand | [AR-Based Vocational Training Simulator for Industrial Safety in Jharkhand's Mining & Manufacturing Sector](SIH26041.md) |
-| 42 | SIH26042 | Software | Smart Education | Governmcnt of Jharkhand | [Al-Powered Vernacular Pedagogy and Real-Time Translation Tool for Mother Tongue-Based Primary Education](SIH26042.md) |
-| 43 | SIH26043 | Software | Smart Education | Governmcnt of Jharkhand | [A digital platform to crowdsource societal challenges and facilitate collaborative problem solving through universities and industry partnerships](SIH26043.md) |
+| 39 | SIH26039 | Hardware | Smart Automation | Government of Jharkhand | [Al-Powered Underground Mine Safety, Monitoring and Rescue System.](SIH26039.md) |
+| 40 | SIH26040 | Hardware | Clean & Green Technology | Government of Jharkhand | [Smart Water Purification and Quality Monitoring System for Rural and Mining-Affected Areas.](SIH26040.md) |
+| 41 | SIH26041 | Software | Smart Education | Government of Jharkhand | [AR-Based Vocational Training Simulator for Industrial Safety in Jharkhand's Mining & Manufacturing Sector](SIH26041.md) |
+| 42 | SIH26042 | Software | Smart Education | Government of Jharkhand | [Al-Powered Vernacular Pedagogy and Real-Time Translation Tool for Mother Tongue-Based Primary Education](SIH26042.md) |
+| 43 | SIH26043 | Software | Smart Education | Government of Jharkhand | [A digital platform to crowdsource societal challenges and facilitate collaborative problem solving through universities and industry partnerships](SIH26043.md) |
 | 44 | SIH26044 | Software | Smart Automation | Ministry of Ayush | [Portal for Academia - Industry collaboration for Skill Mapping, Internships and Placement](SIH26044.md) |
 | 45 | SIH26045 | Software | MedTech / BioTech / HealthTech | Ministry of Ayush | [IP-SAKTI Sahayak a multilingual, RAG-based (source-cited) AI assistant for Intellectual Property and regulatory guidance in Ayurveda, across national and international regimes.](SIH26045.md) |
 | 46 | SIH26046 | Software | MedTech / BioTech / HealthTech | Ministry of Ayush | [AIIA Clinical Trials Dashboard - a real-time, cloud-based, GCP-compliant Clinical Trial Management System (CTMS) for Ayurveda research, with CDISC/FHIR-interoperable data, role-based KPIs, and integrated ethics, regulatory (CTRI / NDCT Rules 2019) and pharma covigilance tracking.](SIH26046.md) |
@@ -92,7 +92,7 @@ Licensed under CC-BY-4.0. Source: Smart India Hackathon (sih.gov.in).
 | 84 | SIH26084 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [Convective scale nowcasting for Thunderstorms, Hail & Cloudbursts (06 hr)](SIH26084.md) |
 | 85 | SIH26085 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [Urban Flood Nowcasting System (Drainage and Rainfall Coupling)](SIH26085.md) |
 | 86 | SIH26086 | Software | Agriculture, FoodTech & Rural Development | Ministry of Earth Sciences (MoES) | [Hyperlocal Monsoon Onset & Break Prediction System (Block/Village Scale)](SIH26086.md) |
-| 87 | SIH26087 | Hardware | Smart Education | Ministry of Cooperation | [AI-Enabled Cooperative Capacity Building, ERP & Employment Ecosystem](SIH26087.md) |
+| 87 | SIH26087 | Hardware | Smart Education | Ministry of Cooperation | [AI & LMS - Enabled Cooperative Capacity Building, ERP & Employment Ecosystem](SIH26087.md) |
 | 88 | SIH26088 | Hardware | Agriculture, FoodTech & Rural Development | Ministry of Cooperation | [Multilingual Cooperative Governance & Legal Assistance Chatbot](SIH26088.md) |
 | 89 | SIH26089 | Software | Agriculture, FoodTech & Rural Development | Ministry of Cooperation | [Cooperative Gig Services Platform for Household & Community Services](SIH26089.md) |
 | 90 | SIH26090 | Software | Heritage & Culture | Ministry of Social Justice and Empowerment (MoSJE) | [AI-Driven Market Linkage and Smart Cataloging Mobile Application for Marginalized Artisans](SIH26090.md) |
@@ -109,9 +109,9 @@ Licensed under CC-BY-4.0. Source: Smart India Hackathon (sih.gov.in).
 | 101 | SIH26101 | Software | Smart Education | MoSPI | [Develop an AI enabled learning platform that identifies competency gaps, recommends personalized training through integration with the iGOT Karmayogi ecosystem, and capable of generating Quizzes and Multiple choice questions (MCQs) from uploaded learning materials to strengthen capacity building in India's Official Statistical System.](SIH26101.md) |
 | 102 | SIH26102 | Software | Smart Automation | MoSPI | [Development of an AI-powered system to detect anomalies, fraud, and inefficiencies in MPLAD Scheme implementation regd.](SIH26102.md) |
 | 103 | SIH26103 | Software | Smart Automation | MoSPI | [Use case on web-based integrated project-monitoring platform](SIH26103.md) |
-| 104 | SIH26104 | Software | Blockchain & Cybersecurity | All India Council for Technical Education (AICTE) | [AI-Powered Real-Time Detection and Prevention of Voice Cloning Impersonation Attacks](SIH26104.md) |
-| 105 | SIH26105 | Software | Blockchain & Cybersecurity | All India Council for Technical Education (AICTE) | [AI-Powered Continuous Cyber Risk Quantification and Investment Optimization Platform](SIH26105.md) |
-| 106 | SIH26106 | Software | Blockchain & Cybersecurity | All India Council for Technical Education (AICTE) | [AI-Powered Email Threat Detection, GeoLocation and Forensic Intelligence Platform](SIH26106.md) |
+| 104 | SIH26104 | Software | Blockchain & Cybersecurity | All India Council for Technical Education (Cyber Security Cell) | [AI-Powered Real-Time Detection and Prevention of Voice Cloning Impersonation Attacks](SIH26104.md) |
+| 105 | SIH26105 | Software | Blockchain & Cybersecurity | All India Council for Technical Education (Cyber Security Cell) | [AI-Powered Continuous Cyber Risk Quantification and Investment Optimization Platform](SIH26105.md) |
+| 106 | SIH26106 | Software | Blockchain & Cybersecurity | All India Council for Technical Education (Cyber Security Cell) | [AI-Powered Email Threat Detection, GeoLocation and Forensic Intelligence Platform](SIH26106.md) |
 | 107 | SIH26107 | Software | Smart Automation | Ministry of Consumer Affairs, Food & Public Distribution | [Al-powered Intelligent Assistant for Indian Standards and BIS Services for Industries and Consumers](SIH26107.md) |
 | 108 | SIH26108 | Software | Smart Automation | Ministry of Consumer Affairs, Food & Public Distribution | [AI-Powered Recommendation Engine for Identifying Applicable Indian Standards for Procurement Specifications](SIH26108.md) |
 | 109 | SIH26109 | Hardware | Agriculture, FoodTech & Rural Development | Ministry of Fisheries, Animal Husbandry & Dairying | [Al-Based Predictive Modelling for Early Forecasting of Bovine Mastitis in lndian Dairy Farms](SIH26109.md) |
@@ -236,3 +236,8 @@ Licensed under CC-BY-4.0. Source: Smart India Hackathon (sih.gov.in).
 | 228 | SIH26228 | Software | Blockchain & Cybersecurity | Ministry of defence (MoD) | [Trustworthy Computer Vision Integrity Assurance for Data, Models and Inference Outputs in Multi-Contributor Pipelines](SIH26228.md) |
 | 229 | SIH26229 | Software | Clean & Green Technology | Ministry of Mines (MoM) | [Kabadiwala Connect – Bringing the Informal Collector into the Formal Recycling
 Chain](SIH26229.md) |
+| 230 | SIH26230 | Hardware | MedTech / BioTech / HealthTech | Ministry of Home Affairs | [Breath-Based Detection Device for Drug Consumption](SIH26230.md) |
+| 231 | SIH26231 | Software | MedTech / BioTech / HealthTech | Ministry of Home Affairs | [Digital Companion for Field Drug Testing](SIH26231.md) |
+| 232 | SIH26232 | Hardware | Agriculture, FoodTech & Rural Development | Ministry of Food Processing Industries (MoFPI) | [Low-Cost loT Block chain Nodes for Farm-to-Fork Traceability](SIH26232.md) |
+| 233 | SIH26233 | Hardware | Agriculture, FoodTech & Rural Development | Ministry of Food Processing Industries (MoFPI) | [Inline Microbial Contamination Detection Using Hyperspectral
+Edge Sensors](SIH26233.md) |

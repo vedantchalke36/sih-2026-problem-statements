@@ -1,0 +1,433 @@
+[
+  {
+    "org": "AICTE",
+    "count": 34,
+    "ps_numbers": [
+      "SIH26193",
+      "SIH26194",
+      "SIH26195",
+      "SIH26196",
+      "SIH26197",
+      "SIH26198",
+      "SIH26199",
+      "SIH26200",
+      "SIH26201",
+      "SIH26202",
+      "SIH26203",
+      "SIH26204",
+      "SIH26205",
+      "SIH26206",
+      "SIH26207",
+      "SIH26208",
+      "SIH26209",
+      "SIH26210",
+      "SIH26211",
+      "SIH26212",
+      "SIH26213",
+      "SIH26214",
+      "SIH26215",
+      "SIH26216",
+      "SIH26217",
+      "SIH26218",
+      "SIH26219",
+      "SIH26220",
+      "SIH26221",
+      "SIH26222",
+      "SIH26223",
+      "SIH26224",
+      "SIH26225",
+      "SIH26226"
+    ]
+  },
+  {
+    "org": "Ministry of Earth Sciences (MoES)",
+    "count": 30,
+    "ps_numbers": [
+      "SIH26057",
+      "SIH26058",
+      "SIH26059",
+      "SIH26060",
+      "SIH26061",
+      "SIH26062",
+      "SIH26063",
+      "SIH26064",
+      "SIH26065",
+      "SIH26066",
+      "SIH26067",
+      "SIH26068",
+      "SIH26069",
+      "SIH26070",
+      "SIH26071",
+      "SIH26072",
+      "SIH26073",
+      "SIH26074",
+      "SIH26075",
+      "SIH26076",
+      "SIH26077",
+      "SIH26078",
+      "SIH26079",
+      "SIH26080",
+      "SIH26081",
+      "SIH26082",
+      "SIH26083",
+      "SIH26084",
+      "SIH26085",
+      "SIH26086"
+    ]
+  },
+  {
+    "org": "National Technical Research Organisation (NTRO)",
+    "count": 23,
+    "ps_numbers": [
+      "SIH26142",
+      "SIH26143",
+      "SIH26144",
+      "SIH26145",
+      "SIH26146",
+      "SIH26147",
+      "SIH26148",
+      "SIH26149",
+      "SIH26150",
+      "SIH26151",
+      "SIH26152",
+      "SIH26153",
+      "SIH26154",
+      "SIH26155",
+      "SIH26156",
+      "SIH26157",
+      "SIH26158",
+      "SIH26159",
+      "SIH26160",
+      "SIH26161",
+      "SIH26162",
+      "SIH26163",
+      "SIH26164"
+    ]
+  },
+  {
+    "org": "Ministry of Home Affairs",
+    "count": 13,
+    "ps_numbers": [
+      "SIH26182",
+      "SIH26183",
+      "SIH26184",
+      "SIH26185",
+      "SIH26186",
+      "SIH26187",
+      "SIH26188",
+      "SIH26189",
+      "SIH26190",
+      "SIH26191",
+      "SIH26192",
+      "SIH26230",
+      "SIH26231"
+    ]
+  },
+  {
+    "org": "Indian Space Research Organisation(ISRO)",
+    "count": 11,
+    "ps_numbers": [
+      "SIH26166",
+      "SIH26167",
+      "SIH26168",
+      "SIH26169",
+      "SIH26170",
+      "SIH26171",
+      "SIH26172",
+      "SIH26173",
+      "SIH26174",
+      "SIH26175",
+      "SIH26176"
+    ]
+  },
+  {
+    "org": "Ministry of Rural Development",
+    "count": 10,
+    "ps_numbers": [
+      "SIH26010",
+      "SIH26011",
+      "SIH26012",
+      "SIH26013",
+      "SIH26014",
+      "SIH26015",
+      "SIH26016",
+      "SIH26017",
+      "SIH26018",
+      "SIH26019"
+    ]
+  },
+  {
+    "org": "Ministry of Consumer Affairs, Food & Public Distribution",
+    "count": 10,
+    "ps_numbers": [
+      "SIH26029",
+      "SIH26030",
+      "SIH26031",
+      "SIH26032",
+      "SIH26033",
+      "SIH26034",
+      "SIH26035",
+      "SIH26036",
+      "SIH26107",
+      "SIH26108"
+    ]
+  },
+  {
+    "org": "Government Of Maharashtra",
+    "count": 9,
+    "ps_numbers": [
+      "SIH26128",
+      "SIH26129",
+      "SIH26130",
+      "SIH26131",
+      "SIH26132",
+      "SIH26133",
+      "SIH26134",
+      "SIH26135",
+      "SIH26136"
+    ]
+  },
+  {
+    "org": "Ministry of Social Justice and Empowerment (MoSJE)",
+    "count": 8,
+    "ps_numbers": [
+      "SIH26090",
+      "SIH26091",
+      "SIH26092",
+      "SIH26093",
+      "SIH26094",
+      "SIH26095",
+      "SIH26096",
+      "SIH26097"
+    ]
+  },
+  {
+    "org": "DRDO",
+    "count": 7,
+    "ps_numbers": [
+      "SIH26049",
+      "SIH26050",
+      "SIH26051",
+      "SIH26052",
+      "SIH26053",
+      "SIH26054",
+      "SIH26055"
+    ]
+  },
+  {
+    "org": "Ministry of Development of North Eastern Region (MDoNER)",
+    "count": 5,
+    "ps_numbers": [
+      "SIH26001",
+      "SIH26002",
+      "SIH26003",
+      "SIH26004",
+      "SIH26005"
+    ]
+  },
+  {
+    "org": "Government of Jharkhand",
+    "count": 5,
+    "ps_numbers": [
+      "SIH26039",
+      "SIH26040",
+      "SIH26041",
+      "SIH26042",
+      "SIH26043"
+    ]
+  },
+  {
+    "org": "Ministry of Ayush",
+    "count": 5,
+    "ps_numbers": [
+      "SIH26044",
+      "SIH26045",
+      "SIH26046",
+      "SIH26047",
+      "SIH26048"
+    ]
+  },
+  {
+    "org": "Autodesk",
+    "count": 5,
+    "ps_numbers": [
+      "SIH26112",
+      "SIH26113",
+      "SIH26114",
+      "SIH26115",
+      "SIH26116"
+    ]
+  },
+  {
+    "org": "Bharat Electronics Limited",
+    "count": 5,
+    "ps_numbers": [
+      "SIH26123",
+      "SIH26124",
+      "SIH26125",
+      "SIH26126",
+      "SIH26127"
+    ]
+  },
+  {
+    "org": "Egreen Quanta",
+    "count": 5,
+    "ps_numbers": [
+      "SIH26137",
+      "SIH26138",
+      "SIH26139",
+      "SIH26140",
+      "SIH26141"
+    ]
+  },
+  {
+    "org": "Qualcomm Inc",
+    "count": 5,
+    "ps_numbers": [
+      "SIH26177",
+      "SIH26178",
+      "SIH26179",
+      "SIH26180",
+      "SIH26181"
+    ]
+  },
+  {
+    "org": "Ministry of Steel",
+    "count": 4,
+    "ps_numbers": [
+      "SIH26006",
+      "SIH26007",
+      "SIH26008",
+      "SIH26009"
+    ]
+  },
+  {
+    "org": "MoSPI",
+    "count": 4,
+    "ps_numbers": [
+      "SIH26056",
+      "SIH26101",
+      "SIH26102",
+      "SIH26103"
+    ]
+  },
+  {
+    "org": "Oil India Limited",
+    "count": 4,
+    "ps_numbers": [
+      "SIH26120",
+      "SIH26121",
+      "SIH26122",
+      "SIH26165"
+    ]
+  },
+  {
+    "org": "Ministry of MSME",
+    "count": 3,
+    "ps_numbers": [
+      "SIH26020",
+      "SIH26021",
+      "SIH26022"
+    ]
+  },
+  {
+    "org": "Ministry of Coal",
+    "count": 3,
+    "ps_numbers": [
+      "SIH26023",
+      "SIH26024",
+      "SIH26025"
+    ]
+  },
+  {
+    "org": "Ministry of Railways",
+    "count": 3,
+    "ps_numbers": [
+      "SIH26026",
+      "SIH26027",
+      "SIH26028"
+    ]
+  },
+  {
+    "org": "Ministry of Cooperation",
+    "count": 3,
+    "ps_numbers": [
+      "SIH26087",
+      "SIH26088",
+      "SIH26089"
+    ]
+  },
+  {
+    "org": "All India Council for Technical Education (Cyber Security Cell)",
+    "count": 3,
+    "ps_numbers": [
+      "SIH26104",
+      "SIH26105",
+      "SIH26106"
+    ]
+  },
+  {
+    "org": "Ministry of Fisheries, Animal Husbandry & Dairying",
+    "count": 3,
+    "ps_numbers": [
+      "SIH26109",
+      "SIH26110",
+      "SIH26111"
+    ]
+  },
+  {
+    "org": "Mangalore Refinery and Petrochemicals Limited (MRPL)",
+    "count": 3,
+    "ps_numbers": [
+      "SIH26117",
+      "SIH26118",
+      "SIH26119"
+    ]
+  },
+  {
+    "org": "MathWorks",
+    "count": 2,
+    "ps_numbers": [
+      "SIH26037",
+      "SIH26038"
+    ]
+  },
+  {
+    "org": "Ministry of Petroleum & Natural Gas",
+    "count": 2,
+    "ps_numbers": [
+      "SIH26099",
+      "SIH26100"
+    ]
+  },
+  {
+    "org": "Ministry of defence (MoD)",
+    "count": 2,
+    "ps_numbers": [
+      "SIH26227",
+      "SIH26228"
+    ]
+  },
+  {
+    "org": "Ministry of Food Processing Industries (MoFPI)",
+    "count": 2,
+    "ps_numbers": [
+      "SIH26232",
+      "SIH26233"
+    ]
+  },
+  {
+    "org": "Ministry of Defence (MoD)",
+    "count": 1,
+    "ps_numbers": [
+      "SIH26098"
+    ]
+  },
+  {
+    "org": "Ministry of Mines (MoM)",
+    "count": 1,
+    "ps_numbers": [
+      "SIH26229"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "sno": 10,
+  "ps_number": "SIH26010",
+  "title": "Survey/Resurvey of Rural Agricultural Land in lndia",
+  "org": "Ministry of Rural Development",
+  "department": "Dept of land resources (DoLR)",
+  "category": "Hardware",
+  "theme": "Agriculture, FoodTech & Rural Development",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background: Historically, land surveys in rural lndia were conducted using conventional chain and tape methods, many of which date back several decades or even the colonial period. Over time, multiple issues emerged such as Boundary changes due to inheritance and informal partition, Unrecorded land transactions, Encroachments and overlapping claims, Errors in cadastral maps, Mismatch between textual records and spatial maps, Absence of updated mutation records and inconsistent land classifications. These deficiencies have resulted in prolonged legal disputes, reduced agricultural productivity, and administrative inefficiencies. Land-related disputes reportedly account for a major share of civil litigation in lndia. Detailed Description: A comprehensive survey/resurvey program is necessary to establish accurate land ownership, Update cadastral maps, Reduce land disputes,Enable transparent land governance, Support precision agriculture, lmprove rural planning, Facilitate digital land administration and Ensure effective implementation of government schemes.Modern technologies such as Drone mapping, Differential GPS (DGPS), GIS platforms, Satellite imagery, CORS, Mobile-based field verification can significanfly improve accuracy, speed, and transparency in rural land management.\nExpected Solution: Technology-Driven Land Survey and Resurvey be implemented using modern survey technologies for accurate mapping of agricultural land parcels such as Drone-based aerial surveys, Real-Time Kinematic (RTK) GPS and DGPS systems, GIS-enabled cadastral mapping and Geo-referenced parcel identification. Developing a unified digital land information system integrating Record of Rights(RoR), Mutation records, Registration databases, Survey maps, Ownership history,precise Geo-coordinates of land parcels. This integration should enable real-time updating and verification of land ownership.",
+  "scraped_at": "2026-09-03"
+}

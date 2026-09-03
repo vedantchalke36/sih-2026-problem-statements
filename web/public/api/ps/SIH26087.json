@@ -1,0 +1,17 @@
+{
+  "sno": 87,
+  "ps_number": "SIH26087",
+  "title": "AI & LMS - Enabled Cooperative Capacity Building, ERP & Employment Ecosystem",
+  "org": "Ministry of Cooperation",
+  "department": "National Council for Cooperative Training (NCCT)",
+  "category": "Hardware",
+  "theme": "Smart Education",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background The National Council for Cooperative Training (NCCT), through VAMNICOM, RICMs, and ICMs, conducts large-scale training programmes for cooperative personnel, PACS members, SHGs, dairy cooperatives, farmers, and rural youth across the country. Simultaneously, trained rural youth often face challenges in accessing employment opportunities, entrepreneurship support, digital learning resources, and visibility of skill certifications.Existing systems are largely manual or fragmented, resulting in duplication of effort, inadequate trainee tracking, limited learning analytics, poor employment linkage, and inefficient programme administration.\n• Problem Statement To develop an integrated digital ecosystem for cooperative training institutions that combines ERP-based training management, e-learning, data analytics, skill development, digital literacy, and employment exchange services for cooperative stakeholders and rural youth.\n• Scope of the Solution The proposed system should provide a centralized, scalable, and web-based digital platform capable of integrating all major training management activities under NCCT institutions.\n• Expected Solution Features\n• Online programme registration and nomination management\n• Participant, institution, and trainee profile management\n• Interactive multilingual e-learning modules\n• Digital attendance through face recognition / QR code\n• Timetable, hostel, and logistics management\n• LMS integration with assessments and certification\n• Skill certification repository and verification\n• Career counseling chatbot\n• Employer and recruiter dashboard\n• Mobile-friendly and offline-accessible learning platform\n• Centralized database for future programme outreach and monitoring\n• Technology Components\n• Learning Management Systems (LMS)\n• Cloud-Based ERP Platform\n• Data Analytics\n• Mobile Applications\n• Multimedia & Interactive Learning Tools\n• Face Recognition / QR Technologies\n• Proposed Mode Software + Hardware",
+  "scraped_at": "2026-09-03"
+}

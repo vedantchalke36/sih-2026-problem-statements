@@ -1,0 +1,17 @@
+{
+  "sno": 172,
+  "ps_number": "SIH26172",
+  "title": "Low Latency and Efficient Voice Activator for Edge Devices",
+  "org": "Indian Space Research Organisation(ISRO)",
+  "department": "Department of Space / Indian Space Research Organisation",
+  "category": "Hardware",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background As voice-controlled IoT proliferate, processing everything in the cloud is too costly, privacy-invasive, and slow. The future belongs to hybrid architectures where the edge handles the initial 'wake-up' and the cloud handles the heavy lifting.\nDescription Build an ultra-lightweight, highly accurate keyword spotting (KWS) model that runs locally on a low-power device. Upon detecting the keyword, the system must instantly and efficiently stream the subsequent audio to a remote Automated Speech Recognition (ASR) server with minimal data overhead and latency.\nKey Metrics for Evaluation\n• Efficiency: Model size (RAM/Flash footprint) and CPU usage during idle listening.\n• Accuracy: High true-positive rate for the keyword with near-zero false activations.\n• Latency: The time delta between the keyword ending and the cloud ASR receiving the audio stream.\nSoftware & Framework Restrictions\n• Open-Source Only: The use of proprietary, closed-source, or commercial voice-activation SDKs is strictly prohibited.\n• Allowed Frameworks: Teams must build their keyword spotting (KWS) pipelines using open-source machine learning and TinyML frameworks. Recommended tools include TensorFlow Lite for Microcontrollers, PyTorch Mobile or similar.\n• No Pre-Trained Global Keywords: Teams cannot use models pre-trained on generic smart-assistant keywords like 'Hey Google' or 'Alexa'. They need to train on a custom key word.\nExpected Solution Teams are expected to deliver a robust, deployable system architecture. A successful submission must strictly satisfy the following technical boundaries:\n• Hardware & Runtime Environment: The edge software application must run smoothly within an environment restricted to less than 256KB of RAM and consume under 10% CPU utilization while idling in continuous listening mode. Heavy or uncompressed pre-trained transformers are disqualified. Solutions will be formally evaluated on physical low-power microcontrollers (e.g., Raspberry Pi or ESP32).\n• Model should work for the given custom key word.",
+  "scraped_at": "2026-09-03"
+}

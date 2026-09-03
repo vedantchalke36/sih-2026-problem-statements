@@ -1,0 +1,17 @@
+{
+  "sno": 187,
+  "ps_number": "SIH26187",
+  "title": "AI-Based Intelligent Video Analytics Platform for Border Surveillance using existing CCTV Infrastructure.",
+  "org": "Ministry of Home Affairs",
+  "department": "Sashastra Seema Bal (SSB), Police II Division",
+  "category": "Software",
+  "theme": "Blockchain & Cybersecurity",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Border security forces deploy CCTV cameras at Border Out Posts(BOPs), check posts, border roads, and other strategic locations for surveillance and monitoring. However, conventional CCTV systems primarily provide video recording and live monitoring capabilities,requiring continuous human observation. Advanced surveillance functionalities such as Facial Recognition Systems (FRS), Automatic Number Plate Recognition (ANPR), intrusion detection, and object tracking often require specialized hardware and proprietary solutions,making large-scale deployment costly and difficult, particularly in remote border areas.\n• Description The proposed solution aims to develop an AI-driven software platform capable of transforming existing CCTV infrastructure into an intelligent surveillance network without requiring dedicated FRS, ANPR, or smart-camera hardware. The platform shall ingest live video streams from standard IP-based CCTV cameras and perform real-time video analytics using Artificial Intelligence and Computer Vision techniques.\nThe solution should provide capabilities such as:\n• Human detection and tracking\n• Vehicle detection and classification\n• Face detection\n• Automatic Number Plate Recognition (ANPR)\n• Virtual fence intrusion detection\n• Suspicious activity detection\n• Night-time movement detection\n• Real-time alert generation and event logging\n• Expected Solution The proposed system should leverage Artificial Intelligence, Machine Learning, Computer Vision, and Video Analytics to create a software-defined surveillance platform capable of extracting actionable intelligence from existing CCTV infrastructure.\nThe solution should:\n• Eliminate dependence on expensive dedicated surveillance hardware.\n• Enable intelligent monitoring through AI-powered video analytics.\n• Provide real-time alerts for security incidents and border intrusions.\n• Support facial recognition, vehicle identification, and behavioral analytics through software.\n• Improve situational awareness and response time for border security forces.\n• Support integration with existing command and control systems.\n• The final solution should be cost-effective, scalable, and suitable for deployment across remote border locations and strategic installations.\n• Possible Project Name IBVAP – Intelligent Border Video Analytics Platform",
+  "scraped_at": "2026-09-03"
+}

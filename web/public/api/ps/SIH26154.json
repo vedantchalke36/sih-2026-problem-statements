@@ -1,0 +1,17 @@
+{
+  "sno": 154,
+  "ps_number": "SIH26154",
+  "title": "Gen AI Platform for Automated Content Transformation",
+  "org": "National Technical Research Organisation (NTRO)",
+  "department": "National Technical Research Organisation (NTRO)",
+  "category": "Software",
+  "theme": "Blockchain & Cybersecurity",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "2/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "Check nciipc.gov.in ; helpdesk1@nciipc.gov.in",
+  "description": "• Background Organisations frequently need to convert information available in different forms such as news articles, reports, advisories, threat intelligence, policy documents, research papers, announcements, incident reports or free-form prompts into specific communication artefacts suitable for various purposes. The process of manually analysing the source content, understanding the desired objective and creating the required output format is time-consuming, resource-intensive and often requires expertise in content creation, communication and domain knowledge.\nThere is a need for an intelligent platform that can transform user-provided content into a desired output format through a simple and configurable interface.\n• Description The system shall act as an AI-powered content transformation engine that converts a common source of information into the specific deliverable requested by the operator, thereby reducing manual effort, improving consistency, accelerating content creation and enhancing operational efficiency.\nThe platform shall provide a dashboard through which an operator can submit source content in the form of high quality English language text, documents, articles, reports, prompts, images, videos or contextual information. In addition to providing the source content, the operator shall select one or more desired output types through configurable parameters available on the dashboard.\nBased on the submitted content and the selected output type(s), the platform shall analyze the input, understand the context and intent, and generate the requested output artefact. The platform should support multiple output formats and allow operators to control generation parameters such as target audience, tone, language, level of detail, communication objective and content style.\nIn summary, platform shall generate output corresponding to the option(s) selected by the operator on the dashboard.\n• Examples include\n• If 'Video' is selected, generate a complete video package including script, storyboard, scene descriptions, narration text, subtitles and visual recommendations.\n• If 'LinkedIn Post' is selected, generate a professional LinkedIn post suitable for publication.\n• If 'Twitter/X Post' is selected, generate platform-optimized tweets or tweet threads.\n• If 'Advisory' is selected, generate a structured advisory document.\n• If 'Infographic' is selected, generate infographic content, layout recommendations and key messaging.\n• If 'Executive Summary' is selected, generate a concise executive briefing.\n• If 'Presentation' is selected, generate presentation slides and speaker notes.\n• If multiple output formats are selected, generate all selected deliverables from the same source content.\n• Expected Solution/Deliverables for Evaluation\n• Source Code Link (GitHub/Drive Link)\n• Readme with Setup Instructions\n• Architecture Document (Max 2 Pages)\n• Demo Video (Max 2 Minutes)\n• Technical Presentation (Max 5 Slides)",
+  "scraped_at": "2026-09-03"
+}

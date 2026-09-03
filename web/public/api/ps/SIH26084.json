@@ -1,0 +1,17 @@
+{
+  "sno": 84,
+  "ps_number": "SIH26084",
+  "title": "Convective scale nowcasting for Thunderstorms, Hail & Cloudbursts (06 hr)",
+  "org": "Ministry of Earth Sciences (MoES)",
+  "department": "National Centre for Medium Range Weather Forecasting (NCMRWF)",
+  "category": "Software",
+  "theme": "Disaster Management",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Convective storms, such as severe thunderstorms, hail, downburst winds, and cloudbursts are among India’s deadliest natural hazards, especially during the pre-monsoon and monsoon seasons.Despite advancements in Numerical Weather Prediction (NWP) models, traditional systems often fail to accurately capture these mesoscale extreme weather events.The primary limitation stems from spatial and temporal constraints: these violent storms develop rapidly within a window of minutes and occur at localized scales that slip through coarse grid resolutions. Current early warning infrastructures struggle to provide high-resolution, short-term forecasts (0–6 hours), leaving local administrations, aviation sectors, and rural farming communities vulnerable to sudden, devastating impacts.\nThe challenge is to build a real-time, convective-scale Nowcasting System (0–6 hour lead time) operating at a hyper-local 1–3 km spatial resolution.\nBecause traditional physics-based models are too computationally slow to simulate these rapid developments in real-time, participants must design a system rooted in Multi-Source Data Fusion architectures. The core objective is to ingest high-frequency, heterogeneous meteorological streams, automatically detect early convective initiation, and dynamically forecast severe storm parameters (including lightning strike density, hail probability, downburst velocity, and cloudburst thresholds).Design a robust, real-time ingestion engine that fuses data streams from multiple sources: Doppler Weather Radars (DWR - reflectivity and velocity fields), geostationary satellite imagery (INSAT-3D/3DR thermal/infrared bands), and ground-based lightning detection networks. A real-time,interactive GIS-mapped dashboard showcasing high-resolution (1–3 km) hazard zones with live countdown clocks for storm arrivals.",
+  "scraped_at": "2026-09-03"
+}

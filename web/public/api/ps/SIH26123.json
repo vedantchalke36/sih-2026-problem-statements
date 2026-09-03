@@ -1,0 +1,17 @@
+{
+  "sno": 123,
+  "ps_number": "SIH26123",
+  "title": "Edge-AI Based Distributed Fleet Coordination for Autonomous Mobile Robots (AMRs) in Smart Warehouses",
+  "org": "Bharat Electronics Limited",
+  "department": "Bharat Electronics Limited",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Modern smart warehouses rely on fleets of Autonomous Mobile Robots (AMRs) to move goods efficiently. As fleet sizes grow, relying entirely on a centralized cloud server for path planning causes high network latency, Wi-Fi dead-zone vulnerabilities, and single-point-of-failure risks.To ensure continuous operation, modern robotics is shifting toward decentralized, edge-computing solutions where robots can talk to each other directly and make split-second decisions on the fly.\n• Description The objective is to design a decentralized coordination and collision-avoidance framework for a multi-robot fleet (at least 3 AMRs) operating in a dynamic warehouse environment. The system must run locally on edge hardware (e.g., Raspberry Pi or Jetson Nano onboard each robot) and handle:\n1. Decentralized Communication: Inter-robot messaging to share position and intent without a central server.\n2. Dynamic Multi-Agent Conflict Resolution: Resolving deadlocks and avoiding collisions at narrow intersections or choke points in real-time.\n3. Task Allocation & Re-routing: Automatically re-assigning pickup points or changing paths if one robot encounters a blocked aisle.\n• Expected Solution A multi-robot simulation featuring:\n• Decentralized Network Stack: A peer-to-peer communication protocol where robots share localization data locally.\n• Multi-Agent Path Planning: Implementation of algorithms for edge hardware.\n• Fleet Dashboard: A lightweight monitoring UI that visualizes the entire fleet's real-time positions and battery status.\n• Success Criteria: Zero inter-robot collisions and a minimum 20% reduction in total task completion time compared to traditional stop-and-wait methods when handling overlapping paths.",
+  "scraped_at": "2026-09-03"
+}

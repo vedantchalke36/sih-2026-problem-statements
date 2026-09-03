@@ -1,0 +1,17 @@
+{
+  "sno": 191,
+  "ps_number": "SIH26191",
+  "title": "Intelligent Identification of Hazard-Based Red Zones, Carrying Capacity Assessment, and Immediate Relocation Needs for Vulnerable Habitations",
+  "org": "Ministry of Home Affairs",
+  "department": "National Disaster Response Force (NDRF), DM Division",
+  "category": "Software",
+  "theme": "Disaster Management",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background India’s disaster-prone regions face recurring hazards such as landslides,floods, coastal erosion, and cloudbursts. Vulnerable habitations often remain in unsafe zones, leading to repeated loss of lives and property.Current relocation efforts are largely reactive, initiated after disasters strike, rather than proactively planned.\n• Description The initiative seeks to develop an intelligent, GIS-enabled decision support platform. This platform will dynamically identify and update multi-hazard Red Zones (areas unsuitable for permanent habitation),assess the carrying capacity of safer alternative sites, and prioritize vulnerable habitations for relocation. The system will integrate hazard intensity, population vulnerability, and disaster history to guide evidence-based decisions.\n• Expected Solution A robust, AI-driven GIS platform that Maps and updates hazard-based Red Zones in real time, assesses suitability and carrying capacity of safer relocation sites, prioritizes vulnerable habitations for immediate,short-term, and medium-term relocation and provides actionable insights to State Disaster Management Authorities for proactive planning.",
+  "scraped_at": "2026-09-03"
+}

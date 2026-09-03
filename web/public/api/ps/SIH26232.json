@@ -1,0 +1,17 @@
+{
+  "sno": 232,
+  "ps_number": "SIH26232",
+  "title": "Low-Cost loT Block chain Nodes for Farm-to-Fork Traceability",
+  "org": "Ministry of Food Processing Industries (MoFPI)",
+  "department": "Ministry of Food Processing Industries (MoFPI)",
+  "category": "Hardware",
+  "theme": "Agriculture, FoodTech & Rural Development",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background:\nGlobal export markets demand strict compliance with international traceability standards to combat food fraud and track contamination outbreaks. While large enterprises can afford complex cold-chain logging systems, Small and Medium Enterprises (SMEs) are priced out. Additionally, standard data loggers often lose connectivity in remote agricultural areas, creating blind spots in the supply chain data.\nDescription:\nThere is a critical need for an affordable, rugged, tamper-proof hardware device that tracks ambient environmental data during transit. The hardware must survive harsh agricultural and industrial environments, including extreme moisture, dust, and vibrations, while continuously logging metrics like temperature, humidity, and ethylene gas.\nExpected Solution:\nA low-power, plug-and-play IoT sensor node equipped with local cryptographic storage to ensure data integrity during cellular dropouts. The device must feature energy-harvesting capabilities, such as solar or thermal, to extend battery life indefinitely.\nUpon reconnecting to a network, it must automatically sync its encrypted data directly to a decentralized ledger via lightweight protocols such as MQTT, preventing any unauthorized manipulation of the cold-chain logs.",
+  "scraped_at": "2026-09-03"
+}

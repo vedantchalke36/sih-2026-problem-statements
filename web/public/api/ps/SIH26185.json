@@ -1,0 +1,17 @@
+{
+  "sno": 185,
+  "ps_number": "SIH26185",
+  "title": "Helmet mounted conformal antenna for tactical communications in urban CQB environments.",
+  "org": "Ministry of Home Affairs",
+  "department": "National Security Guard (NSG), Police II Division",
+  "category": "Hardware",
+  "theme": "Robotics and Drones",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background During high-intensity urban counter-terrorism (CT) and Close-Quarter Battle (CQB) operations, the National Security Guard (NSG) operates in highly restrictive indoor spaces like closed rooms, basement areas, narrow corridors and stairwells. For seamless communication, commandos rely on vest-mounted handheld tactical radios. These systems traditionally use rigid, protruding omnidirectional whip antennas mounted on top of the radio itself. In fast-paced operations in confined spaces, these external whip antennas not only restricts ranges but also present an obstruction or cause frequent snagging on obstacles like door frames, windows or loose and hanging objects which can damage the the radio interface or obstruct his tactical movement.\n• Description Traditional whip antennas pose significant operational limitations.\nWhen an assault team enters a reinforced concrete or steel/glass-framed building, the RF signals radiated from a vest-mounted antenna suffers from severe attenuation and fading as the signals are tend to be blocked by virtue of its low positioning. Additionally, omnidirectional radiation patterns make the team vulnerable to electronic eavesdropping or directional tracking by sophisticated adversaries. To address these challenges, the antenna system needs to be elevated to the highest physical point of the commando - the helmet - without adding bulk or altering ballistic integrity. There is an immediate requirement to develop a low-profile, flexible conformal antenna array that integrates seamlessly into or onto tactical ballistic helmets while maintaining high gain and minimal protruding hardware.\n• Expected Solution A ruggedized, zero-profile wearable antenna system should be developed with the following parameters:- (a) Lightweight, ultra-thin and flexible microstrip patch antenna elements designed for integration with NSG ballistic helmets without degrading impact or ballistic protection ratings.\n(b) The conformal array must support UHF and L band frequencies to be able to operate with handheld radios and with the svl equipment like helmet mounted/ body worn cameras to transmit live video streams.\n(c) Advanced RF shielding layers built into the underside of the array to isolate the commando’s head from radiation while directing an optimized radiation pattern upward and outward.\n(d) A ruggedized coaxial interface cable routed cleanly along the helmet to connect directly into the NSG existing handheld radios and body-worn camera systems being procured.",
+  "scraped_at": "2026-09-03"
+}

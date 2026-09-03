@@ -1,0 +1,17 @@
+{
+  "sno": 192,
+  "ps_number": "SIH26192",
+  "title": "Flash Flood Prediction System for Hilly Regions using Multi-Source Data Theme",
+  "org": "Ministry of Home Affairs",
+  "department": "National Disaster Response Force (NDRF), DM Division",
+  "category": "Software",
+  "theme": "Disaster Management",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "1/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Hilly states in India are highly vulnerable to landslides and flash floods,which often occur with very short warning times. These sudden events result in significant loss of lives and property, and current early warning mechanisms are inadequate for hyper-local prediction and timely evacuation.\n• Description The proposed initiative aims to develop a predictive system that integrates multiple data sources - rainfall data, soil moisture sensors,slope stability models, historical landslide inventories, and real-time IoT inputs. By combining these datasets, the system will generate hyper-local forecasts at the village or ward level, providing sufficient lead time for evacuation and risk mitigation.\n• Expected Solution A comprehensive flash flood prediction system that Integrates rainfall,soil moisture, slope stability, and historical disaster data, utilizes IoT sensors for real-time monitoring, issues hyper-local early warnings at village/ward level, and provides actionable lead time for evacuation and disaster preparedness.",
+  "scraped_at": "2026-09-03"
+}

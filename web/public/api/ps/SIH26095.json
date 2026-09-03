@@ -1,0 +1,17 @@
+{
+  "sno": 95,
+  "ps_number": "SIH26095",
+  "title": "Smart Real-Time Monitoring & Inspection Mobile App",
+  "org": "Ministry of Social Justice and Empowerment (MoSJE)",
+  "department": "Department of Social Justice and Empowerment",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "1/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Problem Statement Develop a centralized mobile application for real-time monitoring, surprise inspections, CCTV surveillance integration, and random inspection assignment for projects/institutes/NGOs running under DoSJE schemes.\n• Key Features\n• Live CCTV feed integration from projects/institutes\n• Random Video Conferencing (VC) connectivity with Project Incharge/Staff/Beneficiaries\n• Real-time monitoring dashboard for Department officials\n• Mobile-based inspection module for PMU/Inspection Teams\n• Random assignment of inspection duties through AI/automation\n• Geo-tagged inspection reports and live evidence capture\n• AI-based anomaly and attendance analytics\n• Stakeholders\n• DoSJE Divisions\n• PMU Teams\n• NGOs/Institutes\n• Beneficiaries\n• State/District Authorities\n• Expected Outcomes:\n• Improved transparency and accountability\n• Reduction in fake reporting and proxy functioning\n• Real-time monitoring of projects\n• Better inspection governance and compliance\n• Enhanced citizen-centric service delivery",
+  "scraped_at": "2026-09-03"
+}

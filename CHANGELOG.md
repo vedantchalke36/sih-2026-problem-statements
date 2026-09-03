@@ -1,6 +1,1053 @@
 # CHANGELOG
 
 Automated record of daily changes to the SIH 2026 problem statement dataset.
+# SIH 2026 Data Update - 2026-09-03
+
+- **Total statements:** 233
+- **Added:** 4
+- **Removed:** 0
+- **Updated:** 229
+
+## Added
+
+- **SIH26230** - Breath-Based Detection Device for Drug Consumption (Ministry of Home Affairs, MedTech / BioTech / HealthTech)
+- **SIH26231** - Digital Companion for Field Drug Testing (Ministry of Home Affairs, MedTech / BioTech / HealthTech)
+- **SIH26232** - Low-Cost loT Block chain Nodes for Farm-to-Fork Traceability (Ministry of Food Processing Industries (MoFPI), Agriculture, FoodTech & Rural Development)
+- **SIH26233** - Inline Microbial Contamination Detection Using Hyperspectral
+Edge Sensors (Ministry of Food Processing Industries (MoFPI), Agriculture, FoodTech & Rural Development)
+
+## Updated
+
+### SIH26001
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `2/500`
+
+### SIH26002
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26003
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26004
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26005
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26006
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26007
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26008
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26009
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26010
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26011
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26012
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26013
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26014
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26015
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+- **Dataset link:** `` -> `Additional Information regarding PS
+https://drive.google.com/drive/folders/1ibmzWpl_nK7aBhQurs22R9kqh9fPAQwC`
+
+### SIH26016
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `` -> `Additional Information regarding PS
+
+https://drive.google.com/drive/folders/1ibmzWpl_nK7aBhQurs22R9kqh9fPAQwC`
+
+### SIH26017
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `` -> `Additional Information regarding PS
+https://drive.google.com/drive/folders/1ibmzWpl_nK7aBhQurs22R9kqh9fPAQwC`
+
+### SIH26018
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `` -> `Additional Information regarding PS
+https://drive.google.com/drive/folders/1ibmzWpl_nK7aBhQurs22R9kqh9fPAQwC`
+
+### SIH26019
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `` -> `Additional Information regarding PS
+https://drive.google.com/drive/folders/1ibmzWpl_nK7aBhQurs22R9kqh9fPAQwC`
+
+### SIH26020
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26021
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26022
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26023
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26024
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26025
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26026
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26027
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26028
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26029
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26030
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26031
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26032
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26033
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26034
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26035
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26036
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26037
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26038
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26039
+- **Organization:** `Governmcnt of Jharkhand` -> `Government of Jharkhand`
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26040
+- **Organization:** `Governmcnt of Jharkhand` -> `Government of Jharkhand`
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26041
+- **Organization:** `Governmcnt of Jharkhand` -> `Government of Jharkhand`
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26042
+- **Organization:** `Governmcnt of Jharkhand` -> `Government of Jharkhand`
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26043
+- **Organization:** `Governmcnt of Jharkhand` -> `Government of Jharkhand`
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26044
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `4/500`
+
+### SIH26045
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26046
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26047
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `2/500`
+- **Dataset link:** `` -> `Additional Information regarding PS
+https://drive.google.com/file/d/1mQ6Qp2MKL8JXdL2kJYqV-SFqcfbxSvrd/view?usp=drive_link`
+
+### SIH26048
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Description:** `Background:
+Kwatha (kashaya / kadha) is among the most widely used Ayurvedic dosage forms and is most effective when freshly prepared, yet a fresh decoction must be consumed within a few hours, is ...` -> `Background:
+Kwatha (kashaya / kadha) is among the most widely used Ayurvedic dosage forms and is most effective when freshly prepared, yet a fresh decoction must be consumed within a few hours, is ...`
+
+### SIH26049
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26050
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26051
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26052
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26053
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26054
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26055
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26056
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26057
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26058
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26059
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26060
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26061
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26062
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26063
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26064
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26065
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26066
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `` -> `Additional Information regarding PS
+https://drive.google.com/file/d/1TrME3MMW-aYaf7KNmDXpwl2CcvLYjp-T/view?usp=drive_link`
+- **Description:** `• Background Subsurface ocean temperature is a fundamental variable for understanding ocean circulation,upper-ocean heat content, stratification, climate variability, air-sea interaction and marine...` -> `Background
+Subsurface ocean temperature is a fundamental variable for understanding ocean circulation,
+upper-ocean heat content, stratification, climate variability, air-sea interaction and marine ...`
+
+### SIH26067
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `` -> `The following dataset links are missing and should be included:
+
+a. Numerical Ocean Model Outputs: https://las.incois.gov.in/ & https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_PHY_001_03...`
+- **Description:** `• Background India's vast Exclusive Economic Zone (EEZ) and coastline demand continuous, high-resolution monitoring of ocean state variables. INCOIS routinely generates and archives large volumes o...` -> `Background
+India's vast Exclusive Economic Zone (EEZ) and coastline demand continuous, high-resolution monitoring of ocean state variables. INCOIS routinely generates and archives large volumes of ...`
+
+### SIH26068
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `2/500`
+
+### SIH26069
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26070
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26071
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26072
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26073
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26074
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26075
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26076
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26077
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26078
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26079
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26080
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26081
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26082
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26083
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26084
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26085
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26086
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26087
+- **Title:** `AI-Enabled Cooperative Capacity Building, ERP & Employment Ecosystem` -> `AI & LMS - Enabled Cooperative Capacity Building, ERP & Employment Ecosystem`
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26088
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26089
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26090
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26091
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26092
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26093
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26094
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26095
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26096
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26097
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26098
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26099
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26100
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26101
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `2/500`
+
+### SIH26102
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26103
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26104
+- **Organization:** `All India Council for Technical Education (AICTE)` -> `All India Council for Technical Education (Cyber Security Cell)`
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26105
+- **Organization:** `All India Council for Technical Education (AICTE)` -> `All India Council for Technical Education (Cyber Security Cell)`
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26106
+- **Organization:** `All India Council for Technical Education (AICTE)` -> `All India Council for Technical Education (Cyber Security Cell)`
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26107
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26108
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26109
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26110
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26111
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `` -> `Additional Information regarding PS
+https://drive.google.com/drive/folders/1KrErp9hRfLlaWw3gqvWFo1EpQiU1qtbG`
+
+### SIH26112
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `` -> `Additional Information regarding PS
+https://drive.google.com/drive/folders/1KYkkQjRbpq--YRF5sgVndjLGgItqLr1b`
+
+### SIH26113
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `` -> `Additional Information regarding PS
+https://drive.google.com/drive/folders/1KYkkQjRbpq--YRF5sgVndjLGgItqLr1b`
+
+### SIH26114
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `` -> `Additional Information regarding PS
+https://drive.google.com/drive/folders/1KYkkQjRbpq--YRF5sgVndjLGgItqLr1b`
+
+### SIH26115
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `` -> `Additional Information regarding PS
+https://drive.google.com/drive/folders/1KYkkQjRbpq--YRF5sgVndjLGgItqLr1b`
+
+### SIH26116
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `` -> `Additional Information regarding PS
+https://drive.google.com/drive/folders/1KYkkQjRbpq--YRF5sgVndjLGgItqLr1b`
+
+### SIH26117
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26118
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26119
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26120
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26121
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26122
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26123
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26124
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26125
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26126
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26127
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26128
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26129
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26130
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26131
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26132
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `3/500`
+
+### SIH26133
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `3/500`
+
+### SIH26134
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26135
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26136
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26137
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `Public/Open` -> `Public/Open Additional Information regarding PS
+
+https://drive.google.com/file/d/1iubIiKS9NPr2lpYMVTt2MxgC_qRq5NnM/view?usp=drive_link`
+
+### SIH26138
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `Public/Open` -> `Public/Open Additional Information regarding PS
+https://drive.google.com/file/d/1h0pt48eJAq-wAHUf5-gFA9PIibOxVyk0/view?usp=drive_link`
+
+### SIH26139
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `Public/Open` -> `Additional Information Regarding PS
+https://drive.google.com/file/d/1IbbUFML0d8J8VcpzS462Ye8RIvAB-qtp/view?usp=drive_link`
+
+### SIH26140
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `Public/Open` -> `Public/Open Additional Information Regarding PS
+
+https://drive.google.com/file/d/1hfk85X50qOAuUqbmA50PQj1vl_7f7X6W/view?usp=drive_link`
+
+### SIH26141
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `Public/Open` -> `Public/Open Additional Information Regarding PS
+
+https://drive.google.com/drive/folders/1rgGdaPn9rdGZfkaqc3MKVfdCK8r5X_gk`
+
+### SIH26142
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26143
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26144
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `` -> `Additional Information regarding PS
+
+https://drive.google.com/file/d/1rbQDRWrG-187j4hNqqc_oTiKvdjK8AzZ/view?usp=drive_link`
+
+### SIH26145
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26146
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `` -> `https://drive.google.com/file/d/1J7cAKc0i7KPQRjmMU9uvR1yJb7BVgiMs/view?usp=drive_link%22`
+
+### SIH26147
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26148
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26149
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26150
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26151
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26152
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26153
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26154
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `2/500`
+
+### SIH26155
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `2/500`
+
+### SIH26156
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26157
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26158
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `Will be provided real time.` -> `Will be provided real time. Additional Information regarding PS
+https://drive.google.com/file/d/119hjXkLhMW_AhQ4cyYz-XJgcVz4BA-hD/view?usp=drive_link`
+
+### SIH26159
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26160
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26161
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26162
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26163
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26164
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26165
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26166
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26167
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `Training / Fine-Tuning Dataset
+BigEarthNet.txt - primary dataset for remote-sensing adaptation using co-registered Sentinel-1 SAR, Sentinel-2 multispectral imagery, and diverse text annotations. Li...` -> `Training / Fine-Tuning Dataset_x000D_
+BigEarthNet.txt - primary dataset for remote-sensing adaptation using co-registered Sentinel-1 SAR, Sentinel-2 multispectral imagery, and diverse text annotati...`
+
+### SIH26168
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26169
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Dataset link:** `` -> `Additional Information Regarding PS
+
+https://drive.google.com/file/d/1AWRWChSMKU8FI38XxfFyQJfCRp3gqkF6/view?usp=drive_link`
+
+### SIH26170
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26171
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26172
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26173
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26174
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26175
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26176
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26177
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26178
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26179
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26180
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26181
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26182
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26183
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26184
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26185
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26186
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26187
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26188
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26189
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `2/500`
+
+### SIH26190
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26191
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26192
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26193
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26194
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26195
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26196
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26197
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26198
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26199
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26200
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26201
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26202
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26203
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26204
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26205
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26206
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `2/500`
+
+### SIH26207
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26208
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26209
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26210
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26211
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26212
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26213
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26214
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26215
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26216
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26217
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26218
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26219
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26220
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26221
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26222
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26223
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26224
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26225
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26226
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26227
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+### SIH26228
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+- **Submitted ideas count:** `0/500` -> `1/500`
+
+### SIH26229
+- **Deadline:** `20 September 2026` -> `30 September 2026`
+- **Deadline (parsed):** `2026-09-20` -> `2026-09-30`
+
+
+Full diff: [data/changelog/2026-09-03.md](data/changelog/2026-09-03.md)
+
+
+---
+
 # SIH 2026 Data Update - 2026-08-29
 
 - **Total statements:** 229

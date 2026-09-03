@@ -1,0 +1,17 @@
+{
+  "sno": 111,
+  "ps_number": "SIH26111",
+  "title": "Smart Al-Enabled Rapid Feed and Silage Quality Testing System for Dairy Farmers",
+  "org": "Ministry of Fisheries, Animal Husbandry & Dairying",
+  "department": "Department of Animal Husbandry & Dairying",
+  "category": "Software",
+  "theme": "Agriculture, FoodTech & Rural Development",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "Additional Information regarding PS\nhttps://drive.google.com/drive/folders/1KrErp9hRfLlaWw3gqvWFo1EpQiU1qtbG",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Animal nutrition directly affects milk production, animal health, reproductive performance, and dairy profitability. Dairy farmers often face challenges due to poor-quality cattle feed,adulterated feed ingredients, fungal contamination, toxin presence, and low-quality silage.Conventional feed testing laboratories are expensive and inaccessible for many rural farmers.There is a need for rapid, portable, affordable, and digitally enabled feed quality assessment systems.Emerging technologies such as Al, loT, spectroscopy, computer vision, and biosensors can help create real-time feed testing and advisory systems for dairy farmers.\n• Description Participants are required to develop a rapid digital testing solution capable of:\n• Assessing nutritional quality of cattle feed and silage;\n• Detecting adulteration and contamination;\n• Providing instant farmer advisories and feed recommendations;\n• Monitoring feed storage and silage conditions.\nThe solution may include:\n• Portable testing devices;\n• Smartphone-enabled feed analysis;\n• Al-powered nutritional prediction;\n• Cloud dashboards;\n• QR-based authenticity systems.\nThe system may detect:\n• Crude protein\n• Moisture\n• Fiber\n• Energy value\n• Mineral deficiencies\n• Urea adulteration\n• Sand/silica contamination\n• Aflatoxins and mycotoxins\n• Fungal contamination Silage monitoring may include:\n• pH\n• Fermentation quality\n• Moisture\n• Spoilage indicators\n• Mould growth\n• Expected Solution The expected solution should:\n• Provide testing results within minutes;\n• Be low-cost and portable;\n• Support multilingual farmer interfaces;\n• Work offline in rural areas;\n• Generate nutritional and storage advisories;\n• Enable cloud-based monitoring and traceability.\n• Expected technologies\n• AI/ML\n• loT sensors\n• NIR spectroscopy\n• Mobile applications\n• Computer vision\n• Cloud analytics\n• Predictive advisory systems\n• Insert Table Here*",
+  "scraped_at": "2026-09-03"
+}

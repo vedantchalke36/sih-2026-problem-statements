@@ -1,0 +1,17 @@
+{
+  "sno": 1,
+  "ps_number": "SIH26001",
+  "title": "AI-Based early warning and landslide Risk Monitoring System in NER",
+  "org": "Ministry of Development of North Eastern Region (MDoNER)",
+  "department": "Ministry of Development of North Eastern Region (MDoNER)",
+  "category": "Software",
+  "theme": "Disaster Management",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "2/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background:\nThe North Eastern Region (NER) frequently faces landslides, flash floods, road blockages, and slope failures due to heavy rainfall, fragile terrain, and unplanned hill cutting. These incidents often disrupt connectivity, damage infrastructure, delay emergency response, and isolate remote villages for days. Currently, monitoring of vulnerable zones is mostly reactive and dependent on manual reporting. There is limited use of real-time predictive systems for identifying high-risk zones and issuing early warnings to authorities and local communities. With increasing climate vulnerability in the region, there is a need for an AI-enabled real-time monitoring and prediction system that can help authorities take preventive action before disasters occur.\nDescription:\nThis problem statement proposes the development of an Al-powered early warning and monitoring platform capable of predicting and tracking landslide-prone areas in real time across the North Eastern Region. The solution should:\na. Collect and analyse data from: Rainfall patterns Soil moisture sensors Satellite imagery Terrain/slope data Historical landslide records b. Use AI/ML models to identify high-risk zones and predict possible landslide events.\nc. Provide real-time alerts to district administrations, disaster management authorities, and local communities.\nd. Integrate GIS mapping for visualization of vulnerable roads, villages, and infrastructure.\ne. Allow citizens/field officials to upload geo-tagged photos/videos of cracks, slope movement or blocked roads.\nf. Generate dashboards showing:\n• Risk severity levels\n• Road connectivity status\n• Weather-linked risk forecasts\n• Emergency response prioritisation. Support multilingual notifications and low-network/offline functionality for remote areas.\nExpected Solution:\nA scalable Al-based software platform with:\n• Real-time GIS dashboard and risk heatmaps\n• AI/ML-based predictive analytics engine\n• Mobile/web application for field reporting and alerts.\n• Integration with IMD weather APIs, satellite feeds, and sensor data\n• Automated SMS/app-based early warning system\n• Cloud-based architecture with offline sync support for remote regions The solution should improve disaster preparedness, reduce loss of life and infrastructure damage, and strengthen climate-resilient governance in the North Eastern Region.",
+  "scraped_at": "2026-09-03"
+}

@@ -1,0 +1,17 @@
+{
+  "sno": 4,
+  "ps_number": "SIH26004",
+  "title": "Al-Assisted Early Detection System for Osteoarthritis (OA) Risk Markers in North Eastern Region (NER)",
+  "org": "Ministry of Development of North Eastern Region (MDoNER)",
+  "department": "Ministry of Development of North Eastern Region (MDoNER)",
+  "category": "Hardware",
+  "theme": "MedTech / BioTech / HealthTech",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background:\nOsteoarthritis (OA) is one of the most common musculoskeletal disorders affecting elderly individuals and physically active populations, leading to chronic pain, joint stiffness, mobility issues, and reduced quality of life.\nIn the North Eastern Region (NER), difficult terrain, physically demanding livelihoods, aging population, and limited access to specialized orthopaedic care further increase the burden of undiagnosed and untreated osteoarthritis cases. Early identification of OA risk markers is critical for timely intervention and preventive healthcare management.\nHowever, healthcare facilities in many remote and rural areas of NER lack affordable screening tools, specialist support, and diagnostic infrastructure for early-stage detection of osteoarthritis. There is a need for a technology-driven solution that can assist healthcare workers in identifying early OA indicators and supporting preventive screening in low-resource settings across the North Eastern Region.\nDescription:\nThis problem statement seeks to develop an AI-assisted screening and detection system for identifying early risk markers and symptoms associated with Osteoarthritis (OA) in the North Eastern Region. The solution should:\na. Assist in early detection of OA-related risk markers through\n• Joint movement analysis\n• Gait and posture assessment\n• Pain and mobility screening inputs\n• Medical imaging or sensor-based assessment (if applicable)\nb. Use AI/ML techniques to analyse patient data and identify high-risk cases for early intervention c. Support screening in primary healthcare centres, rural health camps, and community outreach programs d. Provide preliminary OA risk assessment and severity indication e. Enable healthcare workers to digitally record patient symptoms and screening reports f. Include multilingual and easy-to-use interfaces suitable for rural healthcare settings in NER g. Work in low-connectivity environments with offline data collection capability h. Provide awareness and preventive guidance related to joint care, physical activity, nutrition, and lifestyle management The solution should be portable, affordable, and suitable for deployment in remote and underserved areas.\nExpected Solution:\nA scalable Al-enabled healthcare screening solution with:\n• Al-based OA risk analysis and screening module\n• Portable assessment interface or sensor-assisted screening mechanism\n• Digital patient record and report generation system\n• Mobile/web-based healthcare worker interface\n• Offline synchronization capability for remote areas\n• Multilingual support and simplified workflow for field deployment\n• Secure patient data management and analytics dashboard The solution should support early diagnosis, preventive healthcare intervention, and improved accessibility to musculoskeletal healthcare services in the North Eastern Region.",
+  "scraped_at": "2026-09-03"
+}

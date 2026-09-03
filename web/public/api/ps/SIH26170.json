@@ -1,0 +1,17 @@
+{
+  "sno": 170,
+  "ps_number": "SIH26170",
+  "title": "AI-Driven Anomaly Detection in Component Burn-In & Screening",
+  "org": "Indian Space Research Organisation(ISRO)",
+  "department": "Department of Space / Indian Space Research Organisation",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background In high-reliability sectors (like space) electronic components undergo rigorous environmental stress screening (ESS), including Burn-In testing (operating components at elevated temperatures, e.g., 125°C for extended periods).\nTraditional screening relies on static parametric pass/fail limits. However, 'latent defects'-components that pass the absolute limits but exhibit subtle, anomalous drift over time-often escape into final payloads, leading to catastrophic field failures.\nDescription Development of a predictive machine learning model that analyzes time-series parametric data (e.g., standby current Iddq, leakage currents, or propagation delays measured at intervals like 0h, 24h, 96h, and 168h to detect anomalous components.\nExpected Solution Module A: The outlier detection system Static limits catch obvious failures. Participants need to develop a 'Dynamic' outlier detection system. If a lot has an average leakage current of 10µA, a part showing 45 µA is a massive anomaly, even if the absolute datasheet maximum limit is 50 µA.\nModule B: Time-Series Drift Predictor Build a predictive regression model that takes Value_0h and Value_24h as inputs and forecasts Value_168h. If the predicted 168h drift rate exceeds a calculated safety slope, the system flags the component for early rejection.\nEvaluation Metrics:\n• Anomaly Detection Score: a False Negative (missing a defective part) is catastrophic, penalizing teams that let bad parts escape.\n• Drift Prediction Accuracy : The mean absolute error between the predicted Value_168h and the actual hidden ground-truth values.\n• Explainability : Can the model justify its classification to a QA inspector, or is it a complete black box?",
+  "scraped_at": "2026-09-03"
+}

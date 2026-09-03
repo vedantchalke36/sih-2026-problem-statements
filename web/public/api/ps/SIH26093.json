@@ -1,0 +1,17 @@
+{
+  "sno": 93,
+  "ps_number": "SIH26093",
+  "title": "AI-Based Real-Time Stress and Trauma Assessment Module for Victims/Complainants Accessing NHAA (14566) and Integrated Portal",
+  "org": "Ministry of Social Justice and Empowerment (MoSJE)",
+  "department": "Department of Social Justice and Empowerment",
+  "category": "Software",
+  "theme": "MedTech / BioTech / HealthTech",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "1/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Victims and complainants belonging to Scheduled Castes and Scheduled Tribes who approach the National Helpline Against Atrocities (14566), Integrated Portal, chatbot, mobile application, IVRS, or other digital platforms often experience severe emotional distress arising from caste-based discrimination, violence, rape, gang rape, murder of family members, social boycott, displacement, threats, and prolonged legal proceedings. Presently, there is no standardized mechanism for assessing the psychological condition and vulnerability of victims at the time of first contact with authorities.\n• Problem Statement Design and develop an AI-enabled Real-Time Stress and Trauma Assessment Module that can assess the psychological stress, trauma, fear, anxiety, and vulnerability levels of victims/complainants interacting through NHAA (14566), the Integrated Portal, chatbot,IVRS, mobile application, or any other approved digital interface.\n• Expected Solution The solution should:\n• Analyse voice interactions, speech patterns, pauses, pitch variation, emotional indicators, and textual narratives.\n• Use Natural Language Processing (NLP), Speech Analytics, and Emotion AI to identify signs of trauma and distress.\n• Generate a Stress Vulnerability Index (SVI) on a predefined scale.\n• Categorize victims into Low, Moderate, High, and Critical Risk categories.\n• Detect indicators of severe trauma, fear, depression, suicidal ideation,intimidation, social isolation, and extreme vulnerability.\n• Automatically recommend counselling, legal aid, medical assistance, police intervention, witness protection, or emergency support based on risk level.\n• Support multilingual interactions, including major Indian languages and dialects.\n• Maintain privacy, informed consent, confidentiality, and ethical AI standards.\n• Expected Outcomes\n• Early identification of highly distressed victims.\n• Prioritization of counselling and rehabilitation services.\n• Improved victim-centric grievance redressal.\n• Better allocation of support resources.\n• Enhanced responsiveness of the helpline and integrated portal ecosystem.\n• Stakeholders:\n• Department of Social Justice and Empowerment\n• National Helpline Against Atrocities (14566)\n• State Governments and Union Territories\n• District Administrations\n• Counsellors and Mental Health Professionals\n• Law Enforcement Agencies\n• Rehabilitation and Welfare Authorities",
+  "scraped_at": "2026-09-03"
+}

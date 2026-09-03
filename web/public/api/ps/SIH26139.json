@@ -1,0 +1,17 @@
+{
+  "sno": 139,
+  "ps_number": "SIH26139",
+  "title": "Hybrid Quantum Machine Learning Platform for Early Disease Detection",
+  "org": "Egreen Quanta",
+  "department": "Egreen Quanta",
+  "category": "Software",
+  "theme": "MedTech / BioTech / HealthTech",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "Additional Information Regarding PS\nhttps://drive.google.com/file/d/1IbbUFML0d8J8VcpzS462Ye8RIvAB-qtp/view?usp=drive_link",
+  "contact": "",
+  "youtube": "",
+  "description": "Background Early and accurate detection of diseases significantly improves treatment outcomes and reduces healthcare costs. Classical machine learning models have achieved notable success in medical diagnosis; however, they often face limitations when dealing with high-dimensional, noisy, and complex biomedical data (e.g., genomics, medical imaging, and electronic health records).\nQuantum machine learning (QML) offers the potential to capture intricate patterns through quantum superposition and entanglement. Due to current hardware constraints, a hybrid quantum-classical approach provides a practical pathway to leverage quantum advantages while remaining executable on existing quantum simulators and near-term quantum devices.\nDescription This problem focuses on designing and developing a hybrid quantum machine learning platform for early disease detection. The platform will integrate classical pre-processing and feature engineering with quantum-enhanced learning models (such as quantum support vector machines, quantum neural networks, or variational quantum classifiers). It will be applied to biomedical datasets for the early identification of diseases (e.g., cancer, cardiovascular disorders, or neurological conditions). The system should support data ingestion, hybrid model training, prediction, explainability, and performance evaluation against purely classical baselines.\nObjectives\n• Design a hybrid quantum-classical machine learning architecture suitable for early disease detection.\n• Develop quantum-enhanced classification/regression models that can process high-dimensional biomedical data.\n• Improve detection accuracy, sensitivity, and specificity compared with classical machine learning baselines.\n• Ensure the platform is scalable, interpretable, and compatible with near-term quantum hardware and simulators.\n• Incorporate data pre-processing, feature selection, and model explainability modules.\n• Benchmark the hybrid approach against classical models in terms of accuracy,computational efficiency, and generalization performance.\nExpected Solution A fully functional hybrid quantum machine learning software platform capable of performing early disease detection on real or benchmark biomedical datasets. The solution must include data handling pipelines, hybrid quantum-classical model implementation, training and inference workflows, performance evaluation, explainability features, and comprehensive documentation.\nAdd 'Delivery Table (Expected Deliverables)' here",
+  "scraped_at": "2026-09-03"
+}

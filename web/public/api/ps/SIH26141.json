@@ -1,0 +1,17 @@
+{
+  "sno": 141,
+  "ps_number": "SIH26141",
+  "title": "Quantum-Inspired Cyber Threat Detection for Digital Signature Security",
+  "org": "Egreen Quanta",
+  "department": "Egreen Quanta",
+  "category": "Software",
+  "theme": "Blockchain & Cybersecurity",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "Public/Open Additional Information Regarding PS\n\nhttps://drive.google.com/drive/folders/1rgGdaPn9rdGZfkaqc3MKVfdCK8r5X_gk",
+  "contact": "",
+  "youtube": "",
+  "description": "Background The rapid advancement of quantum computing poses a serious threat to classical public-key cryptographic systems such as RSA and Elliptic Curve Cryptography (ECC), which can be broken by algorithms like Shor’s algorithm. This vulnerability endangers the security of critical digital infrastructures. Quantum Digital Signature (QDS) protocols offer information-theoretic security by exploiting fundamental principles of quantum mechanics. Among these, teleportation-based QDS protocols are particularly promising because they enable secure signature generation and verification through quantum teleportation and entanglement, while reducing some of the practical deployment complexities associated with earlier QDS schemes.\nDescription This problem focuses on developing a quantum-inspired cyber threat detection framework specifically designed for Quantum Digital Signature (QDS) systems. The framework will detect threats to the integrity and authenticity of digital signatures-such as forgery, impersonation, replay attacks, and quantum channel manipulation-without relying on artificial intelligence or machine learning techniques. Instead, it will utilize quantum principles including Pauli eigenstates, projective measurements, and statistical analysis of measurement outcomes to evaluate forgery probabilities and verification accuracy, while preserving information-theoretic security guarantees.\nObjectives\n• Design a quantum-inspired threat detection framework for teleportation-based Quantum Digital Signature protocols.\n• Detect digital signature forgery, impersonation, replay attacks, and unauthorized verification attempts.\n• Utilize Pauli eigenstates, quantum measurement analysis, and statistical threshold methods for threat identification.\n• Ensure efficient verification algorithms that maintain information-theoretic security.\n• Evaluate the framework through forgery probability analysis, attack simulations, and performance metrics.\nExpected Solution A software framework for Quantum-Inspired Cyber Threat Detection tailored to teleportation-based Quantum Digital Signature protocols. The solution will simulate quantum public key distribution using Bell-state entanglement and quantum teleportation, apply Pauli correction operations and projective measurements for signature verification, and detect malicious activities through statistical evaluation and threshold-based decision rules. The framework will include mathematical modelling, attack simulation capabilities, security analysis, and performance evaluation, ensuring deterministic acceptance of legitimate signatures, low computational complexity, and strong security guarantees.\nAdd 'Delivery Table (Expected Deliverables)' here",
+  "scraped_at": "2026-09-03"
+}

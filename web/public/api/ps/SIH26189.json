@@ -1,0 +1,17 @@
+{
+  "sno": 189,
+  "ps_number": "SIH26189",
+  "title": "AI-Powered Criminal Network Analysis System",
+  "org": "Ministry of Home Affairs",
+  "department": "National Crime Records Bureau (NCRB), Women Safety Division",
+  "category": "Software",
+  "theme": "Blockchain & Cybersecurity",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "2/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Modern criminal activities are increasingly organized and interconnected. Criminals often operate through networks involving associates, intermediaries, financial channels, communication links,locations, and events. Law enforcement agencies collect large volumes of data from sources such as:\n• FIRs and police reports\n• Call Detail Records (CDRs)\n• Financial transaction records\n• Surveillance reports\n• Social media intelligence\n• Criminal history databases\n• Intelligence agency reports Despite having access to this information, investigators frequently face challenges in identifying hidden relationships among suspects because the data is fragmented, unstructured, and distributed across multiple systems. Manual analysis can be slow, labor-intensive, and prone to missing critical connections.With advances in Artificial Intelligence (AI), Machine Learning (ML),Natural Language Processing (NLP), and Graph Analytics, it is now possible to automatically discover relationships, detect patterns, and generate insights that can assist investigators in understanding criminal networks more effectively.\n• Description The objective is to develop an AI-powered system that can analyze large volumes of criminal and intelligence-related data to uncover hidden networks and relationships among individuals, organizations, locations,and events.\nThe system should:\n• Collect and process data from multiple sources.\n• Extract important entities such as people, locations, vehicles, phone numbers, and organizations.\n• Build relationship maps showing how different entities are connected.\n• Identify key individuals who play influential roles within criminal networks.\n• Detect suspicious patterns and unusual activities.\n• Assist investigators by providing visual and analytical insights.\n• Expected Solution Develop an AI-powered system that automatically analyzes structured and unstructured crime-related data to uncover criminal networks,identify key influencers, detect suspicious patterns, and provide actionable intelligence for investigators.",
+  "scraped_at": "2026-09-03"
+}

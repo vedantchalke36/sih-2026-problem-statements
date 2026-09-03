@@ -1,0 +1,17 @@
+{
+  "sno": 94,
+  "ps_number": "SIH26094",
+  "title": "AI-Powered Dynamic Mental Health Monitoring and Distress Prediction System for Victims of Atrocities",
+  "org": "Ministry of Social Justice and Empowerment (MoSJE)",
+  "department": "Department of Social Justice and Empowerment",
+  "category": "Software",
+  "theme": "MedTech / BioTech / HealthTech",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Victims of atrocities frequently experience prolonged psychological distress after complaint registration due to threats, intimidation, repeated court appearances, delays in investigation and trial, social ostracism, economic hardship, and rehabilitation challenges.Existing mechanisms focus primarily on legal and financial support and do not provide continuous monitoring of victim well-being.\n• Problem Statement Develop an AI-based Dynamic Mental Health Monitoring and Distress Prediction System that continuously monitors and predicts psychological distress among victims and complainants registered through NHAA (14566), the Integrated Portal, chatbot, mobile application, IVRS, or other approved communication channels throughout the investigation,trial, rehabilitation, and compensation process.\n• Expected Solution The system should:\n• Conduct periodic interactions with victims through chatbot, IVRS calls, SMS, mobile applications, web portal, or helpline follow-up mechanisms.\n• Analyse voice, text, behavioural responses, and engagement patterns using NLP, Sentiment Analysis, and Emotion AI.\n• Generate a Dynamic Distress Score and longitudinal trend analysis.\n• Predict escalation of psychological distress before a crisis situation emerges.\n• Trigger alerts to counsellors, district authorities, and designated officials when predefined risk thresholds are crossed.\n• Recommend appropriate interventions such as counselling, medical treatment, witness protection, relocation support, financial assistance, legal aid, or rehabilitation measures.\n• Provide dashboards at district, State, and national levels for monitoring vulnerable victims and high-risk cases.\n• Ensure explainable AI, privacy protection, data security, and compliance with applicable legal and ethical standards.\n• Expected Outcomes\n• Continuous monitoring of victim well-being.\n• Early detection and prevention of mental health crises.\n• Timely deployment of counselling and rehabilitation services.\n• Strengthened victim confidence in the justice delivery system.\n• Evidence-based decision-making for policymakers and administrators.\n• Improved coordination among welfare, counselling, and law-enforcement agencies.\n• Innovation Components\n• Emotion AI\n• Voice Stress Analytics\n• Sentiment Analysis\n• Predictive Risk Modelling\n• Multilingual Conversational AI\n• Explainable AI\n• Automated Case Prioritisation\n• Real-Time Risk Alerts\n• Priority Use Cases\n• Victims of rape and gang rape.\n• Victims of murder, grievous hurt, and arson.\n• Witnesses facing intimidation or threats.\n• Families affected by caste-based violence.\nBeneficiaries receiving relief, compensation, rehabilitation, and protection under the provisions of the Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989.",
+  "scraped_at": "2026-09-03"
+}

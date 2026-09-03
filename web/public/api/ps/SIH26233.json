@@ -1,0 +1,17 @@
+{
+  "sno": 233,
+  "ps_number": "SIH26233",
+  "title": "Inline Microbial Contamination Detection Using Hyperspectral\nEdge Sensors",
+  "org": "Ministry of Food Processing Industries (MoFPI)",
+  "department": "Ministry of Food Processing Industries (MoFPI)",
+  "category": "Hardware",
+  "theme": "Agriculture, FoodTech & Rural Development",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background:\nFood safety practices are largely reactive. Plants typically pull random samples from production batches and send them to laboratories for culture testing. Because these tests take days to yield results, contaminated products are often already packaged and shipped by the time pathogens are detected. This delay triggers widespread, costly product recalls and severe public health risks.\nDescription:\nThe sector requires an inline, non-destructive hardware sensing system that scans 100% of products moving along a production line. The hardware must detect invisible bacterial biofilms and early-stage pathogens, such as Salmonella, Listeria, or E. coli, directly on food surfaces, such as fresh poultry or leafy greens, without stopping or destroying the product.\nExpected Solution:\nAn inline Hyperspectral Imaging (HSI) sensor rig positioned directly over industrial conveyor systems. The hardware must utilize specialized Near-Infrared (NIR) or ultraviolet light sources to capture distinct spectral signatures of microbial contamination.\nIt must feature high-speed edge-computing processors built directly into the sensor housing to flag contaminated items within milliseconds, instantly alerting downstream sorting mechanisms to isolate the hazard.",
+  "scraped_at": "2026-09-03"
+}

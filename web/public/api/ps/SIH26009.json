@@ -1,0 +1,17 @@
+{
+  "sno": 9,
+  "ps_number": "SIH26009",
+  "title": "Using AI/ML and Space Technology to Identify Manganese Reserves and Overcome Production Shortfalls.",
+  "org": "Ministry of Steel",
+  "department": "MOIL Ltd.",
+  "category": "Software",
+  "theme": "Space Technology",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background: MOIL Limited is the largest producer of Manganese Ore in India. To meet future demand, it is important to accurately identify available reserves and avoid production shortfalls. At present, reserve estimation and production planning are mainly based on manual surveys, drilling results, and production records. These methods are time-consuming and sometimes lead to a mismatch between expected and actual ore production. Detailed Description: The challenge is to develop an AI/ML-based solution that uses geological data,historical production, equipment performance, and satellite/space technology inputs (such as rainfall, soil moisture, vegetation index, and land temperature) to:\n• Identify and map manganese reserves more accurately using surface and sub-surface indicators.\n• Predict shortfalls in production by analysing constraints like equipment downtime, weather conditions, or blasting delays.\n• Suggest corrective actions such as adjusting mine schedules, optimizing blasting, or re-deploying equipment to ensure continuous ore availability. Expected Solution: The expected solution is a user-friendly dashboard that shows predicted reserves, production trends, possible risks of shortfall, and recommended corrective steps.\nThis will help MOIL improve planning, reduce losses, and ensure steady ore supply to customers.",
+  "scraped_at": "2026-09-03"
+}

@@ -1,0 +1,17 @@
+{
+  "sno": 69,
+  "ps_number": "SIH26069",
+  "title": "National Weather Big Data Analytics Platform",
+  "org": "Ministry of Earth Sciences (MoES)",
+  "department": "India Meteorological Department",
+  "category": "Software",
+  "theme": "Disaster Management",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Design and develop a scalable National Weather Big Data Analytics Platform capable of collecting and processing real-time weather-related information for India from multiple internet-based sources including social media platforms, public datasets, websites, APIs, and citizen reports. The platform should automatically collect weather related posts and information tagged with #IMD and other relevant weather hashtags, along with metadata such as date & time, city, state, GPS location, photos, videos, and event category, and store the information in a centralized database.\nThe system should leverage big data technologies and open-source tools to support large-scale real-time data ingestion, processing, storage, and visualization.\nParticipants are encouraged to use machine learning and AI-based techniques to identify fake or misleading reports, verify untrusted sources, remove duplicate entries, and automatically categorize weather events such as rainfall, thunderstorms, flooding, heatwaves, fog, dust storms, and strong winds.\nDevelop a web-based dashboard and Admin Panel for monitoring and analysing collected data with features including:\n• Date-wise filtering\n• Event-wise filtering\n• Location-wise filtering\n• Verification status tracking\n• Real-time visualization and analytics",
+  "scraped_at": "2026-09-03"
+}

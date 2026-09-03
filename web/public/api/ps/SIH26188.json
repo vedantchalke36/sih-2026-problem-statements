@@ -1,0 +1,17 @@
+{
+  "sno": 188,
+  "ps_number": "SIH26188",
+  "title": "Al-Based Fake Identity & Document Screening System",
+  "org": "Ministry of Home Affairs",
+  "department": "Sashastra Seema Bal (SSB), Police II Division",
+  "category": "Software",
+  "theme": "Blockchain & Cybersecurity",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "1/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Common challenges faced at border checkpoints:\n• Fake passports and visas\n• Altered photographs\n• Modified dates of birth\n• Tampered visa stamps\n• Identity impersonation\n• Multiple identities used by the same person Expired or blacklisted travel documents\n• High passenger volume causing delays Current verification methods rely heavily on human inspection and basic database lookups.\n• Detailed Description Border checkpoints process thousands of identity documents every day,including passports, visas, national identity cards, permits, and travel authorizations. Manual verification is time-consuming, prone to human error, and often unable to detect sophisticated forgeries, tampering, or identity fraud.Develop an Al-powered document screening platform that automatically analyzes identity and travel documents, detects signs of tampering or forgery, validates information against rules and databases,and generates a risk score to assist border security personnel in making faster and more accurate decisions.\n• Expected Solution\n• Module 1: OCR Extraction\n• Module 2: Document Validation\n• Module 3: Tampering Detection\n• Module 4: Face Detection Module 1: OCR Extraction Objective: Automatically extract all relevant information from identity documents.\nInputs:\n• Passport image\n• Visa image\n• National ID image\n• Driving license\n• Permit documents Extracted Fields:\nPassport\n• Name\n• Passport Number\n• Nationality\n• Date of birth\n• Date of expiry\n• Gender Visa\n• Visa Number\n• Visa Type\n• Entry Validation\n• Stay Duration Module 2: Document Validation Objective: Verify whether the extracted information follows official document standards.\nModule 3: Tampering Detection (Core AI Innovation)\nObjective: Detect digitally or physically altered documents.\nUse Cases:\n• Photo Replacement\n• Text Manipulation\n• Stamp Forgery Detection\n• Image Metadata Analysis Module 4: Face Verification Objective: Ensure document owner matches the presented individual.\n• Expected Impact\n• Reduce document verification time from several minutes to a few seconds.\n• Improve detection of forged and tampered documents.\n• Standardize screening decisions across checkpoints.\n• Enable data-driven risk assessment instead of purely manual inspection.\n• Create a digital trail for investigations and intelligence analysis.\nPossible Project Name Al-Based Fake Identity & Document Screening System.",
+  "scraped_at": "2026-09-03"
+}

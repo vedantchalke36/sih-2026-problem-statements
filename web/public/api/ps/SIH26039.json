@@ -1,0 +1,17 @@
+{
+  "sno": 39,
+  "ps_number": "SIH26039",
+  "title": "Al-Powered Underground Mine Safety, Monitoring and Rescue System.",
+  "org": "Government of Jharkhand",
+  "department": "Department of Higher & Technical Education",
+  "category": "Hardware",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background:\nJharkhand's underground coal mines face significant safety challenges, including toxic gas leaks,tunnel collapses, flooding, and poor visibility. During emergencies, rescue teams often lack real-time information about underground conditions, increasing risks and delaying response efforts.An intelligent robotic system capable of monitoring mine conditions, detecting hazards, and locating trapped workers can significantly improve mine safety and rescue operations while reducing risks to human rescuers.\nDescription:\nThe Al-Powered Mine Safety and Rescue Rover is an inteltigent robotic system designed to operate in hazardous underground mining environments. The rover is equipped with gas sensors, thermal and night-vision cameras, environmental monitoring sensors, and wireless communication modules to provide real-time information about mine conditions.The system can detect toxic gases, monitor temperature and humidity, identify potential hazards, and assist in locating trapped workers during emergencies. Using Al-based analysis and remote monitoring capabilities, the rover enables rescue teams to assess underground conditions without exposing personnel to dangerous environments. The solution aims to enhance mine safety, improve emergency response efficiency, and reduce the risk of casualties in underground mining operations.\nExpected Solution:\nDevelop an Al-powered mine rescue system consisting of a rugged ground rover or a compact aerial drone capable of operating in hazardous underground mining environments. The system should provide real-time monitoring of toxic gases, temperature, humidity, and structural conditions while transmitting live video and thermal imaging data to a surface control station.\nThe rover and drone will assist rescue teams by exploring inaccessible areas, detecting hazards, locating trapped workers, and providing situational awareness during emergencies. The solution should improve mine safety, reduce risks to rescue personnel, and enable faster, more informed emergency response in underground mines.",
+  "scraped_at": "2026-09-03"
+}

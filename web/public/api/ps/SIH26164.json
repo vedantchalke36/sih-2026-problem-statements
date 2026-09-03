@@ -1,0 +1,17 @@
+{
+  "sno": 164,
+  "ps_number": "SIH26164",
+  "title": "Enterprise Cryptographic Discovery & Analysis Tool (ECDAT)",
+  "org": "National Technical Research Organisation (NTRO)",
+  "department": "National Technical Research Organisation (NTRO)",
+  "category": "Software",
+  "theme": "Blockchain & Cybersecurity",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "Standard Open source datasets for source code repositories (eg:Github), libraries (eg: Openssl) may be used.",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Transitioning to Post Quantum Cryptography based solutions requires preparedness, risk assessment and financial and operational investment. Towards this, discovery and inventory of Cryptographic Artefacts is the critical first step, that will enable the transition.\n• Description i. Identify and catalogue all cryptographic artefacts (algorithms, keys, certificates, protocols, libraries, hardware modules, cloud services) across internal and external facing applications, products and infrastructure.\nii. The tool should perform a comprehensive quantum risk assessment and identify systems prone to potential quantum attacks, and highlight risks to sensitive data.\niii. Classify all the artefacts by type, lifetime and business criticality. Apply structured frameworks such as Mosca’s algorithm (compare data lifetime plus migration time against expected arrival of cryptographic relevant quantum computer) to identify and categorize risks.\niv. Recommend suitable alternatives (PQC/ Hybrid algorithms) for applications based on risk profile, latency, cost, etc.\n• Expected Solution/Deliverables:\nA Comprehensive CBOM analytics tool that can scan Source code repositories, binaries, libraries and container images, for assessing risks (due to quantum computers), classifying artefacts and suggesting alternatives: - Produce a report displaying all cryptographic assets including versions/ modes in standardised formats Interactive GUI platform to visualise the scan, risks and results",
+  "scraped_at": "2026-09-03"
+}

@@ -1,0 +1,17 @@
+{
+  "sno": 128,
+  "ps_number": "SIH26128",
+  "title": "Efficient systems for early detection,prevention,and management of livestock diseases and animal health issues",
+  "org": "Government Of Maharashtra",
+  "department": "Maharashtra State Innovation Society, Department of Skills, Employment, Entrepreneurship and Innovation",
+  "category": "Software",
+  "theme": "MedTech / BioTech / HealthTech",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Problem Description Livestock owners, field veterinarians,para-veterinary workers and government departments often lack a unified, realtime mechanism to identify emerging animal-health risks at the village, block and district levels. Disease symptoms may be reported late, diagnostic facilities may be distant, vaccination and treatment histories may be incomplete, and information from farms, veterinary dispensaries, laboratories, vaccination drives and surveillance programmes may remain fragmented. These gaps can delay containment, increase livestock mortality and productivity loss, raise the risk of zoonotic transmission, and affect farmers’ incomes. The challenge is to create a practical system that enables early warning, rapid reporting, risk assessment, preventive action, referral and coordinated response, including in low-connectivity areas.\n• Expected Solution / Outcome A scalable animal-health surveillance and decision-support solution that can: capture symptom and mortality reports from farmers and field workers; use rulebased or AI-assisted triage to flag suspected outbreaks; integrate geospatial risk mapping, weather and historical disease trends; maintain animal-level or herd-level health,vaccination and treatment records; issue multilingual advisories and alerts; support sample collection, laboratory referral and case escalation; provide dashboards for veterinary officials; and operate through mobile, web, IVR or offline-enabled channels. Expected outcomes include reduced reporting time, earlier outbreak identification, improved vaccination coverage, faster treatment and containment, lower mortality and productivity loss, and stronger evidence-based planning.",
+  "scraped_at": "2026-09-03"
+}

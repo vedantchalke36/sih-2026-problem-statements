@@ -1,0 +1,17 @@
+{
+  "sno": 162,
+  "ps_number": "SIH26162",
+  "title": "AI-Based Detection and Classification of Industrial Fires and Persistent Thermal Sources Using NASA FIRMS, OSM & Satellite Data",
+  "org": "National Technical Research Organisation (NTRO)",
+  "department": "National Technical Research Organisation (NTRO)",
+  "category": "Software",
+  "theme": "Disaster Management",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "firms.modap.eosdis.nasa.gov/map",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Industrial facilities generate thermal signatures that can be observed from space, but current satellite-based monitoring systems like NASA FIRMS cannot distinguish between different types of thermal anomalies. To address this, there is a challenge to develop an AI-enabled geospatial system that integrates thermal data, land-cover information, industrial databases, and satellite imagery to automatically identify, classify, and monitor industrial fires and persistent thermal sources.\n• Description Industrial facilities such as oil refineries, petrochemical complexes, thermal power plants, steel industries, mining areas, and LNG terminals generate thermal signatures that can be observed from space. In addition, accidental industrial fires, gas leaks, explosions, and abnormal thermal events pose significant risks to critical infrastructure, public safety, and the environment.\nCurrent satellite-based fire monitoring systems such as NASA FIRMS provide thermal anomaly detections but do not distinguish between industrial fires, gas flares, agricultural burning, mining activity, and wildfires.\nThe challenge is to develop an AI-enabled geospatial system that can automatically identify, classify, and monitor industrial fires and persistent thermal sources by integrating thermal anomaly data, land-cover information, industrial infrastructure databases, and satellite imagery.\n• Expected Solution/Deliverables:\ni. Classification and segregation of Industrial fires from forest fires and other natural fires.\nii. GIS based solution for data storage, visualization of the output as an overlay over maps",
+  "scraped_at": "2026-09-03"
+}

@@ -1,0 +1,17 @@
+{
+  "sno": 140,
+  "ps_number": "SIH26140",
+  "title": "AI-Based Interactive Quantum Algorithm Learning Platform",
+  "org": "Egreen Quanta",
+  "department": "Egreen Quanta",
+  "category": "Software",
+  "theme": "Smart Education",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "Public/Open Additional Information Regarding PS\n\nhttps://drive.google.com/file/d/1hfk85X50qOAuUqbmA50PQj1vl_7f7X6W/view?usp=drive_link",
+  "contact": "",
+  "youtube": "",
+  "description": "Background Quantum computing is a transformative technology with significant impact across scientific and industrial domains. However, education in this field remains challenging due to the abstract nature of core concepts such as qubits, superposition, entanglement, and quantum algorithms.\nExisting learning resources are often static, heavily theoretical, and lack hands-on interaction.\nLimited access to real quantum hardware further restricts practical learning. There is a strong need for an integrated, interactive, and intelligent platform that combines theoretical instruction, visual circuit design, real-time simulation, and personalized AI-based guidance to accelerate quantum education and workforce development.\nDescription The goal is to develop an AI-powered interactive web-based platform that enables students, researchers, and professionals to learn, design, simulate, and visualize quantum algorithms.\nThe platform will offer structured learning modules covering quantum computing fundamentals, circuit design, and standard quantum algorithms. Users will be able to construct quantum circuits through a drag-and-drop interface or by writing code, execute them on multiple quantum simulators, and visualize quantum states and measurement outcomes. AI-assisted features will provide real-time explanations, error detection, optimization suggestions,and personalized learning paths. The system will support major quantum software development kits and promote collaborative and modular learning.\nObjectives\n• Design and develop an interactive web-based platform for learning quantum computing and quantum algorithms.\n• Provide graphical (drag-and-drop) and code-based quantum circuit design tools.\n• Enable real-time execution and simulation of quantum circuits using multiple backends(Qiskit Aer, PennyLane, Cirq, qBraid, etc.).\n• Integrate AI-assisted tutoring for concept explanation, code generation, debugging, and personalized learning recommendations.\n• Support visualization of quantum states, Bloch spheres, measurement probabilities, and circuit execution results. Include assessment modules, coding challenges, progress tracking, and instructor dashboards.\nExpected Solution A comprehensive AI-based interactive quantum learning platform that seamlessly integrates education, programming, simulation, visualization, and intelligent tutoring. The solution will offer structured theoretical content, visual circuit builders, integrated code editors, multi-framework simulation support, AI-powered assistance, assessment tools, and progress analytics. The platform will be designed to be scalable and accessible, contributing to the development of a quantum-ready workforce.\nAdd 'Delivery Table (Expected Deliverables)' here",
+  "scraped_at": "2026-09-03"
+}

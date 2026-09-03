@@ -1,0 +1,17 @@
+{
+  "sno": 81,
+  "ps_number": "SIH26081",
+  "title": "Hybrid AI–NWP Multi-Model Forecast Blending System",
+  "org": "Ministry of Earth Sciences (MoES)",
+  "department": "National Centre for Medium Range Weather Forecasting (NCMRWF)",
+  "category": "Software",
+  "theme": "Disaster Management",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Problem Statement Different forecasting systems perform differently depending on region, season, lead time and weather situation. Physical NWP models, ensemble forecasts and AI/ML weather models may each have strengths under different conditions. Therefore, there is a need for an intelligent blending system that can dynamically combine multiple forecasts.\nThe challenge is to develop a hybrid AI–NWP blending framework that assigns adaptive weights to different forecast sources based on historical skill, forecast lead time, region, season and weather regime. The final product should provide an optimized forecast for rainfall, temperature, wind and extreme weather indicators.\nExpected Outcome - Description\n• Dynamically blended forecast - Best-combined forecast from multiple model sources\n• Model weight maps - Indication of which model is more reliable for each region/lead time\n• Improved forecast skill - Better performance than individual models\n• Extreme weather guidance - Improved signals for heavy rainfall, heat wave and high-wind events\n• Operational workflow - Automated script/dashboard for routine forecast blending",
+  "scraped_at": "2026-09-03"
+}

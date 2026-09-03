@@ -1,0 +1,17 @@
+{
+  "sno": 138,
+  "ps_number": "SIH26138",
+  "title": "Quantum-Inspired Fuel Consumption Prediction and Green Fleet Optimization",
+  "org": "Egreen Quanta",
+  "department": "Egreen Quanta",
+  "category": "Software",
+  "theme": "Clean & Green Technology",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "Public/Open Additional Information regarding PS\nhttps://drive.google.com/file/d/1h0pt48eJAq-wAHUf5-gFA9PIibOxVyk0/view?usp=drive_link",
+  "contact": "",
+  "youtube": "",
+  "description": "Background The maritime and logistics industries are under increasing pressure to reduce greenhouse gas emissions while maintaining operational efficiency and cost-effectiveness. Fuel consumption constitutes one of the largest operational expenses and environmental impacts of fleet operations. Traditional optimization and prediction methods often struggle with the high-dimensional, non-linear, and multi-objective nature of green fleet management, especially when integrating alternative fuels, varying vessel types, and dynamic operational constraints.\nQuantum-inspired metaheuristic algorithms offer a promising approach by combining the global search capabilities of quantum principles with classical computing, enabling more effective solutions for complex, large-scale fleet optimization problems.\nDescription This problem focuses on developing a quantum-inspired optimization and prediction framework for green fleet management. The framework will predict fuel consumption under varying operational conditions and optimize fleet deployment decisions, including the selection of vessel types, capacities, cruising speeds, and the integration of alternative fuels (LNG, methanol, hydrogen, ammonia) and shore power solutions. The goal is to minimize fuel consumption and lifecycle emissions while satisfying cargo demand, schedule reliability, and operational constraints.\nObjectives\n• Develop accurate quantum-inspired models for predicting fuel consumption across different vessel types and operating conditions.\n• Design a quantum metaheuristic optimization framework to determine the optimal mix of vessel types, capacities, and cruising speeds.\n• Minimize total fuel consumption, operational costs, and lifecycle greenhouse gas emissions.\n• Ensure operational reliability, cargo demand satisfaction, and compliance with emission regulations.\n• Benchmark the proposed quantum-inspired approach against conventional prediction and optimization methods in terms of accuracy, convergence speed, solution quality,and scalability.\nExpected Solution A comprehensive software platform that implements quantum-inspired algorithms for fuel consumption prediction and green fleet optimization. The solution should include mathematical modelling, data-driven prediction modules, multi-objective optimization, constraint handling, scenario analysis for alternative fuels, and performance evaluation through benchmarking and case studies.\nAdd 'Delivery Table (Expected Deliverables)' here",
+  "scraped_at": "2026-09-03"
+}

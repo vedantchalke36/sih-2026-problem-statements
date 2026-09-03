@@ -1,0 +1,17 @@
+{
+  "sno": 137,
+  "ps_number": "SIH26137",
+  "title": "Quantum-Inspired Intelligent Traffic Route Optimization in Transportation Systems Using Metaheuristic Optimization",
+  "org": "Egreen Quanta",
+  "department": "Egreen Quanta",
+  "category": "Software",
+  "theme": "Transportation & Logistics",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "Public/Open Additional Information regarding PS\n\nhttps://drive.google.com/file/d/1iubIiKS9NPr2lpYMVTt2MxgC_qRq5NnM/view?usp=drive_link",
+  "contact": "",
+  "youtube": "",
+  "description": "Background Modern urban transportation networks face persistent challenges of traffic congestion, inefficient route planning, and high operational costs. Classical optimization techniques struggle with large-scale Vehicle Routing Problems (VRP) because of their NP-hard nature. While quantum computers offer theoretical advantages for combinatorial optimization,current hardware limitations prevent their direct large-scale use. Quantum-inspired metaheuristic algorithms (e.g., Quantum Particle Swarm Optimization - QPSO) embed quantum-mechanical concepts into classical computation, delivering stronger global search, faster convergence, and a better balance between exploration and exploitation.\nProblem Description Develop a quantum-inspired metaheuristic optimization framework that dynamically generates near-optimal vehicle routes under real-time or simulated traffic conditions.The transportation network will be modelled as a weighted graph. The framework will focus on algorithms such as Quantum Particle Swarm Optimization (QPSO) and will be benchmarked against conventional metaheuristics and exact methods.\nObjectives 1. Design a quantum-inspired metaheuristic framework capable of solving large-scale VRP and shortest-path problems.\n2. Minimize total travel time, distance, and traffic congestion.\n3. Reduce computational complexity while improving convergence speed and solution quality compared with classical algorithms.\n4. Demonstrate scalability for smart-city logistics and intelligent transportation systems.\nExpected Solution A complete software platform that implements a Quantum-Inspired Metaheuristic Optimization Algorithm for intelligent traffic routing. The platform must include graph-based network modelling, mathematical formulation of the optimization problem,constraint handling, convergence analysis, and systematic performance benchmarking.\nAdd 'Delivery Table (Expected Deliverables)' here",
+  "scraped_at": "2026-09-03"
+}

@@ -1,0 +1,17 @@
+{
+  "sno": 55,
+  "ps_number": "SIH26055",
+  "title": "Smart Scan strategy for Electronic Warfare",
+  "org": "DRDO",
+  "department": "Department of Defence Production /IDEX",
+  "category": "Software",
+  "theme": "Robotics and Drones",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "1/500",
+  "dataset_link": "JC Wise, Radar emitter Database, 2024\nhuggingface.co/datasets/alan-turing institute/turing-synthetic radar dataset",
+  "contact": "",
+  "youtube": "",
+  "description": "Development of Smart Scan Strategy for Electronic Warfare in the absence of prior reliable intelligence of emitters and their operating characteristics.\n• Background Detection of hostile communication or radar signals starts with search / scan of a wide frequency spectrum which covers relevant emitters. Sensors with typically high sensitivity but with at least an order lower instantaneous bandwidth compared to overall bandwidth of the system are used to maintain surveillance over the entire spectrum. This requires a receiver / receivers to sweep over frequency bands. Hitherto strategies based on pre mission data / prior data (Open loop) are used. Usually the first priority is to rapidly sweep the entire band with the best speed possible. Open loop strategies focus only on this requirement and may lose time to nonthreatening emitters by not giving time to new or threatening ones.\n• Detailed Description This problem statement focusses on development of Smart Scan Strategy for Electronic Warfare. Interception of signals is a two dimensional search problem since it involves adjusting receiver’s frequency at correct time. This includes building up figures of merit for interception performance such as probability of detection, probability of false alarm, sensitivity, Avg intercept rate, Avg Reward / cost function, percentage of correct predictions and average intercept time error. A system model for the receiver needs to be developed with measurements obtained from a simulated RF environment which has truth information on status of emitters in each band and at each time slot. The frequency spectrum for own receiver consists of many bands.\nThe status of environment for each frequency band at each time step can be recorded as a transmission or a non-transmission. The model should enable prediction of intercept time and interception ratio of a scanning receiver against spatially scanning and frequency agile emitters. Development of a robust scheduler using machine learning to minimize intercept time and ensure a high interception rate is the primary objective of the strategy. The model should then be trained based on hits and misses. Further, approaches to intercept a periodic scan receiver optimally should be outlined. Algorithms and techniques for the same need to be developed.\n• Expected Solution Machine learning based Electronic Support receiver scheduler software",
+  "scraped_at": "2026-09-03"
+}

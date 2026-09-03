@@ -1,0 +1,17 @@
+{
+  "sno": 68,
+  "ps_number": "SIH26068",
+  "title": "WeatherGPT: Conversational AI for Weather Forecasting, Alerts, and Climate Information",
+  "org": "Ministry of Earth Sciences (MoES)",
+  "department": "India Meteorological Department",
+  "category": "Software",
+  "theme": "Disaster Management",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "2/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Weather information is often distributed through multiple portals, bulletins, satellite products, and forecast systems, making it difficult for common users, researchers, disaster managers, and government agencies to quickly obtain actionable insights.\nThere is a need for an intelligent conversational platform that can provide real-time weather information, forecasts, warnings, climate analysis, and decision support in natural language.\n• Objective Develop an AI-powered chatbot platform named WeatherGPT that integrates meteorological datasets, forecasting models, and disaster warning systems to provide accurate, contextual, and multilingual weather intelligence through conversational interfaces.\n• Key Features 1. Real-time weather information retrieval.\n2. Natural language querying for weather forecasts.\n3. Integration with numerical weather prediction (NWP) models such as GFS/WRF.\n4. Extreme weather alerts and early warning dissemination.\n5. Location-based forecasting and advisory generation.\n6. Multilingual support for Indian languages.\n7. Climate trend and historical weather analysis.\n8. Voice-enabled interaction for rural accessibility.\n• Expected Solution Participants should develop:\n• A mobile-based conversational AI platform.\n• Backend integration with meteorological databases, website and APIs.\n• AI/LLM-based query understanding engine.\n• Scalable architecture supporting real-time data ingestion.\n• Suggested Technology Stack\n• Python / FastAPI / Node.js\n• MQTT / WIS2.0 / WebSocket\n• LLMs (OpenAI, Llama, Gemini, etc.)\n• GIS tools and weather APIs\n• PostgreSQL / MongoDB\n• Docker / Kubernetes\n• Expected Outcomes\n• Faster dissemination of weather information.\n• Improved public accessibility to forecasts.\n• Better disaster preparedness and response.\n• Intelligent weather decision-support system for agriculture, aviation, marine, and urban planning.\n• Possible Use Cases\n• Farmers seeking crop-weather advisories.\n• Aviation weather briefing.\n• Flood/cyclone warning dissemination.\n• Smart city weather monitoring.\n• Climate analytics for researchers.\n• Evaluation Parameters\n• Accuracy and relevance.\n• Response latency.\n• Multilingual capability.\n• User interface and accessibility.\n• Scalability and innovation.\n• Integration with real-time meteorological systems.\n• Voice-enabled interaction for rural accessibility",
+  "scraped_at": "2026-09-03"
+}

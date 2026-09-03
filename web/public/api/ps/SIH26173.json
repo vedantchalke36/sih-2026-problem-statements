@@ -1,0 +1,17 @@
+{
+  "sno": 173,
+  "ps_number": "SIH26173",
+  "title": "iTantra -Indian Multilingual TTS & STT Aided Neural Transceiver Radio Access for low bitrate links",
+  "org": "Indian Space Research Organisation(ISRO)",
+  "department": "Department of Space / Indian Space Research Organisation",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background As vocal audio information is very data intensive making it difficult to transmit through low data rate links. In alert and distress based scenarios Transmitting Audio information is critical instead of written message as it will be more inclusive and will cater to everyone even if they are literate or not.\nDescription Build an Android App with lightweight, highly accurate STT and TTS models for 10 Indian Languages (Hindi, Gujarati, Marathi, Kannada, Malayalam, Tamil, Telugu, Odia, Bengali, English) that runs locally on a low-power device. The system’s STT module when activated after detecting pauses and stoppages should form the sentences detected and must instantly and efficiently stream the data through wifi/Bluetooth connected embedded device or another phone with same application with minimal latency. The systems TTS module when activated after receiving the Text data should convert it into intelligible speech which will be played as a voice note and alert type messages will be announced at highest volume non-interruptible. To verify the complete loop two phones with same app one in TTS mode and another in STT mode can be connected via wifi or Bluetooth and it should work like a walkie talkie using push to talk feature, if turned off it should work like a phone.\nKey Metrics for Evaluation\n• Efficiency: Model size, App size (RAM/Flash footprint) and CPU usage during idle listening. (20%)\n• Accuracy: Low Word Error Rate for STT and High human legibility and flow for TTS. (40%)\n• Latency: The Time delay between the Words said and STT completion, Time delay between the text received and audio processed and played for TTS along with RTF (Real Time Factor). The time delta between the sentence said and the same sentence started as audio in another phone. (20%)\nSoftware & Framework Restrictions\n• Open-Source Only: The use of proprietary, closed-source, or commercial voice-activation SDKs is strictly prohibited.\n• Allowed Frameworks: Teams must build their pipelines using open-source machine learning and TinyML frameworks. Recommended tools include TensorFlow Lite for Microcontrollers, PyTorch Mobile or similar.\n• Fully Offline Working: Model or pipeline should work fully offline only and no internet hosted API based solutions are expected and encouraged for the STT or TTS.\nExpected Solution Teams are expected to deliver a robust, deployable system architecture. A successful submission must strictly satisfy the following technical boundaries:\n• Hardware & Runtime Environment: The Android application must run smoothly on Low and Mid rage mobile phones.",
+  "scraped_at": "2026-09-03"
+}

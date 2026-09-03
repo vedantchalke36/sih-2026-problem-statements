@@ -1,0 +1,17 @@
+{
+  "sno": 161,
+  "ps_number": "SIH26161",
+  "title": "Dam Break Inundation Modelling Using Hydrodynamic Modelling of any River",
+  "org": "National Technical Research Organisation (NTRO)",
+  "department": "National Technical Research Organisation (NTRO)",
+  "category": "Software",
+  "theme": "Disaster Management",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "Open source Remote Sensing data (Sentinel, Landsat or any open source satellite image) and ASTER/ STRM or any other DEM.",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background In India, due to natural disaster various natural dam / lake formations were observed which can be a major reason of flash flood in the lower catchment, for example, natural lake formed over the Rishi Ganga river of Uttarakhand in Feb 2021, Wapriyang river in Nov 2021, Phuktal river near Sumdo, J&K in Mar 15, Kosi river in 2008 etc. Devastating flood happened in the Kashmir valley, Assam in 2014 and many other places over a period of time. Therefore, simulation modelling for flash flood and scenario generation is important from Humanitarian Assistance and Disaster Relief (HADR) point of view. Another important aspect is water release issues from the Dam of major rivers. In the crisis situation, if the dam brakes, how much water will flow into the river and what are the area it will inundated / impacted need to be estimated. In order to carry out this work simulation modelling needs to be done for the same. In other way if any dam break situation happened then what will be the impacted area. Development of a modelling framework is required which will carry out simulation modelling for the same.\n• Description The above problem statement envisages that a software tool need to be developed which should automatically carry out the simulation modelling for Dam break analysis and identify the inundated area due to flash flood in the lower catchment. The modelling framework should be developed using hydrological data, DEM and satellite imagery of any river. The software/ tools should be capable of carrying out the simulation modelling of water flow in case of dam break or water release through ‘Smooth Particle Hydrodynamics’ and ‘Delf3D’ model and compare the scenario.\n• Expected Solution/Deliverables The proposed study aims to illustrate the current problems regarding framework generation of Humanitarian Assistance and Disaster Relief using simulation modelling related to flood management as follows:\ni. Creation of generalized modelling framework to predict / simulate dam break/ river blockage analysis providing the necessary inputs on the basis of sudden water surge as well as loss and damage analysis using ‘Smooth Particle Hydrodynamics model and Delf3D model’.\nii. Building a customized tool/ framework so that it is possible to generate a flood inundation simulation scenario using different input datasets.\niii. Developing a Dashboard for providing modelling input and output visualization framework (GUI). The program should support the large volume of data. Output should be converted to .shp or .Kml file.\niv. Additionally, developing a framework for near real time flood analysis through Google Earth Engine with the help of open source data.\nv. Simulation needs to be done by taking the any river and Dam data (open source) of India during the final demonstration of the software.",
+  "scraped_at": "2026-09-03"
+}

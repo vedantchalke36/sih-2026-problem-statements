@@ -1,0 +1,17 @@
+{
+  "sno": 75,
+  "ps_number": "SIH26075",
+  "title": "Participants are invited to design and develop **CAPACITY CONNECT A Digital Capacity Building and Learning Management Portal** to support organizational training, competency development, and knowledge sharing through a centralized web-based platform.",
+  "org": "Ministry of Earth Sciences (MoES)",
+  "department": "India Meteorological Department",
+  "category": "Software",
+  "theme": "Smart Education",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "The solution should include secure signup and login functionality with three user roles: Trainee, Trainer, and Admin. Trainees should be able to create professional profiles with qualifications, work experience, interests, skills, and certificates, enroll in courses, access learning resources, attempt subject-wise MCQ assessments, and provide feedback on courses and training content.Trainers should be able to manage their profiles, create questionnaires with deadlines, monitor trainee participation and performance, and upload recorded lectures, presentations, and study materials in a trainer library accessible to trainees.The Admin module should provide user approval and role management features along with dashboards for monitoring courses, enrollments, certifications,assessments, and participation statistics. Admins should also be able to publish notifications, announcements, achievements, and newly added learning content on the homepage.The platform should support competency mapping for identifying suitable trainers for various subjects and should be scalable, secure, user-friendly, and accessible across devices to promote efficient learning and organizational capacity building.",
+  "scraped_at": "2026-09-03"
+}

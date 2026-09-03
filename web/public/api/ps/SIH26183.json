@@ -1,0 +1,17 @@
+{
+  "sno": 183,
+  "ps_number": "SIH26183",
+  "title": "Real-Time Identification of Fraud-Linked Cryptocurrency Exchanges from Victim-Reported Suspect Wallet Addresses through Automated Blockchain Analytics",
+  "org": "Ministry of Home Affairs",
+  "department": "Indian Cyber Crime Coordination Centre (I4C),CIS Division",
+  "category": "Software",
+  "theme": "Blockchain & Cybersecurity",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Cyber fraud victims increasingly report suspect cryptocurrency wallet addresses used by fraudsters for collection of funds in cases involving:\n• investment scams,\n• task-based frauds,\n• sextortion,\n• ransomware,\n• phishing,\n• darknet transactions,\n• and organized cyber-enabled financial crimes.\nDuring investigations, the reported wallet addresses are often:\n• non-custodial wallets,\n• temporary burner wallets,\n• or intermediary wallets used for layering and laundering.\nThe inability to quickly identify the cryptocurrency exchange or VASP associated with these wallets delays:\n• freezing of assets,\n• preservation of evidence,\n• tracing of fund flows,\n• and victim fund recovery.\nManual blockchain tracing requires significant technical expertise and time, particularly in cases involving:\n• multi-chain transfers,\n• DeFi protocols,\n• mixers/tumblers,\n• bridges,\n• and privacy-enhancing mechanisms.\n• Description The proposed solution envisages a Real-Time Crypto Fraud Attribution System capable of automatically analyzing victim-reported wallet addresses and identifying the nearest exchange or VASP receiving direct deposits.\nThe system should:\n• ingest wallet addresses reported through cybercrime complaint systems,\n• automatically perform blockchain tracing,\n• identify associated exchanges or VASPs,\n• detect fund movement patterns,\n• and generate actionable intelligence for investigators.\nKey features may include:\n• blockchain transaction graph analysis,\n• clustering of exchange wallets,\n• detection of intermediary laundering wallets,\n• identification of cross-chain fund movement,\n• integration with SAHYOG and NCRP platforms,\n• automated alert generation,\n• and risk categorization of wallets.\nThe system should support multiple blockchain ecosystems and provide:\n• real-time tracing capability,\n• automated investigative recommendations,\n• and analytics dashboards for law enforcement agencies\n• Expected Solution A software platform capable of:\n• real-time blockchain intelligence generation,\n• automated VASP identification,\n• tracing of suspect wallets,\n• cross-chain transaction analytics,\n• fund-flow visualization,\n• integration with LEA systems,\n• and generation of standardized investigation reports.\nThe system should:\n• reduce response time in cyber fraud investigations,\n• improve freezing of proceeds of crime,\n• enhance coordination with VASPs,\n• and strengthen digital evidence collection capabilities.\nThe platform should further support:\n• API integrations,\n• scalable blockchain indexing,\n• AI/ML-assisted risk detection,\n• and automated pattern recognition for fraud typologies.",
+  "scraped_at": "2026-09-03"
+}

@@ -1,0 +1,17 @@
+{
+  "sno": 165,
+  "ps_number": "SIH26165",
+  "title": "AI/NLP Engine to Detect Serious Injury & Fatality (SIF) Precursors in OIL's Unsafe-Act/Unsafe-Condition and Near-Miss Reports",
+  "org": "Oil India Limited",
+  "department": "Oil India Limited",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background OIL collects large volumes of UA/UC observations, near-miss and incident reports through its HSSE platform but these are triaged manually after certain time intervals such as monthly, quarterly etc.However, Global best practice (DEKRA Martin & Black 2015; EEI SIF Precursor model; VelocityEHS 2024 PSIF classifier) has established that low-severity incidents do not share the same causes as fatalities - non-fatal US accidents fell 51% over 15 years while fatalities fell only 25.5%.Leading operators therefore separately flag the ~20–25% of reports carrying genuine fatal potential.\nProblem Description Build a prototype that ingests OIL's free-text safety reports and automatically a) Classifies each as SIF-potential vs non-SIF-potential b) Tags it to the relevant IOGP Life-Saving Rule (e.g., Energy Isolation, Hot Work,Confined Space, Line of Fire)\nc) Surfaces recurring precursor patterns (activity, location, barrier failure) via a dashboard.\nExpected Outcome/Solution A working AI/NLP with an interactive dashboard that ranks sites/activities by SIF-precursor density and auto-maps to Life-Saving Rules, enabling HSE to focus interventions where fatal potential is highest.\nRelevant Data Availability (if any)\nOIL's UA/UC observations, near-miss and incident reports.",
+  "scraped_at": "2026-09-03"
+}

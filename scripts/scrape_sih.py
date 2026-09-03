@@ -408,6 +408,134 @@ def write_csv(records: list):
             w.writerow({k: r[k] for k in fields})
 
 
+WEB_PUBLIC = ROOT / "web" / "public"
+WEB_API = ROOT / "web" / "public" / "api"
+
+
+def write_sitemap(records: list):
+    """Generate static sitemap.xml for Cloudflare Pages."""
+    WEB_PUBLIC.mkdir(parents=True, exist_ok=True)
+    import re as re_mod
+
+    def slugify(name: str) -> str:
+        return re_mod.sub(r"[^a-z0-9]+", "-", name.lower().replace("()", "")).strip("-")
+
+    themes: dict[str, list] = {}
+    orgs: dict[str, list] = {}
+    for r in records:
+        themes.setdefault(r["theme"], []).append(r)
+        orgs.setdefault(r["org"], []).append(r)
+
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+        "  <url>",
+        "    <loc>https://sih2026.vuce.in/</loc>",
+        "    <changefreq>daily</changefreq>",
+        "    <priority>1.0</priority>",
+        "  </url>",
+        "  <url>",
+        "    <loc>https://sih2026.vuce.in/shortlist</loc>",
+        "    <changefreq>monthly</changefreq>",
+        "    <priority>0.3</priority>",
+        "  </url>",
+    ]
+    for name in themes:
+        lines += ["  <url>", f"    <loc>https://sih2026.vuce.in/themes/{slugify(name)}</loc>",
+                  "    <changefreq>weekly</changefreq>", "    <priority>0.7</priority>", "  </url>"]
+    for name in orgs:
+        lines += ["  <url>", f"    <loc>https://sih2026.vuce.in/orgs/{slugify(name)}</loc>",
+                  "    <changefreq>weekly</changefreq>", "    <priority>0.7</priority>", "  </url>"]
+    for r in records:
+        lines += ["  <url>", f"    <loc>https://sih2026.vuce.in/ps/{r['ps_number']}</loc>",
+                  f"    <lastmod>{r['scraped_at']}</lastmod>",
+                  "    <changefreq>monthly</changefreq>", "    <priority>0.8</priority>", "  </url>"]
+    lines.append("</urlset>")
+    (WEB_PUBLIC / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def write_llms_full(records: list):
+    """Generate llms-full.txt with all problem statements for AI agents."""
+    WEB_PUBLIC.mkdir(parents=True, exist_ok=True)
+    lines = [
+        "# SIH 2026 Problem Statements — Full Archive",
+        "",
+        f"Total: {len(records)} problem statements from Smart India Hackathon 2026.",
+        f"Source: https://sih.gov.in/sih2026PS | Last updated: {records[0]['scraped_at'] if records else 'N/A'}",
+        f"License: CC-BY-4.0 | Data: https://sih2026.vuce.in/api/ps.json",
+        "",
+        "---",
+        "",
+    ]
+    for r in records:
+        lines.append(f"## {r['ps_number']} — {r['title']}")
+        lines.append("")
+        lines.append(f"- **Organization:** {r['org']}")
+        lines.append(f"- **Department:** {r['department'] or 'N/A'}")
+        lines.append(f"- **Category:** {r['category']}")
+        lines.append(f"- **Theme:** {r['theme']}")
+        lines.append(f"- **Deadline:** {r['deadline']}")
+        lines.append(f"- **Submitted Ideas:** {r['ideas']}")
+        if r["dataset_link"].strip():
+            lines.append(f"- **Dataset:** {r['dataset_link'].strip()}")
+        if r["contact"].strip():
+            lines.append(f"- **Contact:** {r['contact']}")
+        if r["youtube"].strip():
+            lines.append(f"- **YouTube:** {r['youtube']}")
+        lines.append("")
+        lines.append("### Description")
+        lines.append("")
+        lines.append(r["description"])
+        lines.append("")
+        lines.append("---")
+        lines.append("")
+    (WEB_PUBLIC / "llms-full.txt").write_text("\n".join(lines), encoding="utf-8")
+
+
+def write_api_json(records: list):
+    """Generate JSON API files for AI agents and programmatic access."""
+    WEB_API.mkdir(parents=True, exist_ok=True)
+
+    # Full dataset
+    payload = json.dumps(records, ensure_ascii=False, indent=2)
+    (WEB_API / "ps.json").write_text(payload + "\n", encoding="utf-8")
+
+    # Per-PS individual files
+    ps_dir = WEB_API / "ps"
+    ps_dir.mkdir(parents=True, exist_ok=True)
+    for r in records:
+        (ps_dir / f"{r['ps_number']}.json").write_text(
+            json.dumps(r, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+
+    # Themes index
+    themes: dict[str, list[str]] = {}
+    for r in records:
+        themes.setdefault(r["theme"], []).append(r["ps_number"])
+    themes_data = [
+        {"theme": t, "count": len(ps_list), "ps_numbers": ps_list}
+        for t, ps_list in sorted(themes.items(), key=lambda x: -len(x[1]))
+    ]
+    (WEB_API / "themes.json").write_text(
+        json.dumps(themes_data, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    # Organizations index
+    orgs: dict[str, list[str]] = {}
+    for r in records:
+        orgs.setdefault(r["org"], []).append(r["ps_number"])
+    orgs_data = [
+        {"org": o, "count": len(ps_list), "ps_numbers": ps_list}
+        for o, ps_list in sorted(orgs.items(), key=lambda x: -len(x[1]))
+    ]
+    (WEB_API / "orgs.json").write_text(
+        json.dumps(orgs_data, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
 def validate(records: list):
     issues = []
     seen = set()
@@ -464,6 +592,9 @@ def main():
     write_markdown(records)
     write_json(records)
     write_csv(records)
+    write_llms_full(records)
+    write_api_json(records)
+    write_sitemap(records)
     changed = write_changelog(records, existing, SCRAPE_DATE)
     if changed:
         print(f"Changelog written: data/changelog/{SCRAPE_DATE}.md")
@@ -485,6 +616,8 @@ def main():
     print(f"MD -> {PS_DIR}")
     print(f"JSON -> {DATA_DIR / 'sih2026_ps.json'} (+ web/src/data/ps.json)")
     print(f"CSV -> {DATA_DIR / 'sih2026_ps.csv'}")
+    print(f"LLMs -> {WEB_PUBLIC / 'llms-full.txt'}")
+    print(f"API -> {WEB_API}")
 
 
 if __name__ == "__main__":

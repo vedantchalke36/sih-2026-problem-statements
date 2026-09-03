@@ -1,0 +1,17 @@
+{
+  "sno": 190,
+  "ps_number": "SIH26190",
+  "title": "Secure Digital Document Management System for Legal and Investigation Documents",
+  "org": "Ministry of Home Affairs",
+  "department": "National Crime Records Bureau (NCRB), Women Safety Division",
+  "category": "Software",
+  "theme": "Blockchain & Cybersecurity",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Law enforcement agencies, courts, legal departments, and investigative organizations handle vast amounts of sensitive documents throughout the lifecycle of a case. These documents may include:\n• FIRs and police reports\n• Investigation records\n• Witness statements\n• Charge sheets\n• Court filings\n• Evidence records\n• Forensic reports\n• Legal notices and judgments Many organizations still rely on paper-based systems or fragmented digital storage solutions. This often leads to challenges such as:\n• Difficulty in locating documents quickly\n• Unauthorized access to confidential information\n• Document tampering risks\n• Lack of version control\n• Inefficient collaboration between departments\n• Delays in legal and investigative processes\n• Poor auditability and compliance tracking As the volume of legal and investigation-related data continues to grow,there is an increasing need for a secure, centralized, and intelligent document management system that ensures data integrity, accessibility,confidentiality, and efficient case management.Modern technologies such as Cloud Computing, Artificial Intelligence (AI), Blockchain, Digital Signatures, and Secure Access Control can significantly improve the management and security of legal and investigative documents.\n• Description The objective is to develop a Secure Digital Document Management System (DMS) that enables law enforcement agencies, legal institutions, and investigative departments to securely store, organize, manage,retrieve, and share sensitive legal and investigation documents.\nThe system should:\n• Digitize and centralize document storage.\n• Ensure secure access and confidentiality.\n• Prevent unauthorized modifications.\n• Maintain a complete audit trail of document activities.\n• Enable efficient document search and retrieval.\n• Support collaboration among authorized stakeholders.\n• Ensure compliance with legal and regulatory requirements.\nThe challenge is to create a secure, scalable, and intelligent platform that streamlines document handling while preserving legal validity and evidentiary integrity.\n• Expected Solution Develop a system to monitor and manage police assets throughout their lifecycle.",
+  "scraped_at": "2026-09-03"
+}

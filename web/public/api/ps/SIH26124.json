@@ -1,0 +1,17 @@
+{
+  "sno": 124,
+  "ps_number": "SIH26124",
+  "title": "AI-Powered Mobile Urban Intelligence Platform Using Public Transport Fleet",
+  "org": "Bharat Electronics Limited",
+  "department": "Bharat Electronics Limited",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Urban public transport buses traverse almost every major road in a city every day. Modern buses are increasingly equipped with multiple cameras covering the front, rear, sides, and passenger cabin. However, these cameras are primarily used for recording incidents and are not leveraged as intelligent sensing platforms. At the same time, city authorities rely on fixed CCTV cameras, manual inspections and citizen complaints to identify road defects, traffic congestion,missing infrastructure and unsafe driving behaviour. This results in delayed response,incomplete situational awareness and inefficient maintenance planning.\n• Description Develop an AI-powered onboard and centralized software platform that transforms public transport buses into mobile urban sensing units. The onboard software shall analyse video streams from multiple bus-mounted cameras to detect road defects such as potholes, damaged roads, missing road dividers, missing zebra crossings, damaged or missing traffic signboards,waterlogging and other road hazards. It shall estimate vehicle density through vehicle detection, classification and counting, identify traffic bottlenecks, and detect vulnerable pedestrian situations such as school children crossing roads. During incidents such as hit-and-run or rash driving, the system should detect and track the offending vehicle, extract the registration number with a confidence score, timestamp and GPS location, and securely share alerts with a central command system. The centralized platform shall aggregate information from the entire bus fleet, visualize events on a GIS map, generate congestion heat maps,identify infrastructure deficiencies, analyse origin–destination traffic patterns, estimate route delays and provide actionable insights for transport authorities.\n• Expected Solution The solution should provide an edge-AI onboard processing framework integrated with a centralized urban intelligence platform. It should generate reliable alerts, GIS-based dashboards, road condition maps, traffic analytics and incident reports to support proactive road maintenance, improved traffic management, enhanced public safety and evidence-based decision making while minimizing bandwidth through intelligent edge processing.",
+  "scraped_at": "2026-09-03"
+}

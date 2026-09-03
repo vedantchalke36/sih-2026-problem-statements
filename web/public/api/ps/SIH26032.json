@@ -1,0 +1,17 @@
+{
+  "sno": 32,
+  "ps_number": "SIH26032",
+  "title": "Farmers often face long waiting times, lack of information regarding procurement schedules, and uncertainty about procurement status.",
+  "org": "Ministry of Consumer Affairs, Food & Public Distribution",
+  "department": "Department of Consumer Affairs (DoCA)",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Expected Solution: Develop a platform that:\n• Enables farmer registration and slot booking.\n• Provides real-time queue management.\n• Sends SMS/app notifications.\n• Tracks procurement and payment status.\n• Reduces congestion and waiting time at procurement centres.",
+  "scraped_at": "2026-09-03"
+}

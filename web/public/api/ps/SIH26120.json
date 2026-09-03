@@ -1,0 +1,17 @@
+{
+  "sno": 120,
+  "ps_number": "SIH26120",
+  "title": "Digital Twin for Well-to-Surface Optimization of Cyclic Steam Stimulation (CSS) and Sucker Rod Pump (SRP) Operations for Heavy Oil Wells of Baghewala Field.",
+  "org": "Oil India Limited",
+  "department": "Oil India Limited",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Baghewala Field in Rajasthan produces heavy crude oil (17–19° API) from the Jodhpur Sandstone reservoir. The reservoir is characterized by High crude viscosity, High asphaltene content, Low reservoir pressure, Low reservoir temperature (46–48°C) and Poor oil mobility under primary recovery. Consequently, artificial lift and thermal enhanced oil recovery are critical for sustained production. At present, CSS cycle design and SRP operation are optimized separately using historical experience. As reservoir temperature declines after steam injection, crude viscosity increases, leading to reduced pump efficiency, higher energy consumption, rod floating issues, rod failures and lower oil recovery. There is a need for an integrated, data-driven system that continuously optimizes both CSS and artificial lift operations.\n• Problem Description Current operations face the following challenges:\n• CSS parameters (steam volume, injection pressure, soak time and production cut-off)\nare largely based on historical practices.\n• SRP operating parameters (stroke length, SPM and VFD settings) are adjusted manually and reactively.\n• Heavy crude causes rod floating, impact loading, frequent pump unsetting, rod failures and increased maintenance.\n• Reservoir behaviour, wellbore conditions and SRP performance are not optimized together.\n• Lack of predictive analytics results in higher Steam-Oil Ratio (SOR), increased energy consumption and reduced production efficiency.\n• Expected Outcome / Solution Develop an AI-enabled Well-to-Surface Digital Twin that integrates reservoir, wellbore and surface production systems to provide real-time monitoring, prediction and optimization.\nThe solution should:\n• Optimize CSS cycle parameters.\n• Predict reservoir heating, cooling and production performance.\n• Continuously optimize SRP operation by adjusting stroke speed and SPM based on well conditions.\n• Detect rod floating and minimize impact loading.\n• Improve pump efficiency and equipment reliability.\n• Optimize steam and energy consumption while reducing operating cost.\n• Expected Benefits\n• Increased oil production and recovery.\n• Reduced Steam-Oil Ratio (SOR).\n• Lower energy consumption per barrel.\n• Reduced rod failures and pump unsetting.\n• Improved equipment life and operational reliability.\n• Data-driven and predictive decision making.\n• Relevant Data Availability The field has sufficient historical and operational data, including:\n• Production history\n• CSS cycle records\n• Steam injection parameters\n• VFD and SRP operating data\n• Rod failure and pump unsetting history\n• Well completion and reservoir data\n• Fluid properties and pressure data",
+  "scraped_at": "2026-09-03"
+}

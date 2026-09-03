@@ -1,0 +1,17 @@
+{
+  "sno": 23,
+  "ps_number": "SIH26023",
+  "title": "AI-Powered Geological, Mining and other Reporting Solution for CMPDI/CIL subsidiaries",
+  "org": "Ministry of Coal",
+  "department": "Coal India Limited",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background:\nCMPDI/CIL subsidiaries play a key role in providing geological and mining information to the Ministry of Coal and responding to parliamentary and high-priority administrative inquiries. These reports require compilation of data from scanned PDFs, digital documents, spreadsheets, images, and historical archives. The current workflow is largely manual, resulting in:\n• High dependence on individual expertise\n• Delay in generating reports and analytics\n• Higher probability of manual errors\n• Limited ability to quickly retrieve insights when required Objectives:\n• Deploy an automated platform for AI-assisted geological, mining and any other production figures document processing and reporting.\n• Enhance data validation, consistency, and traceability across historical and contemporary datasets.\n• Build an efficient, scalable foundation for future digital transformation initiatives within each CIL subsidiary and the Ministry of Coal.\nDesired Outcomes: The solution should be implemented in structured phases, including requirement analysis, data digitization and pre-processing, platform development, system testing, integration with CIL subsidiary workflows, training, and continuous enhancement to ensure scalability and long-term adoption.\n1. Automated Report Generation Platform 2. Automated Word Cloud and Topic Identification Module 3. AI-Based Query and Response System Expected Benefits:\n• Reduction in report preparation time as less as it can be, quantified in percentage.\n• Maximum accuracy, calculated in percentage in structured extraction and report generation.\n• Maximum automation, calculated in percentage of repetitive reporting and response workflows.\n• Faster response to high-level inquiries and parliamentary questions\n• Improved data accessibility, transparency, and standardization\n• Strengthened operational efficiency and informed decision-making using historical insights and AI-generated recommendations Impact:\nThe proposed system should significantly modernize CMPDI/CIL subsidiaries reporting ecosystem, reduce dependency on manual processes, improve response timelines, and strengthen the coal sector’s capability to support governance, policy planning, and operational excellence.",
+  "scraped_at": "2026-09-03"
+}

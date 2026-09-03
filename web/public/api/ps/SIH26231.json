@@ -1,0 +1,17 @@
+{
+  "sno": 231,
+  "ps_number": "SIH26231",
+  "title": "Digital Companion for Field Drug Testing",
+  "org": "Ministry of Home Affairs",
+  "department": "Narcotics Control Bureau",
+  "category": "Software",
+  "theme": "MedTech / BioTech / HealthTech",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "1/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background:\nField drug-testing kits currently in use rely on visual interpretation of a colour-change reaction. This makes results subjective, difficult to standardise across officers, and leaves no verifiable record that a test was actually conducted at a given place and time. As a result, field test outcomes cannot presently be relied upon as documentary evidence.\nDescription:\nParticipants are to build a mobile application that works alongside existing colorimetric field-test kits (no new hardware).\nThe application should:\nCapture an image of the test result using the device camera, using a reference colour card in-frame for lighting calibration.\nAutomatically classify the result against a defined set of outcome categories (e.g., positive, negative, inconclusive).\nGenerate a tamper-evident digital record of the test, capturing timestamp, GPS location, and an operator identifier, together with a cryptographic hash of the captured image.\nMaintain a simple, searchable log of tests conducted.\nExpected Deliverables:\nA working mobile/web application prototype demonstrating image capture, automated result classification, and generation of a signed digital record.\nNote to Participants:\nThe output of this application is a presumptive field-test result and a supporting digital record; it does not replace laboratory confirmatory testing.",
+  "scraped_at": "2026-09-03"
+}

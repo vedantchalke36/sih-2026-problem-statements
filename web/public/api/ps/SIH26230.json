@@ -1,0 +1,17 @@
+{
+  "sno": 230,
+  "ps_number": "SIH26230",
+  "title": "Breath-Based Detection Device for Drug Consumption",
+  "org": "Ministry of Home Affairs",
+  "department": "Narcotics Control Bureau",
+  "category": "Hardware",
+  "theme": "MedTech / BioTech / HealthTech",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background:\nLaw enforcement agencies currently lack a reliable, portable, non-invasive method to detect recent drug consumption in the field, comparable to a breathalyzer used for alcohol detection. Existing methods - urine or blood testing - are invasive, time-consuming, and unsuitable for rapid field screening. Breath, saliva, and sweat are known to contain biomarkers correlating with recent drug use, but no indigenous, field-ready device presently exists to read them reliably.\nDescription:\nParticipants are to design and build a prototype handheld device capable of detecting the presence of common narcotic substances (such as opioids, cannabis, and synthetic drugs) through breath-sample analysis, using electrochemical or equivalent sensing technology.\nThe device should:\nProvide a rapid, near real-time result at the point of testing.\nBe portable and operable by field personnel with minimal training.\nIndicate a clear positive / negative / inconclusive result.\nBe built using accessible sensor components suitable for a working prototype demonstration.\nExpected Deliverables:\nA working hardware prototype capable of demonstrating breath-sample analysis and producing a result, along with a brief technical explanation of the sensing method used and its accuracy on a provided or self-generated test set.\nNote to Participants:\nThis is a proof-of-concept prototype intended to demonstrate technical feasibility. It is not expected to be a forensically validated or field-certified device at the end of the hackathon.",
+  "scraped_at": "2026-09-03"
+}

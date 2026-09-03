@@ -1,0 +1,17 @@
+{
+  "sno": 131,
+  "ps_number": "SIH26131",
+  "title": "Early detection and management of crop diseases and pest infestations",
+  "org": "Government Of Maharashtra",
+  "department": "Maharashtra State Innovation Society, Department of Skills, Employment, Entrepreneurship and Innovation",
+  "category": "Software",
+  "theme": "Agriculture, FoodTech & Rural Development",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "1/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Problem Description Farmers often recognise crop diseases or pest infestations only after visible damage has spread. Extension staff may cover large areas, while laboratory diagnosis and expert advice may not be immediately available. Weather, crop stage, variety, soil condition and local pest history influence risk, but these inputs are rarely combined into actionable farm-level alerts. Incorrect diagnosis may lead to delayed treatment, excessive or inappropriate pesticide use, increased cultivation cost,residue concerns and yield loss. The challenge is to provide timely, reliable and locally relevant detection,forecasting and management support.\n• Expected Solution / Outcome A farmer- and extension-worker-friendly crop-health system that supports image based symptom identification, pest-trap or sensor inputs, weather-based risk forecasting, geospatial hotspot mapping,expert validation and multilingual advisories. The system should recommend integrated pest and disease management actions, safe input usage,referral to extension or laboratories, and follow-up monitoring. It should learn from field confirmations and provide dashboards for agriculture officials.Expected outcomes include earlier detection, reduced crop loss, more targeted pesticide use, faster extension response, improved surveillance coverage and better planning of preventive interventions.",
+  "scraped_at": "2026-09-03"
+}

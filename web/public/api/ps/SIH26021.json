@@ -1,0 +1,17 @@
+{
+  "sno": 21,
+  "ps_number": "SIH26021",
+  "title": "Honey Chain: A block chain-based system for honey traceability and smart beekeeping management.",
+  "org": "Ministry of MSME",
+  "department": "Coordination Section",
+  "category": "Software",
+  "theme": "Agriculture, FoodTech & Rural Development",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background:\nKVIC’s Honey Mission supports rural beekeepers with bee boxes and extraction toolkits for livelihood promotion, but they still face challenges like counterfeit honey, low consumer trust, weak market linkages, and lack of traceability and advanced hive management support.\nHence, there is a need for an integrated block chain, AI, and IoT-based digital ecosystem to improve honey authenticity, traceability, productivity, and market credibility.\nDescription:\nDevelop 'Honey Chain,' a block chain-based honey traceability and smart beekeeping system with QR-code consumer verification, secure batch tracking, and AI-IoT features for disease detection, environmental monitoring, and productivity prediction to enhance authenticity, transparency, and market access for rural beekeepers.\nExpected Solution:\n• Develop a prototype block chain-based honey traceability and smart beekeeping system with QR-code consumer authentication.\n• Integrate IoT-enabled hive monitoring and AI analytics for disease detection, colony health tracking, and productivity optimization.\n• Create a scalable deployment framework for implementation across rural beekeeping clusters under KVIC and related institutions.",
+  "scraped_at": "2026-09-03"
+}

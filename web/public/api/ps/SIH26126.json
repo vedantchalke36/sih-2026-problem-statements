@@ -1,0 +1,17 @@
+{
+  "sno": 126,
+  "ps_number": "SIH26126",
+  "title": "Vision Based Autonomous Navigation for Unmanned Ground Vehicle for Outdoor environment",
+  "org": "Bharat Electronics Limited",
+  "department": "Bharat Electronics Limited",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Outdoor Unmanned Ground Vehicles (UGVs) face unpredictable terrain, changing light, and unreliable GPS signals. To achieve true autonomy in applications like search-and-rescue,agriculture, or delivery, UGVs must rely on onboard computer vision. Visual perception provides a cost-effective, data-rich way for vehicles to understand and safely navigate complex,unstructured outdoor surroundings.\n• Description The objective is to build an autonomous navigation system for a UGV operating in a GPS-denied outdoor environment using camera feeds as the primary sensor. Students must solve three key challenges:\n1. Path Detection: Real-time identification of safe, traversable paths vs. hazards (e.g., rocks,ditches, trees).\n2. Visual Localization: Estimating the UGV’s position and orientation without GPS using visual data.\n3. Collision Avoidance: Dynamically routing the vehicle around sudden obstacles toward a destination.\n• Expected Solution A functional software module consisting of:\n• Perception AI: A lightweight model for obstacle and path detection.\n• Visual SLAM/Odometry: A pipeline to track vehicle movement.\n• Path Planner: An algorithm to translate visual data into wheel/motor commands.\n• Success Criteria: Successful, collision-free navigation from Point A to Point B across outdoor scenarios",
+  "scraped_at": "2026-09-03"
+}

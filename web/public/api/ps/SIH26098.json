@@ -1,0 +1,17 @@
+{
+  "sno": 98,
+  "ps_number": "SIH26098",
+  "title": "Development of a Low-Cost Precision Guidance and Smart Electronic Fuze System for a 155 mm Artillery Shell",
+  "org": "Ministry of Defence (MoD)",
+  "department": "Yantra India Limited, Ambajhari,Nagpur",
+  "category": "Hardware",
+  "theme": "Smart Vehicles",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Problem Title Design and Development of a Precision Guidance Kit with Canard Actuation and Multi-Mode Electronic Fuze for a 155 mm Artillery Shell\n• Background Conventional 155 mm artillery shells rely on unguided ballistic trajectories, resulting in relatively high Circular Error Probable (CEP), particularly at long ranges. Improving strike accuracy while utilizing existing shell hardware can significantly enhance operational effectiveness, reduce ammunition consumption, and minimize collateral damage.\nThe YIL (Yantra India Limited) possesses extensive expertise in manufacturing the mechanical hardware of 155 mm artillery shells and seeks innovative solutions to transform conventional shells into precision-guided munitions through the integration of an advanced guidance and fuze system.\n• Problem Statement Develop a compact, robust, and cost-effective precision guidance solution for a standard 155 mm artillery shell by integrating:\n• A Canard Actuation Assembly (CAA) for in-flight trajectory correction.\n• A Guidance,Navigation and Control (GNC) system capable of improving terminal accuracy.\n• A Multi-mode Electronic Fuze supporting:\n• Proximity Mode\n• Time Mode\n• Impact Mode\n• Embedded electronics and software for real-time flight control.\n• Power management suitable for high-g launch and flight conditions.\n• Communication and programming interface for fuze configuration prior to firing.\nThe integrated system should achieve a Circular Error Probable (CEP) of 30 meters or better, while maintaining compatibility with the existing 155 mm shell design and surviving the extreme mechanical and environmental conditions experienced during artillery launch and flight.\n• Expected Outcome Participants should propose a complete system architecture including:\n• Guidance and navigation methodology.\n• Canard deployment and actuation mechanism.\n• Flight control algorithms.\n• Multi-mode electronic fuze design.\n• Sensor selection (e.g., IMU, GNSS, barometric sensor, proximity sensor, etc.).\n• Embedded hardware architecture.\n• Power supply and environmental protection strategy.\n• Simulation and validation methodology.\n• Manufacturability and cost optimization.\n• Desired Deliverables\n• System architecture document.\n• CAD model of the canard actuation assembly.\n• Electronics block diagram.\n• Guidance and control algorithm.\n• Simulation demonstrating trajectory correction.\n• Prototype or proof-of-concept (preferred).\n• Performance estimation showing the capability to achieve a CEP of ?30 m.\n• Constraints\n• Compatible with a standard 155 mm artillery shell casing.\n• Must withstand high launch acceleration, vibration, spin, and harsh environmental conditions.\n• Low Size, Weight, Power, and Cost (SWaP-C).\n• High reliability and safety.\n• Modular design suitable for future upgrades.\n• Skills Expected from Participants\n• Mechanical Design\n• Mechatronics\n• Embedded Systems\n• Control Systems\n• Guidance, Navigation & Control (GNC)\n• Aerospace Engineering\n• Electronics",
+  "scraped_at": "2026-09-03"
+}

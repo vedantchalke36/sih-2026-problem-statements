@@ -1,0 +1,17 @@
+{
+  "sno": 86,
+  "ps_number": "SIH26086",
+  "title": "Hyperlocal Monsoon Onset & Break Prediction System (Block/Village Scale)",
+  "org": "Ministry of Earth Sciences (MoES)",
+  "department": "National Centre for Medium Range Weather Forecasting (NCMRWF)",
+  "category": "Software",
+  "theme": "Agriculture, FoodTech & Rural Development",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "The Indian Summer Monsoon dictates the economic livelihood of millions of farmers, particularly during the Kharif sowing season. While macro-scale monsoon forecasts across large meteorological subdivisions have improved, Indian agriculture remains highly vulnerable to the unpredictable nature of intra-seasonal variations. Specifically, the exact dates of monsoon onset,prolonged dry spells (break-monsoon phases), and subsequent revival cycles vary drastically from one district to another.\nStandard regional forecasts lack the spatial granularity required for localized agricultural planning.If a farmer sows seeds during a false onset just before a major breakthrough pause, entire crops fail due to moisture stress, leading to crushing financial losses.\nThe challenge is to build a hybrid predictive framework capable of delivering a 7-to-30-day probabilistic outlook of monsoon behavior at the Block and Panchayat (Village cluster) scale.\nThe system must bridge the gap between global climate teleconnections and hyper-local weather outcomes. Participants should design a solution that ingests large-scale climate indices-such as the El Niño-Southern Oscillation (ENSO), Indian Ocean Dipole (IOD), and Madden-Julian Oscillation (MJO)-and downscales their signatures using advanced machine learning models to predict localized precipitation behavior, onset thresholds, and active/break durations.Develop a hybrid mathematical or machine learning model that pairs global planetary boundary conditions (ENSO, IOD, MJO phases) with regional atmospheric data to predict local rainfall anomalies. Generate dynamic, color-coded risk maps at the block/panchayat level illustrating the statistical probability percentage of monsoon onset, continuous dry spells (breaks), or heavy downpours 1 to 4 weeks in advance. Build an expert-system engine that translates rainfall probabilities into localized crop-specific agronomic advisories (e.g., advising farmers to delay sowing, prepare irrigation alternatives, or alter crop choices based on upcoming break phases). A mobile-optimized web application or automated SMS/WhatsApp API gateway that pushes clear,actionable text-based advisories in regional Indian languages directly to farmers and local agricultural extension officers.",
+  "scraped_at": "2026-09-03"
+}

@@ -1,0 +1,17 @@
+{
+  "sno": 92,
+  "ps_number": "SIH26092",
+  "title": "AI-Driven Scheme Matching for Marginalized Entrepreneurs",
+  "org": "Ministry of Social Justice and Empowerment (MoSJE)",
+  "department": "Department of Social Justice and Empowerment",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background To promote the socio-economic empowerment of the Scheduled Caste (SC) population, the government provides concessional financial assistance and educational loans. Beneficiaries with an annual family income of up to ?5.00 Lakhs are eligible for various tailored financial products covering up to 90% of their project or education costs at highly concessional interest rates (typically 6.5% to 8% per annum).\nHowever, direct loan applications are not entertained. Instead, funds are routed through a 'Channel Finance System' comprising over 100 Channel Partners, including State Channelizing Agencies (SCAs), Public Sector Banks (PSBs), Regional Rural Banks (RRBs), and NBFC-MFIs.\n• Challenge Citizens often lack awareness regarding which specific credit scheme fits their needs-such as distinguishing between a Micro Finance Scheme for small projects (up to ?1.40 lakh), a Term Loan for larger projects (up to ?50.00 lakh), or an Educational Loan Scheme. Furthermore,applicants face difficulties identifying and locating the nearest authorized Channel Partner equipped to process their specific loan category. This fragmentation leads to offline confusion,misrouted applications, and delays in disbursement.The challenge is to develop an intelligent, multi-lingual digital platform or mobile application that bridges the gap between the beneficiaries and the channelizing agencies.\n• Expected Solution Participants are expected to develop a comprehensive platform that includes:\n1. Smart Scheme Recommender: An AI/rule-based engine that takes basic user inputs (project type, estimated cost, income level, education status) and automatically recommends the most suitable credit or educational loan scheme.\n2. Financial Calculator: A dynamic tool to calculate projected EMIs, accounting for specific scheme guidelines like maximum loan limits, interest rates (e.g., 6.5% to 15% depending on the scheme), and moratorium periods (3 to 12 months).\n3. Geo-Spatial Partner Locator & Router: Integration of a mapping service to identify the nearest eligible Channel Partner (SCA/Bank/NBFC-MFI) based on the user's location and the partner's current fund utilization eligibility (ensuring applications aren't sent to partners with high NPAs or overdues).\n• Impact Goals\n• Enhance financial literacy among the target demographic regarding concessional lending.\n• Improve transparency and efficiency in the channel finance ecosystem, ensuring faster disbursements and better fund utilization.",
+  "scraped_at": "2026-09-03"
+}

@@ -1,0 +1,17 @@
+{
+  "sno": 88,
+  "ps_number": "SIH26088",
+  "title": "Multilingual Cooperative Governance & Legal Assistance Chatbot",
+  "org": "Ministry of Cooperation",
+  "department": "National Council for Cooperative Training (NCCT)",
+  "category": "Hardware",
+  "theme": "Agriculture, FoodTech & Rural Development",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Problem Statement Cooperative members, farmers, and rural stakeholders often lack awareness regarding cooperative laws, government schemes, PACS services, crop insurance schemes, financial literacy, and grievance redressal mechanisms due to language barriers and limited access to reliable guidance.\n• Objective To develop an AI-powered multilingual chatbot capable of providing instant guidance and support on cooperative governance, legal provisions, schemes, and member services.\n• Expected Solution Features\n• Multilingual conversational interface\n• Guidance on cooperative laws and by-laws\n• Information on Ministry of Cooperation schemes and services\n• PMFBY and agricultural support guidance\n• Financial literacy assistance\n• Cooperative grievance redressal support\n• Voice-enabled assistance for rural users\n• Integration with mobile and web platforms\n• Technology Components\n• Natural Language Processing (NLP)\n• Artificial Intelligence Chatbot Frameworks\n• Speech-to-Text & Text-to-Speech Integration\n• Cloud Computing\n• Proposed Mode Software + Hardware",
+  "scraped_at": "2026-09-03"
+}

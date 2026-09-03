@@ -1,0 +1,17 @@
+{
+  "sno": 158,
+  "ps_number": "SIH26158",
+  "title": "Single-Pass Drone Video to Accurate 3D Model Generation System",
+  "org": "National Technical Research Organisation (NTRO)",
+  "department": "National Technical Research Organisation (NTRO)",
+  "category": "Software",
+  "theme": "Robotics and Drones",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "Will be provided real time. Additional Information regarding PS\nhttps://drive.google.com/file/d/119hjXkLhMW_AhQ4cyYz-XJgcVz4BA-hD/view?usp=drive_link",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background:\nGeneration of accurate 3D models of buildings, infrastructure, terrain, and objects typically requires multiple drone passes, extensive image overlap, specialized flight planning, and significant post-processing time. In operational scenarios such as disaster response, surveillance, infrastructure inspection, military reconnaissance, and rapid mapping, there is often only a single opportunity to capture data over the target area. A solution capable of generating an accurate and textured 3D model from a single drone pass video would significantly reduce mission time, operator effort, data acquisition requirements, and processing complexity while enabling near real-time situational awareness.\n• Description:\nDesign and develop an AI-enabled system capable of generating a georeferenced and metrically accurate 3D model of a scene using only a single-pass drone video stream captured from a moving UAV. The system should process video frames captured during one flight path and reconstruct:\n(i) 3D terrain and structures (ii) Building facades and rooftops (iii) Roads and infrastructure (iv) Vegetation and obstacles (v) Textured 3D meshes or point clouds\n• Expected Solution/Deliverables:\nThe generated model should be suitable for visualization, measurement, and analysis purposes.\n• Key Challenges (i) Limited viewing angles due to single flight path.\n(ii) Motion blur and video compression artifacts.\n(iii) Variable illumination and shadows.\n(iv) Dynamic objects (vehicles,humans, animals).\n(v) GPS inaccuracies and sensor noise.\n(vi) Real-time or near-real-time processing requirements.\n(vii) Reconstruction of occluded surfaces.\n(viii) Maintaining metric accuracy without extensive Ground Control Points (GCPs).\n• Input Data :\n• Mandatory (i) Drone video (1080p/4K)\n(ii) GPS coordinates (iii) Flight metadata\n• Optional (i) IMU data (ii) Barometric altitude (iii) Camera intrinsic parameters (iv) RTK/PPK corrections Add 'Desired Output' and 'Evaluation Criteria' table here\n• Potential Applications :\n(i) Border and strategic area mapping (ii) Disaster damage assessment (iii) Urban planning and smart cities (iv) Infrastructure inspection (v) Construction progress monitoring (vi) Archaeological documentation (vii) Digital twin generation (viii) Military reconnaissance and mission planning",
+  "scraped_at": "2026-09-03"
+}

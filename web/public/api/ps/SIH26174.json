@@ -1,0 +1,17 @@
+{
+  "sno": 174,
+  "ps_number": "SIH26174",
+  "title": "AI Human Activity Recognition for On-board BAS Experiments",
+  "org": "Indian Space Research Organisation(ISRO)",
+  "department": "Department of Space / Indian Space Research Organisation",
+  "category": "Software",
+  "theme": "Space Technology",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "This problem requires synthetic dataset generation. Teams have to build a custom, highly focused local dataset (even just using a webcam) replicating a specific experiment. For this particular problem, following is the sequence of steps in a sample experiment:\nSample Experiment\nYou are given a box that contains two smaller boxes of color red and yello",
+  "contact": "",
+  "youtube": "",
+  "description": "Background As humanity aims for space missions such as BAS and lunar missions, real-time ground support becomes impossible due to communication delays. An AI-based HAR system acts as an on-board assistant that supports the execution of scientific experiments, ensuring the success of science beyond Earth's orbit.\nIn the space environment, AI-based HAR system may act as mission-critical support for astronauts. By tracking astronaut movements and activities in real time, HAR ensures scientific experiments and related protocols are executed flawlessly without requiring constant, high-bandwidth communication with mission control.\nDescription Challenge is to design and train an AI model that recognizes and validates the sequence of a pre-defined experiment using human activity recognition techniques.\nStandalone operation: Space stations operate on restricted data bandwidth to Earth. Rather than streaming raw video to ground control, data is processed locally at the 'edge.' Inputs are given from fixed-payload cameras.\nDataset generation to train model for object detection, pose estimation and hand-object interaction based on the steps of the experiment.\nOptional: Another challenge is that Standard 2D or ground-based 3D posture models fail because astronauts do not have a fixed 'up' or 'down' orientation. The AI model should use orientation-agnostic 3D Human Mesh Recovery (HMR) to track the astronaut’s body relative to the payload rack, not the floor.\nExpected Solution\n• The software should continuously process local video feeds to track the sequence of experiment.\n• At the start or after each step, the model should suggest the next step to be performed.\n• It should alert when a step is skipped or an out of sequence step is added. It should be a voice based alert.\n• Using the live video, it should generate a timestamped and structured lightweight text file of the conducted steps with outcomes/ status.\n• Stream the video of the experiment to specific IP and also store the video locally.\n• A graphical user interface for monitoring the above activities.\n• Deliverable: A trained AI model that runs on offline standalone system",
+  "scraped_at": "2026-09-03"
+}

@@ -1,0 +1,17 @@
+{
+  "sno": 108,
+  "ps_number": "SIH26108",
+  "title": "AI-Powered Recommendation Engine for Identifying Applicable Indian Standards for Procurement Specifications",
+  "org": "Ministry of Consumer Affairs, Food & Public Distribution",
+  "department": "Department of Consumer Affairs (DoCA)",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Government departments, Public Sector Enterprises (PSES),procurement agencies, and private organizations procure a wide range of products and services through e-procurement portals. Procurement officials are often required to prepare technical specifications that reference the appropriate Indian Standards (IS).However, identifying the correct standard(s) is challenging due to the large number of published standards, overlapping scopes, frequent revisions, and the need to consider associated or normative reference standards. Consequently, tender specifications may omit relevant standards, reference outdated versions, or include incomplete technical requirements, leading to ambiguity, reduced product quality, and procurement disputes.\nAn intelligent system is required that can automatically analyze a product description or technical specification and recommend the most relevant Indian Standard(s), along with allied, cross-referenced, or normative standards that should also be considered.\n• Description Develop an Al-powered recommendation engine that integrates with procurement portals and assists procurement officials in identifying the most relevant Indian Standards and related standards while preparing tender specifications.\n• Expected Features\n• Accept product descriptions, technical specifications, or tender documents as input.\n• Recommend the most relevant Indian Standard(s) based on semantic understanding rather than keyword matching.\n• Identify allied standards, including normative references, test methods, terminology standards, safety standards, installation standards, and related product standards.\n• Highlight the latest published version and amendments of the recommended standards.\n• Suggest mandatory certification requirements, where applicable (e.g., BIS Product Certification, CRS, Hallmarking).\n• Support multilingual input and natural language queries.",
+  "scraped_at": "2026-09-03"
+}

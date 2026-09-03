@@ -1,0 +1,17 @@
+{
+  "sno": 79,
+  "ps_number": "SIH26079",
+  "title": "AI-Based Forecast Bust Detection for Medium-Range Weather Forecasts",
+  "org": "Ministry of Earth Sciences (MoES)",
+  "department": "National Centre for Medium Range Weather Forecasting (NCMRWF)",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Problem Statement Medium-range weather forecasts sometimes show large errors during rapidly evolving systems such as monsoon depressions, heavy rainfall events, western disturbances, cyclones, heat waves and break/active monsoon phases. Such forecast failures, or 'forecast busts', can affect operational decision-making.\n• Challenge The challenge is to develop an AI/ML-based system that can identify regions and lead times where the forecast is likely to have high uncertainty or large error. The system should compare current NWP forecast patterns with historical forecast error behaviour and provide a forecast confidence indicator.\nExpected Outcome - Description Forecast confidence map - Region-wise confidence for Day 1 to Day 10 forecasts Forecast bust probability - Probability of large forecast error over different regions Error-prone area detection - Identification of areas where model forecast may be unreliable Explainable output - Key meteorological reasons for low confidence Prototype dashboard/API - Simple interface for operational use",
+  "scraped_at": "2026-09-03"
+}

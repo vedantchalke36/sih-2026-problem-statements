@@ -1,0 +1,17 @@
+{
+  "sno": 59,
+  "ps_number": "SIH26059",
+  "title": "AI-Enabled Antarctic Sea-Ice, Iceberg Trajectory, and Navigation Decision Support System",
+  "org": "Ministry of Earth Sciences (MoES)",
+  "department": "National Centre for Polar andOcean Research (NCPOR)",
+  "category": "Software",
+  "theme": "Transportation & Logistics",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Develop an AI/ML-enabled decision support platform capable of forecasting Antarctic sea-ice concentration, predicting iceberg trajectories, and identifying safe and fuel-efficient navigation routes for research vessels using satellite,oceanographic and meteorological datasets.",
+  "scraped_at": "2026-09-03"
+}

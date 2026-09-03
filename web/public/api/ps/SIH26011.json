@@ -1,0 +1,17 @@
+{
+  "sno": 11,
+  "ps_number": "SIH26011",
+  "title": "3D ULPIN Generation and vertical Property Mapping SYstem",
+  "org": "Ministry of Rural Development",
+  "department": "Dept of land resources (DoLR)",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background:\nWith rapid urbanization and vertical growth of cities, conventional 2D land record Systems are becoming inadequate for managing modern urban properties.Existing land administration systems are primarily designed to identify surface-level land parcels and are unable to uniquely define ownership rights associated with multi- storey apartments, underground infrastructure, elevated transport corridors, parking spaces, air-rights, and subsurface utility networks.\nDescription:\nThe proposed solution Should develop an advanced 3D ULPIN(Unique Land Parcel ldentification Number) Generation and vertical Property Mapping system capable of creating unique spatial identities for:\n. Surface land parcels . Multi-storey apartments . Underground infrastructure The system should integrate:\n. Drone imagery . LiDAR/3D Point cloud data . GIS parcel layers . Building floor Plans . GNSS/CORS-based coordinates . Digital Elevation Models (DEM/DSM) The solution should also incorporate AI/ML capabilities for:\n. Automated building extraction . Floor segmentation . Vertical Parcel delineation . lntelligent topology validation Expected Solution: The expected outcome is development of a scalable and interoperable 3D cadastral framework capable of:\n. Generating standardized 3D ULPINs . Mapping vertical and underground ownership rights . Supporting volumetric cadastre systems . Enabling accurate urban property governance . Reducing ownership conflicts and ambiguities . lmproving infrastructure planning and utility management",
+  "scraped_at": "2026-09-03"
+}

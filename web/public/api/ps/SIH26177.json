@@ -1,0 +1,17 @@
+{
+  "sno": 177,
+  "ps_number": "SIH26177",
+  "title": "A deployable AI-powered autonomous drone that aids search-and-rescue operations by detecting people and hazards, thereby improving responder safety and reducing victim discovery time.",
+  "org": "Qualcomm Inc",
+  "department": "Qualcomm Inc",
+  "category": "Hardware",
+  "theme": "Robotics and Drones",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "1/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background India is highly vulnerable to natural disasters including floods, cyclones,earthquakes, landslides, and flash floods, which often result in damaged infrastructure, inaccessible terrain, and delayed rescue operations. During the first few critical hours after a disaster, responders need rapid situational awareness to locate survivors, assess hazards, and prioritize rescue efforts.Traditional ground-based assessments can be slow, dangerous, and resource-intensive, particularly in remote or heavily damaged areas. Autonomous drones equipped with on-device AI can provide real-time aerial intelligence while operating in environments with limited connectivity.\nDescription Develop an autonomous drone system capable of navigating disaster-affected areas and performing real-time detection of survivors and hazards using on-device AI. The drone should use RGB and thermal cameras to identify stranded individuals, detect signs of human presence, and recognize environmental hazards such as fire, floodwaters, damaged structures, exposed electrical lines,debris, landslides, or chemical leaks. The solution must process data locally on the drone to ensure low latency and continued operation even when network connectivity is unavailable. The drone should autonomously map affected regions,generate situational reports, and transmit actionable insights to emergency response teams. This concept aligns with existing edge-AI drone approaches for incident response and disaster assessment.\nExpected Solution The proposed solution should include some or all of the following:\n• Autonomous Navigation: GPS-enabled and GPS-denied navigation capabilities using AI, SLAM, and obstacle avoidance for operation in damaged environments.\n• On-Device AI Inference: Real-time detection of people, survivors, and disaster-related hazards without dependence on cloud connectivity.\n• Multi-Sensor Fusion: Integration of RGB cameras, thermal cameras, IMU,and GPS sensors for accurate identification and localization of victims.\n• Hazard Classification: Detection and classification of floods, fires, smoke,debris, unstable structures, landslide zones, and other safety threats.\n• Geo-Tagged Mapping: Creation of live disaster maps highlighting survivor locations, hazard zones, and safe access routes for rescue teams.\n• Emergency Alerting: Automatic generation of alerts and prioritized rescue recommendations based on detected risks.\n• Offline Resilience: Ability to function in communication-constrained environments with optional 5G/Wi-Fi connectivity when available.\n• Command Center Dashboard: Visualization of drone feeds, detected survivors, hazard markers, and mission status to support disaster management agencies.",
+  "scraped_at": "2026-09-03"
+}

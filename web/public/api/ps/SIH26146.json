@@ -1,0 +1,17 @@
+{
+  "sno": 146,
+  "ps_number": "SIH26146",
+  "title": "AI-Powered Monitoring & Analysis of Bitcoin Transaction Traffic",
+  "org": "National Technical Research Organisation (NTRO)",
+  "department": "National Technical Research Organisation (NTRO)",
+  "category": "Software",
+  "theme": "Blockchain & Cybersecurity",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "https://drive.google.com/file/d/1J7cAKc0i7KPQRjmMU9uvR1yJb7BVgiMs/view?usp=drive_link%22",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background Bitcoin's pseudonymous, peer-to-peer design lets criminal actors move, layer, and cash out illicit funds - ransomware payments, darknet-market proceeds, extortion, and laundering - while evading traditional financial surveillance.\nThe objective of problem statement is to design and build a complete system (offline) that ingests bulk Bitcoin transaction/network metadata (in CSV/JSON/XML), correlates network-layer (IP/port/timing) observations with blockchain-layer (wallet/TXID/amount) data, and applies AI/ML to detect anomalies, cluster entities, and generate prioritized, explainable investigative leads.\n• Description i.Challenge Objectives- • Ingest & parse a bulk metadata dataset (timestamp, src/dst IP & port, TXID, input/output wallet addresses, amounts, fee, script type).\n• Build an entity/transaction graph linking IPs, wallets, and transactions.\n• Implement AI/ML detection use case (see Section 4) with a working model - not just rules.\n• Generate a ranked, explainable alert list (why a wallet/transaction was flagged, with a confidence score).\n• Present findings via a simple dashboard or link-analysis visualization.\nii.Suggested AI/ML Focus Areas Attach Table Here of AI/ML Focus Areas iii.Dataset: Parameters & Synthetic Generation Participants will work with a synthetic dataset modelled on real Bitcoin P2P/transaction fields (no real seized or live-intercept data will be provided). Minimum fields: timestamp, src_ip, dst_ip, src_port, dst_port, txid, input_addresses[], output_addresses[], input_amounts[], output_amounts[], geo_country/asn (integrate open source downloadable Geo IP database).\n• Expected Solution • Workable complete offline solution for linux platform.\n• Working prototype (code repo) with ingestion, correlation, and AI/ML model.\n• Short technical write-up: approach, model choice, and explain ability method.\n• Dashboard/visualization showing flagged entities and evidence for each flag.",
+  "scraped_at": "2026-09-03"
+}

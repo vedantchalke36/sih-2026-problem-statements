@@ -1,0 +1,17 @@
+{
+  "sno": 143,
+  "ps_number": "SIH26143",
+  "title": "Leveraging satellite imagery to determine Oil spills at sea along with AIS data correlations to identify vessel responsible for the spill.",
+  "org": "National Technical Research Organisation (NTRO)",
+  "department": "National Technical Research Organisation (NTRO)",
+  "category": "Software",
+  "theme": "Disaster Management",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "AIS Data\n1.Format of AIS data can be obtained from sample AIS data available to https://marinecadastre.gov/accessais/. \n2.Real AIS if available may be used else synthetic data can be prepared for the region of oil spill to demonstrate the functioning of the algorithm.\nSatellite Imagery Data of Oil spills\n3.Zenodo - Sentinel-1 SAR Oil Spill Dataset P",
+  "contact": "",
+  "youtube": "https://www.youtube.com/watch?v=cQoHSStTEdM",
+  "description": "• Background Marine oil spills inflict great damage on marine ecosystems and several times remains un-attributable to the vessel causing such spills. Leveraging satellite imagery along with AIS data will enable detection of oil spills and vessel responsible for the same.\n• Description The core challenge attempts to facilitate detection of oil spills and also in identifying the polluting vessel using remote sensing satellite data, such as SAR and EO imagery and AIS data. Participants are to design an intelligent automated pipeline to do the following: (a) Detect and characterise the oil spill and calculating geometric properties and age if feasible. (b) Using oceanographic and meteorological data, it is envisaged to trace the slick towards the origin point and time, predict the future flow of the slick, and (c) analyse and attribute the spill to a vessel using historic AIS data to reconstruct vessel traffic around the origin window in space and time. The irrelevant traffic is to be filtered out and potential suspect vessels are to be scored considering various aspects such as proximity, trajectory, behavioural anomalies etc.\n• Expected Solution An automated detection and hindcasting machine learning model that identified oils slicks from satellite imagery, mapping their drift paths backward and forward. It also ranks potential culprit vessel based on spatio-temporal correlation with AIS data. A suitable visual interface is also to be developed.",
+  "scraped_at": "2026-09-03"
+}

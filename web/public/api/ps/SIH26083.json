@@ -1,0 +1,17 @@
+{
+  "sno": 83,
+  "ps_number": "SIH26083",
+  "title": "Extreme Heatwave Early Warning and Human Thermal Stress Index",
+  "org": "Ministry of Earth Sciences (MoES)",
+  "department": "National Centre for Medium Range Weather Forecasting (NCMRWF)",
+  "category": "Software",
+  "theme": "Disaster Management",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "In recent years, the frequency, duration, and intensity of heatwaves across India have escalated sharply due to climate change. However, traditional meteorological warnings rely almost exclusively on ambient dry-bulb temperature thresholds. This creates a critical vulnerability:standard forecasts ignore the deadly compounding effects of relative humidity, wind speed, and solar radiation on the human body.\nA temperature of 40°C at 20% humidity feels vastly different from 40°C at 70% humidity-the latter can be fatal. Current public health infrastructure lacks localized, impact-based forecasting that translates raw weather data into actual physiological risk, human thermal stress levels, and projected mortality rates.\nThe challenge is to design an intelligent, localized early warning system that shifts heatwave forecasting from 'what the weather will be' to 'what the weather will do' to human health.\nParticipants need to build a predictive platform that computes a comprehensive Human Thermal Stress Index (integrating temperature, humidity, wind, and radiation) and links it directly to an automated Mortality Risk Index. The system should offer high-resolution forecasts to help municipal corporations, healthcare systems, and disaster management authorities deploy targeted,preemptive interventions.\nDevelop algorithms to calculate advanced heat stress metrics such as the Wet-Bulb Globe Temperature (WBGT), Universal Thermal Climate Index (UTCI), or Heat Index (HI) rather than relying on temperature alone. Integrate historical public health, demographic (e.g., elderly or outdoor worker density), and localized weather data to predict heat-induced mortality and hospitalization spikes 3 to 5 days in advance. A dynamic GIS-mapped dashboard providing colorcoded, hyper-local alerts (Zone/Ward level) paired with actionable, automated public health advisories. An API capable of pushing automated SMS/WhatsApp regional alerts or localized triggers for city administration to initiate heat action plans (e.g., opening cooling centers, adjusting power grids, shifting outdoor work hours).",
+  "scraped_at": "2026-09-03"
+}

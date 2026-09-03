@@ -1,0 +1,17 @@
+{
+  "sno": 163,
+  "ps_number": "SIH26163",
+  "title": "Security Assessment of the World Monitor application",
+  "org": "National Technical Research Organisation (NTRO)",
+  "department": "National Technical Research Organisation (NTRO)",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "App link-  https://www.worldmonitor.app\nSource Code:  https://github.com/koala73/worldmonitor",
+  "contact": "",
+  "youtube": "https://www.youtube.com/watch?v=-wws31Ol3mc",
+  "description": "• Background The world Monitor application is a Web/ Mobile platform that provides users with real-time monitoring, analytics, and reporting features. The application handles user authentication, data visualization, API communication, and role-based access controls.\nAs a security analyst, the task is to evaluate the application's security posture and identify vulnerabilities that could compromise the confidentiality, integrity, or availability of the system.\n• Description Conduct an authorized security assessment of the World Monitor application to:\n1. Identify security vulnerabilities in the application.\n2. Assess the potential impact of each vulnerability.\n3. Demonstrate proof-of-concept exploitation in a controlled environment.\n4. Recommend remediation measures to mitigate the identified risks.\n• Scope The assessment should focus on:\n• Authentication and session management\n• Authorization and access control\n• Input validation and data handling\n• API security\n• Client-side security controls\n• Secure communication mechanisms\n• Data storage and privacy protections\n• Success Criteria The assessment is considered successful if:\n• At least one valid vulnerability is identified and documented.\n• Evidence supports the existence of the vulnerability.\n• Risk and impact are clearly explained.\n• Practical mitigation strategies are provided\n• Expected Solution/Deliverables:\nFor each vulnerability discovered, provide:\n• Vulnerability title\n• Description\n• Affected component\n• Severity rating (e.g., CVSS)\n• Steps to reproduce\n• Proof of concept demonstrating the issue in a safe testing environment\n• Business impact assessment\n• Remediation recommendations constraints\n• Testing must be performed only on authorized systems.\n• No actions should affect production users or data.\n• Exploitation should be limited to proof-of-concept validation.\n• Compliance with applicable laws, policies, and ethical hacking guidelines is required.",
+  "scraped_at": "2026-09-03"
+}

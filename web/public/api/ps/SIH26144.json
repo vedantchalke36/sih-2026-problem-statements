@@ -1,0 +1,17 @@
+{
+  "sno": 144,
+  "ps_number": "SIH26144",
+  "title": "Design & Development of a High-Sensitivity Micro barometer Infrasound sensor",
+  "org": "National Technical Research Organisation (NTRO)",
+  "department": "National Technical Research Organisation (NTRO)",
+  "category": "Hardware",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "Additional Information regarding PS\n\nhttps://drive.google.com/file/d/1rbQDRWrG-187j4hNqqc_oTiKvdjK8AzZ/view?usp=drive_link",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background The Infrasound sensors are precision instruments designed to detect and measure low frequency atmospheric pressure waves, known as infrasound, that fall below the range of human hearing, typically under 20 Hz. These waves can travel long distances through the atmosphere and are produced by a variety of natural and human-made sources including distant Industrial explosions, volcanic eruptions, severe weather systems, meteors, rocket launches, and other energetic phenomena. Detection and analysis of these signals are important for atmospheric monitoring, geophysical research, disaster warning systems and security applications.\n• Description It is required to design and develop a high-sensitivity atmospheric microbarometer Infrasound sensor capable of measuring infrasonic pressure fluctuations in the frequency range of approximately 0.01 Hz to 20 Hz.\nThe sensor should address the complete hardware architecture, including:\n(a).Pressure sensing mechanism.\n(b).Mechanical transducer design.\n(c).Differential pressure measurement technique.\n(d).Low-noise analog front-end electronics.\n(e).Temperature compensation.\n(f).Long-period pressure equalization system.\n(g).Environmental enclosure.\n(h).Wind-noise reduction interface.\n(i).Calibration methodology.\nThe design should aim to detect very small pressure variations while maintaining long-term stability, low drift, and high signal fidelity. The data acquisition (digitizer) and real time waveform display & analysis software available in open market to be included to demonstrate complete functional sensor system.\n• Expected Solution The prototype infrasound sensor should have high sensitivity, long-term stability and low-noise signal condition to measure infrasound signals accurately. Sensor should demonstrate:\n(a).Detection of low-frequency pressure signals.\n(b).Laboratory characterization of frequency response.\n(c).Noise floor measurements.\n(d).Sensitivity estimation.\n(e).Stability testing.\nThe evaluation will be conducted based on the achievement of the following parameters Attach Table Here The digitizer and data acquisition software (available in open market) for real time waveform display & analysis will be arranged by candidates themselves to demonstrate the complete functional sensor system.",
+  "scraped_at": "2026-09-03"
+}

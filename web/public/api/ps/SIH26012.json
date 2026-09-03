@@ -1,0 +1,17 @@
+{
+  "sno": 12,
+  "ps_number": "SIH26012",
+  "title": "AI-Based Automated Urban Parcel Mapping and Cadastral Feature Extraction System using Drone lmagery",
+  "org": "Ministry of Rural Development",
+  "department": "Dept of land resources (DoLR)",
+  "category": "Software",
+  "theme": "Smart Automation",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "Background:\nAccurate and up-to-date urban land records are essential for effective land governance, urban planning, taxation, infrastructure development, and delivery of citizen-centric services. At present, preparation of cadastral maps and delineation of urban parcel boundaries is largely dependent on manual interpretation of drone imagery and field-based Ground Truthing (GT) activities. The process is time- consuming, resource intensive, and requires extensive human intervention for extraction of parcel boundaries, building footprints, road networks, and other cadastral features.Further, dense urban settlements, irregular parcel geometries, encroachments,overlapping structures, narrow access roads, and mixed land-use patterns create significant challenges in preparation of accurate parcel maps. Manual digitization and validation of parcel boundaries often lead to delays in completion of cadastral surveys and generation of urban land records.With availability of high-resolution orthorectified lmagery (ORl), Digital surface Models (DSM), Digital Terrain Models (DTM), and drone datasets, there exists significant potential for leveraging Artificial lntelligence (Al), computer Vision, and GeoAl technologies for automated extraction of cadastral features and preparation of preliminary urban Parcel maps. Description:\nThe system should be capable of:\n. Automatic extraction of parcel boundaries . ldentification and delineation of building footprints . Detection of roads, pathways, and access corridors . Classification of land-use features in urban areas The proposed solution should utilize:\n. High-resolution Drone lmagery . Orthorectified lmagery (ORl)\n. DSM/DTM datasets . Existing GIS Parcel layers . Ground Truthing (GT) datasets . GNSS/CORS-enabled surveY data The platform should incorporate:\n1. Al-based image segmentation models for parcel delineation.\n2. Deep learning techniques for feature extraction and object detection.\n3. Automated topology generation and parcel polygon creation.\n4. Detection of overlapping or inconsistent parcel geometries.\n5. Web-GlS visualization and editing interface.\nExpected Solution:\nThe expected outcome is development of an Al-enabled automated cadastral mapping platform capable of significantly reducing manual efforts involved in urban parcel mapping and cadastral preparation.\nThe final solution should: . Automatically generate preliminary urban parcel maps . lmprove speed and efficiency of cadastral surveys . Reduce manual digitization efforts . Enhance accuracy of parcel boundary extraction . Support Ground Truthing and field verification activities The solution should include:\n. Al/ML-based parcel extraction engine . GIS-ready cadastral outputs . Web-based visualization dashboard . Automated topology validation module",
+  "scraped_at": "2026-09-03"
+}

@@ -1,0 +1,17 @@
+{
+  "sno": 53,
+  "ps_number": "SIH26053",
+  "title": "Adaptive Variable Resolution 2.5D Lidar Mapping for Dynamic Environment Perception",
+  "org": "DRDO",
+  "department": "Department of Defence Production /IDEX",
+  "category": "Software",
+  "theme": "Smart Vehicles",
+  "deadline": "30 September 2026",
+  "deadline_date": "2026-09-30",
+  "ideas": "0/500",
+  "dataset_link": "",
+  "contact": "",
+  "youtube": "",
+  "description": "• Background:\nAutonomous navigation depends on the ability of a vehicle to perceive its surroundings with high precision. While 3D Lidar point clouds provide rich spatial data, processing millions of points in real-time creates immense computational bottlenecks and memory latency. Conversely, standard 2D occupancy grids lose critical height information necessary for detecting curbs, potholes, or overhanging obstacles. To balance precision and performance, there is a need for a 'foveated' mapping approach-similar to human vision- where the immediate vicinity is rendered in high detail for safety, and distant areas are simplified to reduce the processing load.\n• Description:\nThe goal is to build a deep learning pipeline that transforms raw Lidar point clouds into a variable resolution 2.5D grid (an elevation map with semantic layers). The system must perform three primary tasks:\n1. Terrain Analysis: Distinguish between drivable surfaces and non-drivable terrain.\n2. Object Detection: Identify and classify static obstacles (walls, poles) and dynamic objects (pedestrians, other vehicles).\n3. Adaptive Spatial Representation: Implement a non-uniform grid where the cell size increases as the distance from the sensor increases. This requires a sophisticated data structure that can handle variable resolution without causing alignment errors or data loss during the projection from 3D to 2.5D.\n• Expected Solution:\nA software framework consisting of:\n• A Deep Learning Model: A network (e.g., PointNet++ or a Sparse Convolutional Neural Network) capable of semantic segmentation of point clouds into terrain, static obstacles, and moving objects.\n• Variable Resolution Grid Engine: An algorithm that projects classified 3D points into a 2.5D grid where the resolution is high (e.g., 5cm cells)\nwithin a 10m radius and decreases (e.g., 50cm cells) up to a 100m radius.\n• Real-time Visualization: A dashboard showing the 2.5D map with distinct color-coding for terrain and objects, demonstrating a significant reduction in memory usage compared to a uniform high-resolution 3D map.\n• Performance Metrics: Evidence of low latency (high FPS) and high accuracy in object classification across varying distances.",
+  "scraped_at": "2026-09-03"
+}
