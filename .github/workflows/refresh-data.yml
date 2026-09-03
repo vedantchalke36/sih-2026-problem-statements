@@ -65,7 +65,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "chore(data): refresh SIH 2026 problem statements [skip ci]"
+          git commit -m "chore(data): refresh SIH 2026 problem statements"
           git push
 
       - name: Report summary
@@ -74,7 +74,7 @@ jobs:
           if [ "${{ steps.scrape.outputs.scrape_failed }}" = "true" ]; then
             echo "Scrape failed - no data update attempted. Check logs for network errors. Next retry is on next schedule/manual trigger."
           elif [ "${{ steps.changes.outputs.changed }}" = "true" ]; then
-            echo "Data refreshed and pushed. Vercel/Netlify will redeploy automatically."
+            echo "Data refreshed and pushed. Deploy workflow will publish to Cloudflare Pages."
           else
             echo "Data is up to date. No changes to commit."
           fi
